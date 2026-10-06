@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CoverCraft · 看图选风格</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#182726;font:16px/1.6 system-ui,-apple-system,sans-serif}header,main,.choice-inner{max-width:1320px;margin:auto;padding:28px}header{padding-top:40px}.brand{font-size:13px;font-weight:700;letter-spacing:.1em;color:#42645f}h1{font-size:clamp(30px,4vw,48px);line-height:1.2;letter-spacing:-.025em;margin:14px 0}header p{max-width:900px;color:#53615e;margin:12px 0}.controls{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}input,select,button{font:inherit}input,select{background:white;border:1px solid #c9d4d0;padding:10px 14px;border-radius:8px}input{flex:1;min-width:200px}button{cursor:pointer;border:1px solid #c6d2cd;border-radius:8px;padding:9px 13px;background:white;color:#26473f}button:hover{background:#eaf2ed}button:focus-visible,a:focus-visible{outline:3px solid #599a84;outline-offset:3px}.automatic{background:#244b3c;color:white;border-color:#244b3c}.automatic:hover{background:#366650}main{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px;padding-top:10px;padding-bottom:170px}.card{align-self:start;background:white;border:1px solid #dbe2de;border-radius:12px;overflow:hidden;transition:border-color .15s}.card[data-selected=true]{border:3px solid #397958}.preview{display:flex;align-items:center;justify-content:center;height:240px;background:#e7ece7;padding:12px}.preview img{display:block;max-height:100%;max-width:100%;width:auto;height:auto;object-fit:contain;box-shadow:0 3px 14px #24362d1a}.content{padding:18px}.eyebrow{display:flex;align-items:center;justify-content:space-between;color:#526d61;font-size:13px}.badge{background:#e9f4e8;color:#2b653f;padding:2px 8px;border-radius:20px;font-size:12px}h2{font-size:22px;line-height:1.4;margin:7px 0}.content p{margin:9px 0;color:#54625c;font-size:14px}.sample{font-size:12px!important;color:#708178!important}.content button{width:100%;margin-top:10px}.content a{font-size:13px;color:#336c50}.choice{position:fixed;bottom:0;width:100%;background:#fcfcf8f5;border-top:1px solid #ccd8d0;box-shadow:0 -6px 25px #223b2410;backdrop-filter:blur(12px)}.choice-inner{padding-top:13px;padding-bottom:14px;display:flex;gap:13px;align-items:center;flex-wrap:wrap}.choice small{flex:1;min-width:220px;color:#5a695f}.choice input{flex:2;min-width:240px}.empty{grid-column:1/-1;padding:40px;background:white;border-radius:10px}a{color:#336c50}[hidden]{display:none!important}@media(max-width:600px){header,main,.choice-inner{padding-left:18px;padding-right:18px}main{padding-bottom:245px}.choice button{padding:8px 11px}.choice-inner{gap:8px}} 
+</style>
+<header>
+<span class="brand">COVERCRAFT · 风格菜单</span>
+<h1>看一眼图片，再选封面风格</h1>
+<p>这里有 10 种 AI 封面风格。先选喜欢的视觉方向，再告诉 Agent 你的主题、横竖版和人物要求；也可以让 Agent 根据内容推荐。</p>
+<p><strong>全部风格都支持横版、竖版、有人物和无人物。</strong>卡片只展示一个真实样例，样图中的题目、人物、配色和画幅都可以换。颜色名称是起点。</p>
+<div class="controls"><input id="search" type="search" placeholder="搜索风格或内容，例如：教程、论文、对比" aria-label="搜索风格或内容"><select id="tag" aria-label="按视频内容浏览"><option value="all">全部内容类型</option><option>资讯</option><option>教程</option><option>办公</option><option>对比</option><option>观点</option><option>Agent</option><option>原理</option></select><button class="automatic" id="auto">让 Agent 帮我选</button></div>
+<p id="context">__RECOMMENDATION_NOTE__</p>
+</header>
+<main id="cards">__STYLE_CARDS__<p class="empty" id="empty" hidden>没有匹配的风格。试试其他关键词，或让 Agent 帮你推荐。</p></main>
+<div class="choice"><div class="choice-inner"><small id="status" aria-live="polite">点选卡片，复制下方短句，发给正在使用 Skill 的 Agent。</small><input id="selection" aria-label="发给 Agent 的选择" readonly placeholder="还没有选择风格"><button id="copy">复制选择</button></div></div>
+<noscript><p style="padding:24px">此浏览器未启用交互。图片与名称仍可查看，直接把 B 编号告诉 Agent 即可。</p></noscript>
+<script>
+const cards=Array.from(document.querySelectorAll('.card'));
+const search=document.querySelector('#search'),tag=document.querySelector('#tag'),selection=document.querySelector('#selection'),status=document.querySelector('#status');
+function filter(){const q=search.value.trim().toLowerCase();let shown=0;cards.forEach(c=>{c.hidden=!(c.dataset.search.toLowerCase().includes(q)&&(tag.value==='all'||c.dataset.tags.split('|').includes(tag.value)));if(!c.hidden)shown++});document.querySelector('#empty').hidden=shown!==0}
+function choose(id,name){cards.forEach(c=>c.dataset.selected=String(c.dataset.id===id));selection.value=id?`我选 ${id} ${name}。画幅和人物按我的要求。`:'风格由你根据我的内容决定。画幅和人物按我的要求。';status.textContent=id?`已选 ${id} ${name}。把这句话发给 Agent 即可；不用填写分支编号。`:'让 Agent 按视频内容选择风格；画幅和人物仍按你的要求。'}
+search.addEventListener('input',filter);tag.addEventListener('change',filter);
+document.querySelectorAll('[data-choose]').forEach(b=>b.addEventListener('click',()=>choose(b.dataset.choose,b.dataset.name)));
+document.querySelector('#auto').addEventListener('click',()=>choose(null,null));
+document.querySelector('#copy').addEventListener('click',async()=>{if(!selection.value){status.textContent='先选一种风格，或点“让 Agent 帮我选”。';return}try{await navigator.clipboard.writeText(selection.value);status.textContent='已复制。回到 Agent 聊天粘贴这句话。'}catch{selection.focus();selection.select();status.textContent='此浏览器无法自动复制。文字已选中，请手动复制后发给 Agent。'}});
+</script>
+</html>

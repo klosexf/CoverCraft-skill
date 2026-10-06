@@ -1,4 +1,4 @@
 interface:
   display_name: "CoverCraft · 封面工坊"
-  short_description: "脚本、视频描述或封面描述均可出图；优先 GPT Image，也支持平台生图与自配 API"
-  default_prompt: "使用 $cover-craft，根据我提供的视频脚本、视频描述或封面描述制作封面，任一种即可，可结合标题和参考图；补问尚缺的画幅与人物选择，优先 GPT Image，不可用时用平台生图，也可按我的选择使用已配置 OpenAI 图片 API，完成文字与预览检查。"
+  short_description: "看真实样图选风格；脚本或描述均可出图，支持横竖版和可选人物"
+  default_prompt: "使用 $cover-craft，根据我的脚本或描述制作封面；未选风格时先展示适合内容的真实样图，补问缺少的画幅与人物，按我的选择或授权继续生图。"

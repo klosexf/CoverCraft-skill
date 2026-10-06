@@ -4,7 +4,15 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover; use reference images, generate or preserve Chinese headlines, and choose landscape/portrait with or without people.
 
-当前版本 **2.7.0**。
+当前版本 **2.8.0**。
+
+## 先看图，再选风格
+
+不知道风格长什么样，可以先打开 [十种风格的图文菜单](cover-craft/references/style-menu.md)。下载完整技能后，也可打开 [离线风格图库](cover-craft/style-picker.html)：按内容类型搜索，点选卡片，复制一条短句发给 Agent。
+
+未选风格时，Skill 按主题先展示最多三种真实样图，并提供全部十种入口和「你帮我决定」。已有风格或参考不重复问；明确要求先看再选时等待选择。每种风格都可用横竖版、有人物或无人物，样图不限制本期设置。
+
+例如：`先给我看看适合 AI 编程教程的风格，我选完再生成。` 看过后回复：`B02，竖版，无人物。` 只想浏览风格，不必先准备完整视频脚本。
 
 ## 真实 AI 生图案例
 

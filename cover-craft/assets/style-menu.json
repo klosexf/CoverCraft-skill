@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "styles": [
+    {
+      "id": "B01",
+      "name": "黄蓝冲击",
+      "summary": "大字、强色块，突出一个工具或成果",
+      "suitable_for": [
+        "AI 工具亮相",
+        "AI 办公挑战"
+      ],
+      "tags": [
+        "资讯",
+        "办公"
+      ],
+      "example_id": "01-b01-ai-weekly"
+    },
+    {
+      "id": "B02",
+      "name": "蓝黑科技",
+      "summary": "深色设备、重点光线，把操作关系画清楚",
+      "suitable_for": [
+        "AI 编程",
+        "自动剪辑",
+        "自动化教程"
+      ],
+      "tags": [
+        "教程",
+        "Agent"
+      ],
+      "example_id": "02-b02-ai-editing"
+    },
+    {
+      "id": "B03",
+      "name": "白橙清单",
+      "summary": "浅色背景、功能卡片，清楚又容易读",
+      "suitable_for": [
+        "Skill 功能列表",
+        "AI 读论文",
+        "步骤说明"
+      ],
+      "tags": [
+        "办公",
+        "教程"
+      ],
+      "example_id": "03-b03-ai-paper"
+    },
+    {
+      "id": "B04",
+      "name": "彩色漫画",
+      "summary": "粗轮廓、漫画比喻，直观解释问题与解法",
+      "suitable_for": [
+        "提示词技巧",
+        "AI 使用误区",
+        "模型概念"
+      ],
+      "tags": [
+        "教程",
+        "原理"
+      ],
+      "example_id": "04-b04-ai-prompt"
+    },
+    {
+      "id": "B05",
+      "name": "极简编辑",
+      "summary": "大留白、少量对象，让一句观点成为主角",
+      "suitable_for": [
+        "AI 使用心得",
+        "开发方法",
+        "研究观点"
+      ],
+      "tags": [
+        "观点",
+        "原理"
+      ],
+      "example_id": "05-b05-ai-handoff"
+    },
+    {
+      "id": "B06",
+      "name": "发布会实测",
+      "summary": "摄影工作室、具体展示对象，强调体验感",
+      "suitable_for": [
+        "AI 产品体验",
+        "AI 编程实测",
+        "新功能解读"
+      ],
+      "tags": [
+        "资讯",
+        "教程"
+      ],
+      "example_id": "06-b06-ai-coding"
+    },
+    {
+      "id": "B07",
+      "name": "双阵营对比",
+      "summary": "两方同样清楚，用共同任务比较做法",
+      "suitable_for": [
+        "两模型对比",
+        "两工具比较",
+        "前后方法"
+      ],
+      "tags": [
+        "对比"
+      ],
+      "example_id": "07-b07-ai-models"
+    },
+    {
+      "id": "B08",
+      "name": "未来办公",
+      "summary": "统一办公空间、少量任务模块，展示协作",
+      "suitable_for": [
+        "AI 办公",
+        "文档与 PPT",
+        "多工具接力"
+      ],
+      "tags": [
+        "办公",
+        "Agent"
+      ],
+      "example_id": "08-b08-ai-office"
+    },
+    {
+      "id": "B09",
+      "name": "矩阵控制室",
+      "summary": "重复任务格阵、一个焦点，突出调度关系",
+      "suitable_for": [
+        "多 Agent 调度",
+        "批处理",
+        "任务排错"
+      ],
+      "tags": [
+        "Agent",
+        "教程"
+      ],
+      "example_id": "09-b09-ai-agents"
+    },
+    {
+      "id": "B10",
+      "name": "立体概念",
+      "summary": "大立体器物或剖面，让抽象关系看得见",
+      "suitable_for": [
+        "AI 知识库",
+        "检索原理",
+        "Token 概念"
+      ],
+      "tags": [
+        "原理"
+      ],
+      "example_id": "10-b10-ai-knowledge"
+    }
+  ],
+  "public_gallery_url": "https://github.com/klosexf/CoverCraft-skill/blob/main/cover-craft/references/style-menu.md",
+  "remote_image_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/cover-craft/assets/style-examples/"
+}
