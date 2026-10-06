@@ -1,0 +1,304 @@
+{
+  "date": "2026-10-06",
+  "skill_version": "2.7.0",
+  "provider": "Codex built-in image generation tool",
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "model_id_note": "Host did not expose a concrete model ID; no latest-model claim.",
+  "fictional_video_topics": true,
+  "illustrative_interfaces_and_results": true,
+  "original_png_copied_without_modification": true,
+  "thumbnail_and_jpeg_operation": "format conversion and proportional downscale only",
+  "images": [
+    {
+      "id": "01-b01-ai-weekly",
+      "base_style": "B01",
+      "branch": "B01-B",
+      "style_name": "黄蓝冲击",
+      "ratio": "3:4",
+      "people": "original_character",
+      "headline": "AI 写周报",
+      "subtitle": "先整理，再生成",
+      "video_description": "把零散工作记录整理为要点，再让 AI 协助写成周报；示例不承诺自动核实事实。",
+      "source_samples": [
+        "C03-S2"
+      ],
+      "adaptation": "吸收黑底黄字、巨大标题与主体轮廓；换成黄蓝办公场景、新人物和周报主物件。",
+      "asset": "cover-craft/assets/style-examples/01-b01-ai-weekly.png",
+      "prompt": "examples/integrated-styles-v3/prompts/01-b01-ai-weekly.txt",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_ratio_note": "Native exact aspect ratio.",
+      "sha256": "a36875c7a2e810df3e5e7138230f5779cfc0404e81df85ea4fcd2c66f2b36de9",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/01-b01-ai-weekly.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/01-b01-ai-weekly.jpg"
+    },
+    {
+      "id": "02-b02-ai-editing",
+      "base_style": "B02",
+      "branch": "B02-A",
+      "style_name": "蓝黑科技",
+      "ratio": "16:9",
+      "people": "none",
+      "headline": "AI 自动剪辑",
+      "subtitle": "素材到时间线",
+      "video_description": "展示素材整理、选择片段和排列时间线的 AI 剪辑工作流；软件界面为示意。",
+      "source_samples": [
+        "C14-S2"
+      ],
+      "adaptation": "吸收彩色时间线与强标题层级，移除人物和宇宙背景，改成有统一透视的剪辑工作台。",
+      "asset": "cover-craft/assets/style-examples/02-b02-ai-editing.png",
+      "prompt": "examples/integrated-styles-v3/prompts/02-b02-ai-editing.txt",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "aspect_ratio_note": "Native approximate 16:9 with subpixel rounding; no crop or stretch.",
+      "sha256": "436f524bed4c4d9e5c679b617bd416cf1b3bebaa6d033d1507022c0dc078e749",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/02-b02-ai-editing.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/02-b02-ai-editing.jpg"
+    },
+    {
+      "id": "03-b03-ai-paper",
+      "base_style": "B03",
+      "branch": "B03-A",
+      "style_name": "白橙清单",
+      "ratio": "3:4",
+      "people": "original_character",
+      "headline": "AI 读论文",
+      "subtitle": "提炼重点，保留出处",
+      "video_description": "用 AI 辅助提取论文重点，并保留可回查的出处；论文卡片为示意。",
+      "source_samples": [
+        "C19-S1"
+      ],
+      "adaptation": "吸收浅底标题卡的层次和完整大字；延展为白橙功能卡，加入原创讲解人物与出处标记。",
+      "asset": "cover-craft/assets/style-examples/03-b03-ai-paper.png",
+      "prompt": "examples/integrated-styles-v3/prompts/03-b03-ai-paper.txt",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_ratio_note": "Native exact aspect ratio.",
+      "sha256": "206993fb665f5ed30f0d102786ab86cb9085132233320ea38404dd5a4c03af49",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/03-b03-ai-paper.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/03-b03-ai-paper.jpg"
+    },
+    {
+      "id": "04-b04-ai-prompt",
+      "base_style": "B04",
+      "branch": "B04-B",
+      "style_name": "彩色漫画",
+      "ratio": "16:9",
+      "people": "original_character",
+      "headline": "AI 为什么乱答？",
+      "subtitle": "先把问题说清楚",
+      "video_description": "讲解模糊提问与带目标、边界、背景的提问之间的区别；不展示虚构模型测评。",
+      "source_samples": [
+        "C10-S2"
+      ],
+      "adaptation": "吸收漫画结果画面与粗描边文字；改为原创漫画角色和模糊到清晰的提问关系。",
+      "asset": "cover-craft/assets/style-examples/04-b04-ai-prompt.png",
+      "prompt": "examples/integrated-styles-v3/prompts/04-b04-ai-prompt.txt",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "aspect_ratio_note": "Native approximate 16:9 with subpixel rounding; no crop or stretch.",
+      "sha256": "fd1dfa0dfdee9bbe02d7eb303c1d426cec72af5fadcf09e4dc8504167cc88b0e",
+      "reference_pixels_passed": true,
+      "generation_iterations": 2,
+      "edit_prompt": "examples/integrated-styles-v3/prompts/04-b04-ai-prompt-edit-01.txt",
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/04-b04-ai-prompt.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/04-b04-ai-prompt.jpg"
+    },
+    {
+      "id": "05-b05-ai-handoff",
+      "base_style": "B05",
+      "branch": "B05-A",
+      "style_name": "极简编辑",
+      "ratio": "3:4",
+      "people": "none",
+      "headline": "先聊清楚",
+      "subtitle": "再交给 Codex",
+      "video_description": "先在聊天中明确开发范围和验收标准，再将开发说明交给 Codex；不承诺固定节省额度。",
+      "source_samples": [
+        "C09-S1"
+      ],
+      "adaptation": "吸收白底黑字与编辑式留白；移除两个人物，改成开发说明这个单一主对象。",
+      "asset": "cover-craft/assets/style-examples/05-b05-ai-handoff.png",
+      "prompt": "examples/integrated-styles-v3/prompts/05-b05-ai-handoff.txt",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_ratio_note": "Native exact aspect ratio.",
+      "sha256": "6a5686fec40f9d0b7ec9dbf9bba56a1ad51109be93d3e00e5678261bc0de0238",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/05-b05-ai-handoff.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/05-b05-ai-handoff.jpg"
+    },
+    {
+      "id": "06-b06-ai-coding",
+      "base_style": "B06",
+      "branch": "B06-B",
+      "style_name": "发布会实测",
+      "ratio": "16:9",
+      "people": "original_character",
+      "headline": "AI 编程实测",
+      "subtitle": "从需求到原型",
+      "video_description": "演示把明确需求交给 AI 编程工具，检查一个原型的实现；原型为虚构示意。",
+      "source_samples": [
+        "C12-S1"
+      ],
+      "adaptation": "吸收真人与可展示实物的体验证据；把证书换成原型电脑，改成原创亚洲男讲解者与工作室构图。",
+      "asset": "cover-craft/assets/style-examples/06-b06-ai-coding.png",
+      "prompt": "examples/integrated-styles-v3/prompts/06-b06-ai-coding.txt",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "aspect_ratio_note": "Native approximate 16:9 with subpixel rounding; no crop or stretch.",
+      "sha256": "a833c5b64c4e8813013913bdadb2f23f5d79b8753b2fc998237f4f43695fcc0d",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/06-b06-ai-coding.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/06-b06-ai-coding.jpg"
+    },
+    {
+      "id": "07-b07-ai-models",
+      "base_style": "B07",
+      "branch": "B07-A",
+      "style_name": "双阵营对比",
+      "ratio": "16:9",
+      "people": "none",
+      "headline": "ChatGPT vs Claude",
+      "subtitle": "同一道题，怎么选？",
+      "video_description": "用同一个任务比较两个工具的回答与适用情境，不预设优胜者。",
+      "source_samples": [
+        "C02-S3"
+      ],
+      "adaptation": "吸收绿与陶土两区和同等权重的对象；移除中间人物，加入同题输入卡，使用中立问题。",
+      "asset": "cover-craft/assets/style-examples/07-b07-ai-models.png",
+      "prompt": "examples/integrated-styles-v3/prompts/07-b07-ai-models.txt",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "aspect_ratio_note": "Native approximate 16:9 with subpixel rounding; no crop or stretch.",
+      "sha256": "5574e85ae9463268f300f7461b4e64c830699d879a562049c21b1ccf4dc69ae2",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/07-b07-ai-models.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/07-b07-ai-models.jpg"
+    },
+    {
+      "id": "08-b08-ai-office",
+      "base_style": "B08",
+      "branch": "B08-B",
+      "style_name": "未来办公",
+      "ratio": "3:4",
+      "people": "original_character",
+      "headline": "AI 办公搭档",
+      "subtitle": "任务分工，一起完成",
+      "video_description": "将资料整理、文档草拟和排程分给不同 AI 工作模块，并保留人工检查。",
+      "source_samples": [
+        "C16-S2"
+      ],
+      "adaptation": "吸收办公任务围绕主体的结构，改为普通原创人物、统一未来工作台和三块协作模块。",
+      "asset": "cover-craft/assets/style-examples/08-b08-ai-office.png",
+      "prompt": "examples/integrated-styles-v3/prompts/08-b08-ai-office.txt",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_ratio_note": "Native exact aspect ratio.",
+      "sha256": "636acf002ab3927efb24963b85a2e341d902f8c28317d4ae93a417b084435e77",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/08-b08-ai-office.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/08-b08-ai-office.jpg"
+    },
+    {
+      "id": "09-b09-ai-agents",
+      "base_style": "B09",
+      "branch": "B09-A",
+      "style_name": "矩阵控制室",
+      "ratio": "16:9",
+      "people": "none",
+      "headline": "多 Agent 调度",
+      "subtitle": "一屏看清任务",
+      "video_description": "展示多个 Agent 任务的状态与交接，一格突出当前任务；九格为构图示意，不代表吞吐量。",
+      "source_samples": [
+        "R13-05"
+      ],
+      "adaptation": "取你提供的拼图第一行最右侧的矩阵结构；改为九格任务墙和无人物控制台，任务逻辑参考 C16-S2 与 C14-S2。",
+      "asset": "cover-craft/assets/style-examples/09-b09-ai-agents.png",
+      "prompt": "examples/integrated-styles-v3/prompts/09-b09-ai-agents.txt",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "aspect_ratio_note": "Native approximate 16:9 with subpixel rounding; no crop or stretch.",
+      "sha256": "d67943e47761203ddb99e07c4d9211be816fc1d7c30895a0b0fc9da319fdf8de",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/09-b09-ai-agents.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/09-b09-ai-agents.jpg"
+    },
+    {
+      "id": "10-b10-ai-knowledge",
+      "base_style": "B10",
+      "branch": "B10-B",
+      "style_name": "立体概念",
+      "ratio": "3:4",
+      "people": "none",
+      "headline": "AI 知识库",
+      "subtitle": "资料如何变成答案？",
+      "video_description": "用剖面器物比喻说明资料入库、检索与答案引用；画面是概念解释，不是内部技术架构图。",
+      "source_samples": [
+        "C01-S1"
+      ],
+      "adaptation": "吸收金属立体主物和轮廓光；去掉人物、王冠和模型标志，延展为可看懂内部关系的知识库器物。",
+      "asset": "cover-craft/assets/style-examples/10-b10-ai-knowledge.png",
+      "prompt": "examples/integrated-styles-v3/prompts/10-b10-ai-knowledge.txt",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_ratio_note": "Native exact aspect ratio.",
+      "sha256": "6a62b26f4a279d9e21aa8e6e460d4dab26195fba278eae02149a5fc801d512d6",
+      "reference_pixels_passed": true,
+      "generation_iterations": 1,
+      "edit_prompt": null,
+      "thumbnail": "cover-craft/assets/style-examples/thumbs/10-b10-ai-knowledge.png",
+      "jpeg": "examples/integrated-styles-v3/jpeg/10-b10-ai-knowledge.jpg"
+    }
+  ]
+}

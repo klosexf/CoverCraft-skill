@@ -1,0 +1,299 @@
+{
+  "skill_version": "2.7.0",
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "fictional_video_topics": true,
+  "illustrative_interfaces_and_results": true,
+  "samples": [
+    {
+      "id": "01-b01-ai-weekly",
+      "base_style": "B01",
+      "branch": "B01-B",
+      "style_name": "黄蓝冲击",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "people": "original_character",
+      "headline": "AI 写周报",
+      "subtitle": "先整理，再生成",
+      "video_description": "把零散工作记录整理为要点，再让 AI 协助写成周报；示例不承诺自动核实事实。",
+      "source_samples": [
+        "C03-S2"
+      ],
+      "adaptation": "吸收黑底黄字、巨大标题与主体轮廓；换成黄蓝办公场景、新人物和周报主物件。",
+      "reference_pixels_passed": true,
+      "image": "01-b01-ai-weekly.png",
+      "thumbnail": "thumbs/01-b01-ai-weekly.png",
+      "prompt": "prompts/01-b01-ai-weekly.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "a36875c7a2e810df3e5e7138230f5779cfc0404e81df85ea4fcd2c66f2b36de9",
+      "review": "pass",
+      "review_notes": "巨大黄黑标题、蓝色条与周报主物清楚；一位原创成人，手势落在周报；标题接近边缘，原图未裁字。"
+    },
+    {
+      "id": "02-b02-ai-editing",
+      "base_style": "B02",
+      "branch": "B02-A",
+      "style_name": "蓝黑科技",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "people": "none",
+      "headline": "AI 自动剪辑",
+      "subtitle": "素材到时间线",
+      "video_description": "展示素材整理、选择片段和排列时间线的 AI 剪辑工作流；软件界面为示意。",
+      "source_samples": [
+        "C14-S2"
+      ],
+      "adaptation": "吸收彩色时间线与强标题层级，移除人物和宇宙背景，改成有统一透视的剪辑工作台。",
+      "reference_pixels_passed": true,
+      "image": "02-b02-ai-editing.png",
+      "thumbnail": "thumbs/02-b02-ai-editing.png",
+      "prompt": "prompts/02-b02-ai-editing.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "436f524bed4c4d9e5c679b617bd416cf1b3bebaa6d033d1507022c0dc078e749",
+      "review": "pass",
+      "review_notes": "素材箭头指向时间线，设备透视一致；无人物；素材预览为示意，未当作旅行选题。"
+    },
+    {
+      "id": "03-b03-ai-paper",
+      "base_style": "B03",
+      "branch": "B03-A",
+      "style_name": "白橙清单",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "people": "original_character",
+      "headline": "AI 读论文",
+      "subtitle": "提炼重点，保留出处",
+      "video_description": "用 AI 辅助提取论文重点，并保留可回查的出处；论文卡片为示意。",
+      "source_samples": [
+        "C19-S1"
+      ],
+      "adaptation": "吸收浅底标题卡的层次和完整大字；延展为白橙功能卡，加入原创讲解人物与出处标记。",
+      "reference_pixels_passed": true,
+      "image": "03-b03-ai-paper.png",
+      "thumbnail": "thumbs/03-b03-ai-paper.png",
+      "prompt": "prompts/03-b03-ai-paper.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "206993fb665f5ed30f0d102786ab86cb9085132233320ea38404dd5a4c03af49",
+      "review": "pass",
+      "review_notes": "论文主卡与重点/摘要/出处三卡分工清楚；白橙层级、一位原创成人，中文正确。"
+    },
+    {
+      "id": "04-b04-ai-prompt",
+      "base_style": "B04",
+      "branch": "B04-B",
+      "style_name": "彩色漫画",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "people": "original_character",
+      "headline": "AI 为什么乱答？",
+      "subtitle": "先把问题说清楚",
+      "video_description": "讲解模糊提问与带目标、边界、背景的提问之间的区别；不展示虚构模型测评。",
+      "source_samples": [
+        "C10-S2"
+      ],
+      "adaptation": "吸收漫画结果画面与粗描边文字；改为原创漫画角色和模糊到清晰的提问关系。",
+      "reference_pixels_passed": true,
+      "image": "04-b04-ai-prompt.png",
+      "thumbnail": "thumbs/04-b04-ai-prompt.png",
+      "prompt": "prompts/04-b04-ai-prompt.txt",
+      "edit_prompt": "prompts/04-b04-ai-prompt-edit-01.txt",
+      "generation_iterations": 2,
+      "sha256": "fd1dfa0dfdee9bbe02d7eb303c1d426cec72af5fadcf09e4dc8504167cc88b0e",
+      "review": "pass",
+      "review_notes": "乱线问题与结构化说明由箭头连接；删除初稿两机器人，仅保留主漫画人物；原图标题未裁字。"
+    },
+    {
+      "id": "05-b05-ai-handoff",
+      "base_style": "B05",
+      "branch": "B05-A",
+      "style_name": "极简编辑",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "people": "none",
+      "headline": "先聊清楚",
+      "subtitle": "再交给 Codex",
+      "video_description": "先在聊天中明确开发范围和验收标准，再将开发说明交给 Codex；不承诺固定节省额度。",
+      "source_samples": [
+        "C09-S1"
+      ],
+      "adaptation": "吸收白底黑字与编辑式留白；移除两个人物，改成开发说明这个单一主对象。",
+      "reference_pixels_passed": true,
+      "image": "05-b05-ai-handoff.png",
+      "thumbnail": "thumbs/05-b05-ai-handoff.png",
+      "prompt": "prompts/05-b05-ai-handoff.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "6a5686fec40f9d0b7ec9dbf9bba56a1ad51109be93d3e00e5678261bc0de0238",
+      "review": "pass",
+      "review_notes": "白底黑字和单开发说明文件成立，无人物；“聊”字及 Codex 逐字正确。"
+    },
+    {
+      "id": "06-b06-ai-coding",
+      "base_style": "B06",
+      "branch": "B06-B",
+      "style_name": "发布会实测",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "people": "original_character",
+      "headline": "AI 编程实测",
+      "subtitle": "从需求到原型",
+      "video_description": "演示把明确需求交给 AI 编程工具，检查一个原型的实现；原型为虚构示意。",
+      "source_samples": [
+        "C12-S1"
+      ],
+      "adaptation": "吸收真人与可展示实物的体验证据；把证书换成原型电脑，改成原创亚洲男讲解者与工作室构图。",
+      "reference_pixels_passed": true,
+      "image": "06-b06-ai-coding.png",
+      "thumbnail": "thumbs/06-b06-ai-coding.png",
+      "prompt": "prompts/06-b06-ai-coding.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "a833c5b64c4e8813013913bdadb2f23f5d79b8753b2fc998237f4f43695fcc0d",
+      "review": "pass",
+      "review_notes": "摄影工作室、具体原型电脑与自然指向动作成立；界面为无字示意，没有测试成绩。"
+    },
+    {
+      "id": "07-b07-ai-models",
+      "base_style": "B07",
+      "branch": "B07-A",
+      "style_name": "双阵营对比",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "people": "none",
+      "headline": "ChatGPT vs Claude",
+      "subtitle": "同一道题，怎么选？",
+      "video_description": "用同一个任务比较两个工具的回答与适用情境，不预设优胜者。",
+      "source_samples": [
+        "C02-S3"
+      ],
+      "adaptation": "吸收绿与陶土两区和同等权重的对象；移除中间人物，加入同题输入卡，使用中立问题。",
+      "reference_pixels_passed": true,
+      "image": "07-b07-ai-models.png",
+      "thumbnail": "thumbs/07-b07-ai-models.png",
+      "prompt": "prompts/07-b07-ai-models.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "5574e85ae9463268f300f7461b4e64c830699d879a562049c21b1ccf4dc69ae2",
+      "review": "pass",
+      "review_notes": "两区大小与亮度接近，同一输入向两边连接；无人物，无胜者/分数，品牌文字正确。"
+    },
+    {
+      "id": "08-b08-ai-office",
+      "base_style": "B08",
+      "branch": "B08-B",
+      "style_name": "未来办公",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "people": "original_character",
+      "headline": "AI 办公搭档",
+      "subtitle": "任务分工，一起完成",
+      "video_description": "将资料整理、文档草拟和排程分给不同 AI 工作模块，并保留人工检查。",
+      "source_samples": [
+        "C16-S2"
+      ],
+      "adaptation": "吸收办公任务围绕主体的结构，改为普通原创人物、统一未来工作台和三块协作模块。",
+      "reference_pixels_passed": true,
+      "image": "08-b08-ai-office.png",
+      "thumbnail": "thumbs/08-b08-ai-office.png",
+      "prompt": "prompts/08-b08-ai-office.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "636acf002ab3927efb24963b85a2e341d902f8c28317d4ae93a417b084435e77",
+      "review": "pass",
+      "review_notes": "三个任务模块处在同一办公空间，连接中央电脑；一位普通原创人物，没有机械身体。"
+    },
+    {
+      "id": "09-b09-ai-agents",
+      "base_style": "B09",
+      "branch": "B09-A",
+      "style_name": "矩阵控制室",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "people": "none",
+      "headline": "多 Agent 调度",
+      "subtitle": "一屏看清任务",
+      "video_description": "展示多个 Agent 任务的状态与交接，一格突出当前任务；九格为构图示意，不代表吞吐量。",
+      "source_samples": [
+        "R13-05"
+      ],
+      "adaptation": "取你提供的拼图第一行最右侧的矩阵结构；改为九格任务墙和无人物控制台，任务逻辑参考 C16-S2 与 C14-S2。",
+      "reference_pixels_passed": true,
+      "image": "09-b09-ai-agents.png",
+      "thumbnail": "thumbs/09-b09-ai-agents.png",
+      "prompt": "prompts/09-b09-ai-agents.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "d67943e47761203ddb99e07c4d9211be816fc1d7c30895a0b0fc9da319fdf8de",
+      "review": "pass",
+      "review_notes": "重复任务墙、单亮格与控制台连接可辨；无人物，任务格部分被主标题遮住，未声称九任务吞吐量。"
+    },
+    {
+      "id": "10-b10-ai-knowledge",
+      "base_style": "B10",
+      "branch": "B10-B",
+      "style_name": "立体概念",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "people": "none",
+      "headline": "AI 知识库",
+      "subtitle": "资料如何变成答案？",
+      "video_description": "用剖面器物比喻说明资料入库、检索与答案引用；画面是概念解释，不是内部技术架构图。",
+      "source_samples": [
+        "C01-S1"
+      ],
+      "adaptation": "吸收金属立体主物和轮廓光；去掉人物、王冠和模型标志，延展为可看懂内部关系的知识库器物。",
+      "reference_pixels_passed": true,
+      "image": "10-b10-ai-knowledge.png",
+      "thumbnail": "thumbs/10-b10-ai-knowledge.png",
+      "prompt": "prompts/10-b10-ai-knowledge.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "6a62b26f4a279d9e21aa8e6e460d4dab26195fba278eae02149a5fc801d512d6",
+      "review": "pass",
+      "review_notes": "大立体资料器物与检索透镜、输入/输出关系清楚；无人物，无复制标志或王冠；为解释比喻。"
+    }
+  ]
+}

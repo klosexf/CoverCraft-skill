@@ -4,9 +4,39 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover; use reference images, generate or preserve Chinese headlines, and choose landscape/portrait with or without people.
 
+当前版本 **2.7.0**。
+
 ## 真实 AI 生图案例
 
-本页共展示 **16 张实际生成的 AI 主题封面**，可点击图片查看 PNG 原图。先展示最近的 6 个不同 AI 选题：3 张原创人物、3 张无人物，横竖版各 3 张；随后展示另外 10 张 AI 相关案例。其中六个新选题为虚构案例；工具界面、论文、修复结果和模型回答为示意。
+本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。最新 10 张分别对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；此前的 16 张也保留。新主题为虚构案例，界面、论文、修复结果与模型回答均为示意。
+
+### 10 种基础风格的新样张
+
+[可筛选图库与提示词](examples/integrated-styles-v3/README.md) · [逐张来源与验图](cover-craft/references/style-validation.md)
+
+#### 竖版 · 3:4
+
+| B01 黄蓝冲击 | B03 白橙清单 | B05 极简编辑 |
+| --- | --- | --- |
+| <a href="cover-craft/assets/style-examples/01-b01-ai-weekly.png"><img src="cover-craft/assets/style-examples/01-b01-ai-weekly.png" alt="AI 写周报" width="260"></a> | <a href="cover-craft/assets/style-examples/03-b03-ai-paper.png"><img src="cover-craft/assets/style-examples/03-b03-ai-paper.png" alt="AI 读论文" width="260"></a> | <a href="cover-craft/assets/style-examples/05-b05-ai-handoff.png"><img src="cover-craft/assets/style-examples/05-b05-ai-handoff.png" alt="先聊清楚" width="260"></a> |
+
+| B08 未来办公 | B10 立体概念 |
+| --- | --- |
+| <a href="cover-craft/assets/style-examples/08-b08-ai-office.png"><img src="cover-craft/assets/style-examples/08-b08-ai-office.png" alt="AI 办公搭档" width="260"></a> | <a href="cover-craft/assets/style-examples/10-b10-ai-knowledge.png"><img src="cover-craft/assets/style-examples/10-b10-ai-knowledge.png" alt="AI 知识库" width="260"></a> |
+
+#### 横版 · 约 16:9
+
+| B02 蓝黑科技 | B04 彩色漫画 | B06 发布会实测 |
+| --- | --- | --- |
+| <a href="cover-craft/assets/style-examples/02-b02-ai-editing.png"><img src="cover-craft/assets/style-examples/02-b02-ai-editing.png" alt="AI 自动剪辑" width="260"></a> | <a href="cover-craft/assets/style-examples/04-b04-ai-prompt.png"><img src="cover-craft/assets/style-examples/04-b04-ai-prompt.png" alt="AI 为什么乱答？" width="260"></a> | <a href="cover-craft/assets/style-examples/06-b06-ai-coding.png"><img src="cover-craft/assets/style-examples/06-b06-ai-coding.png" alt="AI 编程实测" width="260"></a> |
+
+| B07 双阵营对比 | B09 矩阵控制室 |
+| --- | --- |
+| <a href="cover-craft/assets/style-examples/07-b07-ai-models.png"><img src="cover-craft/assets/style-examples/07-b07-ai-models.png" alt="ChatGPT vs Claude" width="260"></a> | <a href="cover-craft/assets/style-examples/09-b09-ai-agents.png"><img src="cover-craft/assets/style-examples/09-b09-ai-agents.png" alt="多 Agent 调度" width="260"></a> |
+
+10 张新样图均已检查原图与 320px 小图。30 个分支完成来源与设计规则整合，其中 10 个分支有本轮实图验证；其余 20 个尚未逐个生图。
+
+### 此前的 AI 主题案例
 
 ### 横版 · 16:9
 
@@ -22,7 +52,7 @@ A video-cover skill for AI agents. Turn a script, video summary, or visual brief
 | <a href="examples/ai-topics-v2/images/01-ai-office.png"><img src="examples/ai-topics-v2/images/01-ai-office.png" alt="AI 办公挑战" width="280"></a> | <a href="examples/ai-topics-v2/images/03-ai-paper.png"><img src="examples/ai-topics-v2/images/03-ai-paper.png" alt="AI 读论文" width="280"></a> | <a href="examples/ai-topics-v2/images/04-ai-restore.png"><img src="examples/ai-topics-v2/images/04-ai-restore.png" alt="AI 修复照片" width="280"></a> |
 | 原创虚拟人物 | 原创虚拟人物 | 无人物 |
 
-[查看六个选题、设计依据和实际提示词](examples/ai-topics-v2/README.md)。这六个案例展示了六种风格，完整基础风格库共 10 种，30 个分支不代表均已实测。
+[查看六个选题、设计依据和实际提示词](examples/ai-topics-v2/README.md)。这六个案例展示了六种风格，完整基础风格库共 10 种；上方新样张覆盖全部 10 类，30 个分支不代表均已实测。
 
 ### 更多 AI 风格案例
 
@@ -80,7 +110,7 @@ Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用�
 | B10 立体概念 | 一个大 3D 概念物、剖面或尺度差解释关系 | AI 能力、Token、检索、图像修复和系统原理 | 白底黄黑或深靛珊瑚；重字与清楚对象轮廓 |
 
 
-默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。风格规格与样张分别记录，不表示 30 个分支均已实测。
+默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。每个分支已补齐来源、变化对象、人物/画幅适配与验收重点；10 类各有一张新样张，不表示 30 个分支均已实测。
 
 ## 20 位 AI 创作者的封面调研
 
@@ -93,7 +123,7 @@ Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用�
 
 [查看每位的原视频、看图观察与延展](cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](cover-craft/references/ai-cover-patterns.md) · [完整来源记录](cover-craft/references/ai-creator-cover-sources.json)
 
-观察样本与设计建议分开记录；不把参考博主的脸、标题和未核实结论带进新封面。网上原封面仅用于调研，公开包保留来源与观察。本页上方的 16 张案例仍是本项目实际生成的图片。
+观察样本与设计建议分开记录；不把参考博主的脸、标题和未核实结论带进新封面。网上原封面仅用于调研，公开包保留来源与观察。本页 26 张案例均为本项目实际生成的图片，网上博主原封面未重新分发。
 
 ## 安装
 

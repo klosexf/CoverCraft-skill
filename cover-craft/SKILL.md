@@ -2,7 +2,7 @@
 name: cover-craft
 description: 根据视频脚本、视频描述或封面描述制作封面，可采用或拟写标题、借鉴参考图并延展风格。生图前确认画幅与人物；优先 GPT Image，不可用时用平台生图工具，支持自配 OpenAI 图片 API。
 metadata:
-  version: "2.6.1"
+  version: "2.7.0"
 ---
 
 # CoverCraft · 封面工坊（优先 GPT Image）
@@ -56,7 +56,7 @@ metadata:
 
 延展方法与十种 AI 基础风格的具体分支见 [references/style-catalog.md](references/style-catalog.md)。在参考中保留能识别风格的少量特征，例如标题字形与配色、主体大小或背景质感；依据本期内容与画面要求更新场景比喻、对象关系或画面组织。不要只换文案与图标，保留整套与本期无关的原图叙事。
 
-按 [references/design-dimensions.md](references/design-dimensions.md) 分别选择构图、配色、画面质感、字形、情绪强度和文字密度，再组合成一套一致的规格。用户未指定的维度自主决定，不追加风格问卷。当前基础风格 10 种、延展分支 30 个、原参考 31 项；组合不另计为已实测风格。
+按 [references/design-dimensions.md](references/design-dimensions.md) 分别选择构图、配色、画面质感、字形、情绪强度和文字密度，再组合成一套一致的规格。用户未指定的维度自主决定，不追加风格问卷。当前基础风格 10 种、延展分支 30 个、原参考 31 项；组合不另计为已实测风格。目录已把调研逐项落实到全部 30 个分支；每类有一张新实图，覆盖 10 个分支，其他 20 个仅完成规格。需要视觉锚点时读取 [references/style-validation.md](references/style-validation.md)，按需查看并实际传入 `assets/style-examples/` 的对应 PNG；其中原创人物只作风格参考，不自动成为本期身份。
 
 **配色可自主延展**，不锁定参考的原色或基础风格名称中的颜色。读取 [references/color-palettes.md](references/color-palettes.md)，依据本期内容、主视觉和可读性选色；可借鉴公开的网上搭配并调整，用户明确要求联网时搜索并记录真实来源。换色后可保留标题语言、构图节奏或主体尺度来延续风格。只有用户明确指定品牌色、某组配色或要求照原图用色时才锁定；不增加第三个必须回答的配色问题。
 

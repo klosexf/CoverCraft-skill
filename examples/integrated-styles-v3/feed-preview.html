@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>封面浏览预览 · CoverCraft</title>
+<style>
+:root{color-scheme:light;--page:#f5f3ed;--surface:#fffefa;--ink:#202a27;--muted:#67716b;--border:#dcded5;--accent:#186b61;--card-width:320px}
+*{box-sizing:border-box}body{margin:0;padding:32px;font:15px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif;color:var(--ink);background:var(--page)}
+body.dark{color-scheme:dark;--page:#141a18;--surface:#202824;--ink:#f1f3eb;--muted:#afb9b1;--border:#3a453e;--accent:#83d7c2}
+header,.controls,.legend,.summary{max-width:1200px;margin:auto}header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px}.eyebrow{font-size:12px;letter-spacing:.16em;color:var(--accent);margin:0 0 6px}h1{font-size:30px;line-height:1.3;margin:0 0 8px}header p{margin:0;color:var(--muted)}.pill{white-space:nowrap;border:1px solid var(--border);border-radius:24px;padding:7px 14px;font-size:13px}
+.controls{display:flex;gap:12px 20px;align-items:center;flex-wrap:wrap;background:var(--surface);padding:16px 20px;border:1px solid var(--border);border-radius:16px}.control{display:flex;align-items:center;gap:8px}.control label{white-space:nowrap}button,select{font:inherit;border:1px solid var(--border);background:var(--page);color:var(--ink);padding:6px 12px;border-radius:8px;cursor:pointer}button[aria-pressed="true"]{background:var(--accent);color:var(--surface);border-color:var(--accent)}input{accent-color:var(--accent);width:16px;height:16px}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #e9a061;outline-offset:3px}
+.legend{color:var(--muted);font-size:13px;margin:12px auto 24px}.feed{display:flex;justify-content:center;align-items:flex-start;flex-wrap:wrap;gap:20px;max-width:1600px;margin:auto}.card{width:min(var(--card-width),100%);flex-shrink:0;background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden}.candidate{box-shadow:0 8px 24px #0000000a}.card-label{padding:8px 12px;border-bottom:1px solid var(--border);font-weight:650;font-size:13px}.frame{position:relative;overflow:hidden;background:#0b171a;isolation:isolate}.frame img{display:block;width:100%;height:auto}.crop .frame img{transform:scale(1.06)}.badge{position:absolute;z-index:2;bottom:8px;color:white;background:#111c;padding:2px 6px;line-height:1.25;font-size:clamp(10px,calc(var(--card-width) / 24),14px);border-radius:4px;text-shadow:0 1px 3px #000;display:none}.duration{right:8px}.likes{left:8px}.show-overlays .badge{display:block}.zone{position:absolute;z-index:1;bottom:0;height:10%;background:#fcaa414d;outline:1px dashed #ffbf68;display:none}.zone.right{right:0;width:26%}.zone.left{left:0;width:20%}.show-zones .zone{display:block}.meta{padding:11px 12px 12px}.video-title{margin:0;font-size:clamp(11px,calc(var(--card-width) / 22),15px);font-weight:600;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere}.caption{font-size:12px;color:var(--muted);margin:7px 0 0}.sample{display:none}.with-context .sample{display:block}.sample .frame{display:flex;align-items:center;justify-content:center;padding:12px;text-align:center;background:linear-gradient(135deg,#e8d9a9,#b6cbc1);color:#24483b}.sample:nth-child(even) .frame{background:linear-gradient(135deg,#bfcde2,#eadcc3);color:#203e55}.sample-art{font-size:clamp(18px,calc(var(--card-width) / 10),32px);font-weight:900;line-height:1.25}.sample-art small{display:block;font-size:11px;font-weight:500;margin-top:12px}.summary{border-top:1px solid var(--border);margin:28px auto 0;padding-top:16px;font-size:13px;color:var(--muted)}a{color:var(--accent);text-underline-offset:3px}
+@media(max-width:600px){body{padding:18px}header{align-items:flex-start;flex-direction:column;gap:12px}h1{font-size:25px}.controls{padding:14px;gap:10px 14px}.feed{gap:14px}}
+</style>
+</head>
+<body class="show-overlays">
+<header><div><p class="eyebrow">COVER STUDIO</p><h1>放进列表，再看一眼</h1><p>比较标题与主视觉在小图、不同底色和界面遮挡下的表现。</p></div><span class="pill" id="count"></span></header>
+<div class="controls" aria-label="预览设置">
+<div class="control"><span>背景</span><button id="light" aria-pressed="true">浅色</button><button id="dark" aria-pressed="false">深色</button></div>
+<div class="control"><label for="width">封面宽度</label><select id="width"><option value="320">320 px</option><option value="168">168 px</option><option value="120">120 px</option></select></div>
+<div class="control"><input id="overlays" type="checkbox" checked><label for="overlays">模拟时长与点赞</label></div>
+<div class="control"><input id="zones" type="checkbox"><label for="zones">标出遮挡范围</label></div>
+<div class="control"><input id="crop" type="checkbox"><label for="crop">轻微边缘裁切</label></div>
+<div class="control"><input id="context" type="checkbox"><label for="context">周边示例卡片</label></div>
+</div>
+<p class="legend">模拟界面用于检查构图；位置可能与实际平台不同。120 / 168 px 用于更严格的小图检查，交付图片保持原样。</p>
+<main class="feed" id="feed" aria-label="封面列表"></main>
+<p class="summary">先读大标题，再看主视觉：内容能否一眼理解？重要文字是否被挡住？点击封面可查看原图。</p>
+<script id="cover-data" type="application/json">{"videoTitle": "CoverCraft · 十种 AI 主题示意案例", "images": [{"file": "../../cover-craft/assets/style-examples/01-b01-ai-weekly.png", "label": "B01-B 黄蓝冲击", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/02-b02-ai-editing.png", "label": "B02-A 蓝黑科技", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/03-b03-ai-paper.png", "label": "B03-A 白橙清单", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/04-b04-ai-prompt.png", "label": "B04-B 彩色漫画", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/05-b05-ai-handoff.png", "label": "B05-A 极简编辑", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/06-b06-ai-coding.png", "label": "B06-B 发布会实测", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/07-b07-ai-models.png", "label": "B07-A 双阵营对比", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/08-b08-ai-office.png", "label": "B08-B 未来办公", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/09-b09-ai-agents.png", "label": "B09-A 矩阵控制室", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/10-b10-ai-knowledge.png", "label": "B10-B 立体概念", "size": [1086, 1448]}]}</script>
+<script>
+"use strict";
+const data=JSON.parse(document.getElementById("cover-data").textContent);
+const feed=document.getElementById("feed");
+function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
+function makeCard(row){
+  const article=node("article","card candidate");article.append(node("div","card-label",row.label));
+  const frame=node("div","frame");frame.style.aspectRatio=row.size[0]+" / "+row.size[1];
+  const link=node("a");link.href=row.file;link.target="_blank";link.rel="noopener";
+  const img=node("img");img.src=row.file;img.alt=row.label;img.width=row.size[0];img.height=row.size[1];link.append(img);frame.append(link);
+  for(const side of ["left","right"])frame.append(node("div","zone "+side));
+  frame.append(node("span","badge duration","12:34"),node("span","badge likes","♡"));
+  const meta=node("div","meta");meta.append(node("p","video-title",data.videoTitle||"视频标题尚未提供"),node("p","caption",row.size[0]+" × "+row.size[1]+" · "+row.label));
+  article.append(frame,meta);return article;
+}
+function makeSample(text,index){
+  const article=node("article","card sample");article.append(node("div","card-label","周边示例 "+index));
+  const frame=node("div","frame");const first=data.images[0];frame.style.aspectRatio=first.size[0]+" / "+first.size[1];
+  const art=node("div","sample-art",text);art.append(node("small",null,"模拟示例卡片"));frame.append(art);
+  const meta=node("div","meta");meta.append(node("p","video-title",text+" · 示例视频"),node("p","caption","用于观察列表中的视觉干扰"));article.append(frame,meta);return article;
+}
+feed.append(makeSample("工具对比",1));for(const row of data.images)feed.append(makeCard(row));feed.append(makeSample("实用教程",2));
+document.getElementById("count").textContent=data.images.length+" 张候选";
+function setTheme(dark){document.body.classList.toggle("dark",dark);document.getElementById("light").setAttribute("aria-pressed",String(!dark));document.getElementById("dark").setAttribute("aria-pressed",String(dark));}
+document.getElementById("light").addEventListener("click",()=>setTheme(false));document.getElementById("dark").addEventListener("click",()=>setTheme(true));
+document.getElementById("width").addEventListener("change",e=>document.documentElement.style.setProperty("--card-width",e.target.value+"px"));
+for(const item of [["overlays","show-overlays"],["zones","show-zones"],["crop","crop"],["context","with-context"]]){
+  document.getElementById(item[0]).addEventListener("change",e=>document.body.classList.toggle(item[1],e.target.checked));
+}
+</script>
+</body></html>

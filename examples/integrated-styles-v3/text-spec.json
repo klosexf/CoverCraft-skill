@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "covers": [
+    {
+      "id": "01-b01-ai-weekly",
+      "headline": "AI 写周报",
+      "subtitle": "先整理，再生成",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "02-b02-ai-editing",
+      "headline": "AI 自动剪辑",
+      "subtitle": "素材到时间线",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "03-b03-ai-paper",
+      "headline": "AI 读论文",
+      "subtitle": "提炼重点，保留出处",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "04-b04-ai-prompt",
+      "headline": "AI 为什么乱答？",
+      "subtitle": "先把问题说清楚",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "05-b05-ai-handoff",
+      "headline": "先聊清楚",
+      "subtitle": "再交给 Codex",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "06-b06-ai-coding",
+      "headline": "AI 编程实测",
+      "subtitle": "从需求到原型",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "07-b07-ai-models",
+      "headline": "ChatGPT vs Claude",
+      "subtitle": "同一道题，怎么选？",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "08-b08-ai-office",
+      "headline": "AI 办公搭档",
+      "subtitle": "任务分工，一起完成",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "09-b09-ai-agents",
+      "headline": "多 Agent 调度",
+      "subtitle": "一屏看清任务",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    },
+    {
+      "id": "10-b10-ai-knowledge",
+      "headline": "AI 知识库",
+      "subtitle": "资料如何变成答案？",
+      "allowed_other_text": [],
+      "forbidden": [
+        "unapproved claims",
+        "background microtext",
+        "platform overlays"
+      ]
+    }
+  ]
+}
