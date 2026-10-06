@@ -1,0 +1,485 @@
+{
+  "source": "用户在当前对话上传的参考图",
+  "attachment_count": 13,
+  "unique_image_count": 11,
+  "references": [
+    {
+      "id": "R01",
+      "source_image_numbers": [
+        1
+      ],
+      "asset": "assets/user-references/ref-01-blue-code-video.png",
+      "size": [
+        258,
+        350
+      ],
+      "sha256": "f65b5c987fb4789b70f6d5139414f948fadecd61c40d8e5676233a373cc18a62",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R01",
+          "name": "蓝黑代码视频",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "source_image_numbers": [
+        2
+      ],
+      "asset": "assets/user-references/ref-02-cinema-emoji.png",
+      "size": [
+        276,
+        348
+      ],
+      "sha256": "2b4ccfdc0a3f946c5614dfa218d3180b26f5ea75af0323162215d4460b0969c7",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R02",
+          "name": "影院与表情角色",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "source_image_numbers": [
+        3
+      ],
+      "asset": "assets/user-references/ref-03-comic-comparison.png",
+      "size": [
+        258,
+        344
+      ],
+      "sha256": "3319657f4d1d235d622d28639fee6151d24fde14a02f173e942f52280cd9be40",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R03",
+          "name": "四栏漫画对比",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "source_image_numbers": [
+        4
+      ],
+      "asset": "assets/user-references/ref-04-neon-scene.png",
+      "size": [
+        262,
+        348
+      ],
+      "sha256": "7844001d6aec1a88a305c6153d32b53dcbca8d1b09f12d56e6d6fe3bdf734cbd",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R04",
+          "name": "霓虹场景",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "source_image_numbers": [
+        5
+      ],
+      "asset": "assets/user-references/ref-05-blue-workflow.png",
+      "size": [
+        262,
+        344
+      ],
+      "sha256": "e70f6262cd2700a0d088ec56340201a45d637092b6953fa7ed928065bef90235",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R05",
+          "name": "蓝黑工作流",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "source_image_numbers": [
+        6
+      ],
+      "asset": "assets/user-references/ref-06-yellow-black-steps.png",
+      "size": [
+        250,
+        348
+      ],
+      "sha256": "9466812e2280ff0ceed5efbb713c66e54b390741d92f413ca4a32c12cc339334",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R06",
+          "name": "黄黑步骤教程",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "source_image_numbers": [
+        7,
+        8,
+        11
+      ],
+      "asset": "assets/user-references/ref-07-cover-gallery.png",
+      "size": [
+        792,
+        1062
+      ],
+      "sha256": "3532bb03f5caf9d5d11fb730b36f1dbbbc6066a205f04d68dc9dfb479abae483",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 9,
+      "items": [
+        {
+          "id": "R07-G1",
+          "name": "PPT 大变天",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "id": "R07-G2",
+          "name": "访谈海报",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "id": "R07-G3",
+          "name": "笔记本产品",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "id": "R07-G4",
+          "name": "豆包的强力伴侣",
+          "row": 2,
+          "column": 1
+        },
+        {
+          "id": "R07-G5",
+          "name": "大学生必做",
+          "row": 2,
+          "column": 2
+        },
+        {
+          "id": "R07-G6",
+          "name": "音频模型",
+          "row": 2,
+          "column": 3
+        },
+        {
+          "id": "R07-G7",
+          "name": "豆包工作",
+          "row": 3,
+          "column": 1
+        },
+        {
+          "id": "R07-G8",
+          "name": "AI 接管厨房",
+          "row": 3,
+          "column": 2
+        },
+        {
+          "id": "R07-G9",
+          "name": "AI 干活全流程",
+          "row": 3,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "source_image_numbers": [
+        9
+      ],
+      "asset": "assets/user-references/ref-09-white-orange-list.png",
+      "size": [
+        256,
+        334
+      ],
+      "sha256": "666e7827ae07b4fff988609ce4d541603e3f378216f8191da8ab794211d8733b",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R09",
+          "name": "白橙功能清单",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "source_image_numbers": [
+        10
+      ],
+      "asset": "assets/user-references/ref-10-blue-software-tutorial.png",
+      "size": [
+        252,
+        340
+      ],
+      "sha256": "c6c147392085545f8555b746a61a3fb3cfbec0c9849059208708d8c934170270",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "source_batch": "initial-20261006",
+      "reference_items": 1,
+      "items": [
+        {
+          "id": "R10",
+          "name": "蓝黑软件教程",
+          "position": "整张原图"
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "source_batch": "horizontal-20261006",
+      "source_image_numbers": [
+        1
+      ],
+      "asset": "assets/user-references/ref-12-horizontal-review-strip.png",
+      "size": [
+        1846,
+        274
+      ],
+      "sha256": "965f8e987b4cbab1e6a7a4546d9c2f8b786c806b5dd40854eef4da531b457a1c",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "reference_items": 4,
+      "items": [
+        {
+          "id": "R12-01",
+          "name": "深色发布会实测",
+          "row": 1,
+          "column": 1,
+          "approximate_region_xyxy": [
+            4,
+            6,
+            435,
+            249
+          ]
+        },
+        {
+          "id": "R12-02",
+          "name": "冷暖双阵营对比",
+          "row": 1,
+          "column": 2,
+          "approximate_region_xyxy": [
+            467,
+            6,
+            899,
+            249
+          ]
+        },
+        {
+          "id": "R12-03",
+          "name": "勾叉观点辨析",
+          "row": 1,
+          "column": 3,
+          "approximate_region_xyxy": [
+            931,
+            6,
+            1362,
+            249
+          ]
+        },
+        {
+          "id": "R12-04",
+          "name": "产品实测问答",
+          "row": 1,
+          "column": 4,
+          "approximate_region_xyxy": [
+            1394,
+            6,
+            1825,
+            249
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "source_batch": "horizontal-20261006",
+      "source_image_numbers": [
+        2
+      ],
+      "asset": "assets/user-references/ref-13-horizontal-creative-gallery.png",
+      "size": [
+        2462,
+        786
+      ],
+      "sha256": "545046688393f2f715f6a0b467f637f072edb3afacf1fa113ea710fb5f95ee9f",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "reference_items": 10,
+      "items": [
+        {
+          "id": "R13-01",
+          "name": "太空夸张体验",
+          "row": 1,
+          "column": 1,
+          "approximate_region_xyxy": [
+            6,
+            63,
+            467,
+            323
+          ]
+        },
+        {
+          "id": "R13-02",
+          "name": "多臂工作助理",
+          "row": 1,
+          "column": 2,
+          "approximate_region_xyxy": [
+            499,
+            63,
+            960,
+            323
+          ]
+        },
+        {
+          "id": "R13-03",
+          "name": "魔法入门教程",
+          "row": 1,
+          "column": 3,
+          "approximate_region_xyxy": [
+            991,
+            63,
+            1453,
+            323
+          ]
+        },
+        {
+          "id": "R13-04",
+          "name": "航海全解教程",
+          "row": 1,
+          "column": 4,
+          "approximate_region_xyxy": [
+            1484,
+            63,
+            1945,
+            323
+          ]
+        },
+        {
+          "id": "R13-05",
+          "name": "矩阵控制室",
+          "row": 1,
+          "column": 5,
+          "approximate_region_xyxy": [
+            1977,
+            63,
+            2438,
+            323
+          ]
+        },
+        {
+          "id": "R13-06",
+          "name": "云端理想世界",
+          "row": 2,
+          "column": 1,
+          "approximate_region_xyxy": [
+            6,
+            494,
+            467,
+            755
+          ]
+        },
+        {
+          "id": "R13-07",
+          "name": "未来悬浮办公",
+          "row": 2,
+          "column": 2,
+          "approximate_region_xyxy": [
+            499,
+            494,
+            960,
+            755
+          ]
+        },
+        {
+          "id": "R13-08",
+          "name": "国风专家模式",
+          "row": 2,
+          "column": 3,
+          "approximate_region_xyxy": [
+            991,
+            494,
+            1453,
+            755
+          ]
+        },
+        {
+          "id": "R13-09",
+          "name": "白底产品聚焦",
+          "row": 2,
+          "column": 4,
+          "approximate_region_xyxy": [
+            1484,
+            494,
+            1945,
+            755
+          ]
+        },
+        {
+          "id": "R13-10",
+          "name": "微缩岛屿世界",
+          "row": 2,
+          "column": 5,
+          "approximate_region_xyxy": [
+            1977,
+            494,
+            2438,
+            755
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_item_count": 31,
+  "batches": [
+    {
+      "id": "initial-20261006",
+      "attachment_count": 11,
+      "unique_image_count": 9,
+      "reference_items": 17
+    },
+    {
+      "id": "horizontal-20261006",
+      "attachment_count": 2,
+      "unique_image_count": 2,
+      "reference_items": 14
+    }
+  ],
+  "region_note": "区域坐标以原截图像素为单位，仅用于大致定位，不表示已经裁成单独图片。"
+}

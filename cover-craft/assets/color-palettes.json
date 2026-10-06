@@ -1,0 +1,131 @@
+{
+  "version": "2.2.0",
+  "note": "自主配色起点，可继续调整；色卡不代表实际生图或测得参考图色值。",
+  "contrast_note": "仅计算纯色主标题/背景色块，不代表生成图中的实际对比。",
+  "palettes": [
+    {
+      "id": "P01",
+      "name": "午夜橙蓝",
+      "roles": {
+        "background": "#101C35",
+        "title": "#FFF7E8",
+        "accent": "#FF8A3D",
+        "secondary": "#5EBBFF"
+      },
+      "suggested_use": "科技实测、工作流、冷暖对照",
+      "origin": "skill-designed",
+      "source": null,
+      "solid_title_background_contrast": 15.91
+    },
+    {
+      "id": "P02",
+      "name": "电光紫青",
+      "roles": {
+        "background": "#171329",
+        "title": "#F5F0FF",
+        "accent": "#49E9DC",
+        "secondary": "#B087FF"
+      },
+      "suggested_use": "未来办公、科技概念",
+      "origin": "skill-designed",
+      "source": null,
+      "solid_title_background_contrast": 16.18
+    },
+    {
+      "id": "P03",
+      "name": "柠檬紫墨",
+      "roles": {
+        "background": "#F8DF58",
+        "title": "#25213F",
+        "accent": "#6544D4",
+        "secondary": "#FFF9DA"
+      },
+      "suggested_use": "大字观点、漫画、清单",
+      "origin": "skill-designed",
+      "source": null,
+      "solid_title_background_contrast": 11.47
+    },
+    {
+      "id": "P04",
+      "name": "晨雾薄荷",
+      "roles": {
+        "background": "#F1F6F0",
+        "title": "#173B3F",
+        "accent": "#217C72",
+        "secondary": "#EBA86D"
+      },
+      "suggested_use": "任务整理、清爽教程",
+      "origin": "skill-designed",
+      "source": null,
+      "solid_title_background_contrast": 11.06
+    },
+    {
+      "id": "P05",
+      "name": "深绿暖金",
+      "roles": {
+        "background": "#16372E",
+        "title": "#F8F1DF",
+        "accent": "#E6BA67",
+        "secondary": "#8AAF9A"
+      },
+      "suggested_use": "复盘、经验观点、国风器物",
+      "origin": "skill-designed",
+      "source": null,
+      "solid_title_background_contrast": 11.51
+    },
+    {
+      "id": "P06",
+      "name": "靛蓝蜜桃",
+      "roles": {
+        "background": "#180331",
+        "title": "#FEFF85",
+        "accent": "#DB703E",
+        "secondary": "#233974"
+      },
+      "suggested_use": "复古科技、工具对照",
+      "origin": "published-palette-adaptation",
+      "source": {
+        "author_and_palette": "Chilari / indigo peach",
+        "url": "https://lospec.com/palette-list/indigo-peach",
+        "checked_at": "2026-10-06"
+      },
+      "solid_title_background_contrast": 18.11
+    },
+    {
+      "id": "P07",
+      "name": "奶油莓果",
+      "roles": {
+        "background": "#FFF6D3",
+        "title": "#7C3F58",
+        "accent": "#EB6B6F",
+        "secondary": "#F9A875"
+      },
+      "suggested_use": "生活工具、轻松教程、漫画",
+      "origin": "published-palette-adaptation",
+      "source": {
+        "author_and_palette": "Kerrie Lake / Ice Cream GB",
+        "url": "https://lospec.com/palette-list/ice-cream-gb",
+        "checked_at": "2026-10-06"
+      },
+      "solid_title_background_contrast": 7.15
+    },
+    {
+      "id": "P08",
+      "name": "海盐糖果",
+      "roles": {
+        "background": "#FFFAD6",
+        "title": "#0D2357",
+        "accent": "#007080",
+        "secondary": "#FF569C"
+      },
+      "suggested_use": "创意工具、轻快比较、功能展示",
+      "origin": "published-palette-adaptation",
+      "source": {
+        "author_and_palette": "🍄dots🍄 / Ice Cream Shoppe",
+        "url": "https://lospec.com/palette-list/ice-cream-shoppe",
+        "checked_at": "2026-10-06"
+      },
+      "solid_title_background_contrast": 14.26
+    }
+  ]
+}

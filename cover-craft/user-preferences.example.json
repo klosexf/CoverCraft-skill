@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "profile_name": "默认用户",
+  "defaults": {
+    "aspect": null,
+    "people": null,
+    "use_without_asking": false
+  },
+  "design": {
+    "palette_policy": "可根据主题自主延展配色，要求好看、合理；可借鉴公开搭配，不默认锁定参考图原色。",
+    "locked_colors": [],
+    "preferred_styles": [],
+    "typography": [],
+    "composition": [],
+    "texture": [],
+    "avoid": []
+  },
+  "series": {},
+  "evidence": []
+}
