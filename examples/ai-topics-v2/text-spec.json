@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "topics": {
+    "01-ai-office": {
+      "main_title_lines": [
+        "把工作",
+        "交给AI？"
+      ],
+      "other_allowed_text": [],
+      "video_title": "把一天的重复工作交给 AI，它能接住多少？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "3:4"
+    },
+    "02-ai-ppt": {
+      "main_title_lines": [
+        "AI做PPT",
+        "从乱稿到成稿"
+      ],
+      "other_allowed_text": [],
+      "video_title": "把一页杂乱笔记交给 AI，能做出什么样的演示文稿？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "无人物",
+      "aspect_ratio": "16:9"
+    },
+    "03-ai-paper": {
+      "main_title_lines": [
+        "论文太长？",
+        "让AI抓重点"
+      ],
+      "other_allowed_text": [
+        "问题",
+        "方法",
+        "结论"
+      ],
+      "video_title": "论文太长，怎么让 AI 帮你抓重点？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "3:4"
+    },
+    "04-ai-restore": {
+      "main_title_lines": [
+        "AI修老照片",
+        "能修多清楚？"
+      ],
+      "other_allowed_text": [],
+      "video_title": "一张模糊老照片，AI 能修到什么程度？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "无人物",
+      "aspect_ratio": "3:4"
+    },
+    "05-ai-code": {
+      "main_title_lines": [
+        "只说需求",
+        "AI能写到哪？"
+      ],
+      "other_allowed_text": [],
+      "video_title": "只说需求，AI 能把小工具做到哪一步？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "16:9"
+    },
+    "06-ai-models": {
+      "main_title_lines": [
+        "同一道题",
+        "AI回答差在哪？"
+      ],
+      "other_allowed_text": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "video_title": "同一道题，不同 AI 的回答差在哪？",
+      "video_title_drawn": false,
+      "background_text": "none",
+      "people": "无人物",
+      "aspect_ratio": "16:9"
+    }
+  }
+}

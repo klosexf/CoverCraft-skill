@@ -1,0 +1,13 @@
+Generate ONE complete professional Chinese AI video cover, full bleed, opaque, readable at 320px thumbnail width. Include only exact specified text, accurate Chinese, no platform interface, statistics, watermark, screenshot grid or invented percentages. Important text and main objects must have safe margins, titles large and distinct. This is an invented AI-video topic; interfaces and results are illustrative, not claims from a real benchmark. Original fictional people only if specifically requested; never copy a reference creator's face.
+Use case: ads-marketing. Landscape 16:9, target 1920x1080.
+Reference image 1: composition reference only, inherit two LARGE tool marks of equal visual importance and a bold main question. Remove original man COMPLETELY, do not replace with another person, hand, face, portrait, humanoid or silhouette. Do not reproduce original English title or imply winner.
+Topic: ask the SAME question to two AI models and compare answer organization, no real benchmark conclusions.
+Create a striking refined two-camp AI comparison cover: left large green glass-acrylic tile with a recognizable white OpenAI-style interwoven emblem and exact label "ChatGPT"; right equally large terracotta tile with a white Claude-style sunburst and exact label "Claude". The marks serve identification, not endorsement. Tiles sit in a coherent real-looking charcoal desk environment, both strongly lit with equal scale. A single cream question card between them in lower center fans into two equal output cards: on each, only simple differently organized line blocks with no readable answer text, no numbers, ratings, check/cross or chart values. A thin branching line from the same question to both tiles makes common input clear. Tile labels are clearly legible, output cards fewer and large. No huge pile of UI windows.
+Palette matte charcoal, deep teal-green on left and muted warm coral on right, creamy white title, one small yellow highlight. Bold simplified depth, high-end editorial 3D, almost-black quiet upper title field, object identities very clear.
+Exact main headline TWO lines upper center-left:
+"同一道题"
+"AI回答差在哪？"
+Huge cream condensed Chinese font, "差在哪？" warm yellow emphasis. Exact additional tile labels only:
+"ChatGPT"
+"Claude"
+No other text; no rankings or crown; neutral balanced comparison.

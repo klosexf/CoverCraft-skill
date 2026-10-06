@@ -1,0 +1,15 @@
+Generate ONE complete professional Chinese AI video cover, full bleed, opaque, readable at 320px thumbnail width. Include only exact specified text, accurate Chinese, no platform interface, statistics, watermark, screenshot grid or invented percentages. Important text and main objects must have safe margins, titles large and distinct. This is an invented AI-video topic; interfaces and results are illustrative, not claims from a real benchmark. Original fictional people only if specifically requested; never copy a reference creator's face.
+Use case: ads-marketing. Portrait 3:4, target 1080x1440.
+Reference image 1 is style/composition only: inherit white/orange bold headline and clear functional cards, do not copy original man, text, icons, outfit or platform UI.
+Topic: AI helps identify the question, method and conclusion from a long paper.
+Make a vivid photographic + clean editorial graphic cover: one ORIGINAL fictional East Asian adult woman with short straight bob hair, transparent amber glasses and teal casual shirt, thoughtful amazed expression, occupies lower-right about 35% width. She points naturally at THREE large stacked note cards centered left. Her face, posture and identity unrelated to reference. On lower-left foreground, a thick stack of academic paper pages fans out, black line blocks and a few orange highlight bands, no readable invented research. Three extracted cards hover above the stack in a purposeful upward flow. Each has ONE large correct label, a simple distinct icon and just 2-3 no-text ruled lines. Cards must be large enough to read, not a sea of tiny icons. No extra human limbs, realistic anatomy.
+White warm background, energetic diagonal orange swath behind three cards, charcoal title, small teal accents tied to woman's shirt. Strong contrast and broad clear silhouette, orange does not overwhelm paper or face. Headline upper 32%, face lower-right outside title, paper/card extraction main story.
+Exact main headline TWO lines:
+"论文太长？"
+"让AI抓重点"
+Thick condensed black Chinese type, correct AI uppercase, second line partly on orange highlight if helpful.
+Exact card labels, one each top-to-bottom:
+"问题"
+"方法"
+"结论"
+No other text. No claims about study conclusions, reading speed or scientific truth.

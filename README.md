@@ -4,37 +4,55 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover; use reference images, generate or preserve Chinese headlines, and choose landscape/portrait with or without people.
 
-## 真实生图案例
+## 真实 AI 生图案例
 
-下面是使用 Codex 内置图片工具实际生成的 **6 张封面**：五种基础风格加一个冷暖接力延展，包含 3 张原创人物封面和 3 张无人物封面。人物为 AI 生成的虚拟角色，软件界面为示意设计。点击图片可查看 PNG 大图。
-
-每种风格均支持有人物或无人物，下表标的是本次样张设置。
+以下 **6 张实际封面**对应不同 AI 用途，包含 3 张原创人物封面、3 张无人物封面，横竖版各 3 张。选题为虚构案例；工具界面、论文、修复结果和模型回答为示意。点击图片查看 PNG 原图。
 
 ### 横版 · 16:9
 
-| 黄蓝冲击 · 原创人物 | 彩色漫画 · 无人物 | 冷暖接力 · 原创人物 |
+| AI 做 PPT · B08 未来办公 | AI 编程 · B06 发布会实测 | AI 多模型对比 · B07 双阵营对比 |
 | --- | --- | --- |
-| <a href="examples/images/01-yellow-blue-presenter.png"><img src="examples/images/01-yellow-blue-presenter.png" alt="黄蓝冲击：AI 工作搭档" width="280"></a> | <a href="examples/images/04-color-comic-no-person.png"><img src="examples/images/04-color-comic-no-person.png" alt="彩色漫画：AI 知识库" width="280"></a> | <a href="examples/images/06-cold-warm-presenter.png"><img src="examples/images/06-cold-warm-presenter.png" alt="冷暖接力：先聊清楚，再动手" width="280"></a> |
-| 黄蓝大字、放射动线、人物展示设备 | 粗轮廓、彩色对象、前后变化 | 蓝橙光域、人物递出文档、两工具接力 |
+| <a href="examples/ai-topics-v2/images/02-ai-ppt.png"><img src="examples/ai-topics-v2/images/02-ai-ppt.png" alt="AI 做 PPT" width="280"></a> | <a href="examples/ai-topics-v2/images/05-ai-code.png"><img src="examples/ai-topics-v2/images/05-ai-code.png" alt="AI 编程" width="280"></a> | <a href="examples/ai-topics-v2/images/06-ai-models.png"><img src="examples/ai-topics-v2/images/06-ai-models.png" alt="AI 多模型对比" width="280"></a> |
+| 无人物 | 原创虚拟人物 | 无人物 |
 
 ### 竖版 · 3:4
 
-| 蓝黑科技 · 无人物 | 白橙清单 · 原创人物 | 极简编辑 · 无人物 |
+| AI 办公挑战 · B01 黄蓝冲击 | AI 读论文 · B03 白橙清单 | AI 修复照片 · B10 立体概念 |
 | --- | --- | --- |
-| <a href="examples/images/02-blue-tech-no-person.png"><img src="examples/images/02-blue-tech-no-person.png" alt="蓝黑科技：先聊清楚，再开发" width="280"></a> | <a href="examples/images/03-white-orange-presenter.png"><img src="examples/images/03-white-orange-presenter.png" alt="白橙清单：资料整理不再乱" width="280"></a> | <a href="examples/images/05-minimal-no-person.png"><img src="examples/images/05-minimal-no-person.png" alt="极简编辑：把需求写清楚" width="280"></a> |
-| 深蓝设备、发光工作流、白青标题 | 白橙图标、清楚任务层级、人物引导 | 奶油白与深绿、留白、纸张质感 |
+| <a href="examples/ai-topics-v2/images/01-ai-office.png"><img src="examples/ai-topics-v2/images/01-ai-office.png" alt="AI 办公挑战" width="280"></a> | <a href="examples/ai-topics-v2/images/03-ai-paper.png"><img src="examples/ai-topics-v2/images/03-ai-paper.png" alt="AI 读论文" width="280"></a> | <a href="examples/ai-topics-v2/images/04-ai-restore.png"><img src="examples/ai-topics-v2/images/04-ai-restore.png" alt="AI 修复照片" width="280"></a> |
+| 原创虚拟人物 | 原创虚拟人物 | 无人物 |
 
-[查看案例详情、输入内容和实际提示词](examples/README.md)。这些是本次实际输出；模型版本与每次生成结果可能不同。
+[查看六个选题、设计依据和实际提示词](examples/ai-topics-v2/README.md)。这六个案例展示了六种风格，完整基础风格库共 10 种，30 个分支不代表均已实测。
 
 ## 能做什么
 
 - **三种输入任选一种**：完整脚本、视频内容简介，或直接描述想要的封面画面；也可以组合。
-- **参考图与风格延展**：5 种基础风格、15 个基础分支、31 个参考档案；配色可按内容自由变化。
+- **参考图与风格延展**：10 种 AI 基础风格、30 个基础分支、31 个原参考档案；配色可按内容自由变化。
 - **先确认画幅与人物**：只补问尚未明确的选择，不要求本人出镜。
 - **GPT Image 优先**：不可用时使用平台自带生图工具；也支持用户自行配置并明确选用 OpenAI 图片 API。
 - **输出与检查**：实际图片、PNG/JPEG 导出、缩略图、列表预览，以及中文文字核对与设计依据。
 
 Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用条件和工具能力以宿主提供的实际工具为准。
+
+## 10 种 AI 基础风格
+
+| 编号 / 名称 | 独立的视觉结构 | 适用的 AI 内容 | 配色与标题起点 |
+| --- | --- | --- | --- |
+| B01 黄蓝冲击 | 大字、强色块、单一夸张动作或对象 | AI 工具亮相、办公挑战、功能变化 | 黄蓝或柠檬紫墨；粗斜字与明确描边 |
+| B02 蓝黑科技 | 深色设备空间、透视、重点光域与工作流 | AI 编程、软件教程、自动化 | 蓝黑青白或深绿暖金；白色粗标题 |
+| B03 白橙清单 | 浅底、层次清楚的任务卡和功能图标 | AI 技能列表、论文整理、步骤说明 | 白橙或晨雾薄荷；黑色粗字、重点条 |
+| B04 彩色漫画 | 漫画轮廓、分格、问题与解法或夸张比喻 | AI 误区、功能讲解、模型概念 | 有限明亮色块；漫画轮廓字 |
+| B05 极简编辑 | 大留白、单一 AI 工具或成果、一句观点 | AI 经验复盘、提示词、方法观点 | 中性色与一个重点色；编辑式标题 |
+| B06 发布会实测 | 摄影工作室、主展示对象、体验或问答标题 | AI 新功能体验、工具评测、发布解读 | 炭黑暖金或灰蓝银白；粗斜标题与一处版本重点 |
+| B07 双阵营对比 | 同等视觉重量的两区、共同任务与比较对象 | 两模型、两工具、两种 AI 做法的对比 | 冷暖或两套可区分色；两方名与一个主问题 |
+| B08 未来办公 | 统一空间内的环幕、悬浮设备、成果舞台 | AI 办公、PPT、文档、Agent 协作 | 蓝紫云白或薄荷银灰；宽块字与少量任务标签 |
+| B09 矩阵控制室 | 重复任务格阵、一个被强调的活动单元、控制台 | 多 Agent 调度、批处理、排错与知识库 | 深墨青电光或紫青；短大字，重点格最亮 |
+| B10 立体概念 | 一个大 3D 概念物、剖面或尺度差解释关系 | AI 能力、Token、检索、图像修复和系统原理 | 白底黄黑或深靛珊瑚；重字与清楚对象轮廓 |
+
+
+默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。风格规格与样张分别记录，不表示 30 个分支均已实测。
+
+[YouTube / 哔哩哔哩封面调研与来源](cover-craft/references/ai-creator-cover-research.md)
 
 ## 安装
 

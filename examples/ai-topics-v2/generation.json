@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-06",
+  "skill_version": "2.6.0",
+  "provider": "Codex built-in image generation tool",
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "model_id_note": "Concrete model version is controlled by the host and was not exposed in tool results.",
+  "fictional_video_topics": true,
+  "illustrative_interfaces_and_results": true,
+  "original_images_copied_without_modification": true,
+  "images": [
+    {
+      "id": "01-ai-office",
+      "topic": "AI 办公挑战",
+      "video_title": "把一天的重复工作交给 AI，它能接住多少？",
+      "description": "体验让 AI 接手邮件、日程、文档整理等重复工作，观察适合交给它的任务。",
+      "style": "B01 黄蓝冲击 · 柠檬紫墨延展",
+      "branch": "B01-A",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "image": "images/01-ai-office.png",
+      "prompt": "prompts/01-ai-office.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "655c895572a9a3df58dcda16236b1990c5ea58bcb82d112fa3b16e766f465d88",
+      "original_virtual_person": true,
+      "current_round_office_reused": true
+    },
+    {
+      "id": "02-ai-ppt",
+      "topic": "AI 做 PPT",
+      "video_title": "把一页杂乱笔记交给 AI，能做出什么样的演示文稿？",
+      "description": "体验 AI 把杂乱笔记整理成结构清楚的演示文稿，封面用输入草稿和成套幻灯片展示转化。",
+      "style": "B08 未来办公",
+      "branch": "B08-C",
+      "people": "无人物",
+      "aspect_ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "image": "images/02-ai-ppt.png",
+      "prompt": "prompts/02-ai-ppt.txt",
+      "edit_prompt": "prompts/02-ai-ppt-edit-01.txt",
+      "generation_iterations": 2,
+      "sha256": "68764a07cdc8225759535af86660badadc86df3e5c310a37047934c864501d2b",
+      "original_virtual_person": false,
+      "current_round_office_reused": false
+    },
+    {
+      "id": "03-ai-paper",
+      "topic": "AI 读论文",
+      "video_title": "论文太长，怎么让 AI 帮你抓重点？",
+      "description": "演示用 AI 从长论文里整理问题、方法与结论；本轮论文页为无字示意，不虚构具体研究结果。",
+      "style": "B03 白橙清单",
+      "branch": "B03-A",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "image": "images/03-ai-paper.png",
+      "prompt": "prompts/03-ai-paper.txt",
+      "edit_prompt": "prompts/03-ai-paper-edit-01.txt",
+      "generation_iterations": 2,
+      "sha256": "5d1a3b396aac83bfc4d23c84abf6004e9543ecee291c2bd9ed90d5859a2fc109",
+      "original_virtual_person": true,
+      "current_round_office_reused": false
+    },
+    {
+      "id": "04-ai-restore",
+      "topic": "AI 修复照片",
+      "video_title": "一张模糊老照片，AI 能修到什么程度？",
+      "description": "以模糊老照片修复为 AI 图像能力示例。照片内容采用花瓶静物，前后效果为生成的示意画面。",
+      "style": "B10 立体概念",
+      "branch": "B10-C",
+      "people": "无人物",
+      "aspect_ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "image": "images/04-ai-restore.png",
+      "prompt": "prompts/04-ai-restore.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "c826bfada362594f35f1b88006c6c255aa29ad0d02325a791604e15fc67d2c2e",
+      "original_virtual_person": false,
+      "current_round_office_reused": false
+    },
+    {
+      "id": "05-ai-code",
+      "topic": "AI 编程",
+      "video_title": "只说需求，AI 能把小工具做到哪一步？",
+      "description": "体验用自然语言描述番茄计时器需求，让 AI 编程工具逐步实现一个小工具，封面展示需求到原型的过程。",
+      "style": "B06 发布会实测",
+      "branch": "B06-B",
+      "people": "原创虚拟人物",
+      "aspect_ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "image": "images/05-ai-code.png",
+      "prompt": "prompts/05-ai-code.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "6df217de1f9b30f6d381cd455d3546d397c116e6714eed770ffdc8962057bc74",
+      "original_virtual_person": true,
+      "current_round_office_reused": false
+    },
+    {
+      "id": "06-ai-models",
+      "topic": "AI 多模型对比",
+      "video_title": "同一道题，不同 AI 的回答差在哪？",
+      "description": "对同一道提问比较两款 AI 的回答组织方式，封面为中立的比较示意，不给出虚构胜负。",
+      "style": "B07 双阵营对比",
+      "branch": "B07-A",
+      "people": "无人物",
+      "aspect_ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551222,
+      "image": "images/06-ai-models.png",
+      "prompt": "prompts/06-ai-models.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "47a89c4041d03eafb8b8334edb6c503a80d0de0f093d7d6de959781778db0746",
+      "original_virtual_person": false,
+      "current_round_office_reused": false
+    }
+  ]
+}

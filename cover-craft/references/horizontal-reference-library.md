@@ -23,7 +23,7 @@
 | R13-09 | 白底产品聚焦 | R13 第二行第 4 张 |
 | R13-10 | 微缩岛屿世界 | R13 第二行第 5 张 |
 
-这 14 项是独立参考档案，部分风格与五种基础风格重叠，不另计为 14 种基础风格。基础风格和 15 个分支见 [style-catalog.md](style-catalog.md)；原来 17 项参考及延展见 [user-reference-library.md](user-reference-library.md)。
+这 14 项是独立参考档案，部分风格与十种 AI 基础风格重叠，不另计为 14 种基础风格。基础风格和 30 个分支见 [style-catalog.md](style-catalog.md)；原来 17 项参考及延展见 [user-reference-library.md](user-reference-library.md)。
 
 各档案中的配色是原图观察，不是固定限制。「保留与调整」列出可借用的锚点，可选其中两三项；用户允许自由改色时可以更换颜色，保留标题、层次或对象关系即可。另见 [color-palettes.md](color-palettes.md)，不因本库写了蓝黄就要求每次都蓝黄。
 

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-06",
+  "method": "实际查看生成工具返回的完整图片，并用图片查看工具检查六张 320px 宽缩略图；读取实际尺寸并验证原图副本字节相同。",
+  "images": [
+    {
+      "id": "01-ai-office",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "uncertain",
+      "observation": "黄紫大字清楚，人物动作与四个桌面机械臂对应办公任务；背景纸张细节较小，无可辨认的额外短语。",
+      "corrections": []
+    },
+    {
+      "id": "02-ai-ppt",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "pass",
+      "observation": "主标题逐字正确；三张成稿与草稿构成明确转化，清理后草稿只含色块、箭头和灯泡图形，没有人物。",
+      "corrections": [
+        {
+          "round": 1,
+          "change": "仅清理背景纸张上的字母或杂字，改成无字线条和图形",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "03-ai-paper",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "pass",
+      "observation": "主标题与问题、方法、结论三标签逐字清楚；原创人物与指向动作合理，清理后论文为灰色线条示意。",
+      "corrections": [
+        {
+          "round": 1,
+          "change": "仅清理背景纸张上的字母或杂字，改成无字线条和图形",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "id": "04-ai-restore",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "pass",
+      "observation": "主标题正确；模糊与清晰的同类花瓶静物、扫描镜体现修复主题，未出现人物或胜负标记。",
+      "corrections": []
+    },
+    {
+      "id": "05-ai-code",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "pass",
+      "observation": "主标题正确；人物、需求卡、代码线条和计时器原型呼应，界面无字示意，不呈现量化结果。",
+      "corrections": []
+    },
+    {
+      "id": "06-ai-models",
+      "text": "pass",
+      "topic_alignment": "pass",
+      "people": "pass",
+      "aspect_ratio": "pass",
+      "thumbnail": "pass",
+      "simulated_feed": "not_checked",
+      "background_text": "pass",
+      "observation": "主标题及 ChatGPT、Claude 名称清楚；共同输入连接两方，视觉权重接近；无人物、排名或评分。",
+      "corrections": []
+    }
+  ],
+  "simulated_feed_note": "已生成可离线查看的列表模拟页面，本轮未打开页面，不能声称已完成浅深底与遮挡检查。",
+  "quality_note": "验收检查内容、文字与画面约束，不代表用户审美认可或点击率预测。"
+}
