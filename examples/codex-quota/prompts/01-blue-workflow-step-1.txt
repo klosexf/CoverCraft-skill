@@ -1,0 +1,26 @@
+Use case: ads-marketing.
+Asset type: one finished Chinese video thumbnail, portrait 3:4 canvas. Make exactly one clean standalone cover image, intended final dimensions 1080×1440. Do not make a collage or multiple panels of cover variants.
+
+Input images: Image 1 is ONLY a style reference for the blue-black software-tutorial cover, white/yellow bold typography, dramatic perspective and foreground computer. Image 2 is ONLY a secondary style reference for dark blue background, glowing blue edges and an impressive large software device. Both are references for creating a NEW original cover, not edit targets. Do not copy any people, original headlines, platform hearts, numbers, overlays, logos, screenshots or creator marks from these references.
+
+Video content: People may burn through Codex allowance by clarifying requirements and changing direction during implementation. The practical workflow is first discuss the project in a ChatGPT conversation, settle scope and tradeoffs, turn the agreed plan into a development brief with acceptance criteria, then give it to Codex to inspect the project, implement and test. This can reduce back-and-forth and rework, but there is no promised percentage of quota savings; bringing chat context still uses tokens. The cover should visually explain "first discuss, then develop", not two independent quota accounts, unlimited use, free credits, or any guaranteed saving.
+
+People: absolutely NO people, faces, hands, silhouettes, human characters, avatars or mascots. Objects and software panels carry the whole composition.
+
+Visual concept: Upper part has a huge tightly arranged title occupying about the top third. Lower half has two impressive floating software devices/windows in perspective, with a clearly readable workflow from a ChatGPT planning window at upper-left to a larger Codex coding window/laptop at lower-right. A luminous cyan directional arrow and a crisp document/brief icon connect them. Planning window contains only a few large clean checklist elements for scope, decisions and acceptance; coding window has abstract colored code lines and check marks, a conceptual illustration not a purported actual product screenshot. Make the foreground computer and windows BIG and visually integrated, filling the area where a person was in Image 1. Use controlled depth, strong shadows, edge lighting, subtle diagonal blue light trails. Keep it confident and polished, similar to a successful software creator's thumbnail, not a generic corporate slide.
+
+Palette and material: deep navy and near-black background; saturated electric blue and cyan edge light; white and bright yellow titles with heavy dark outline and subtle dimensional shadow. White/light planning panel, darker coding panel, with limited green accent for checklist confirmations. Background stays subdued behind typography, no clutter or many tiny labels. Keep all meaningful words and objects inside a 5% inset so they survive platform display.
+
+Text — render these Chinese and Latin strings accurately, with no additional slogans:
+Main title line 1: "Codex 额度"
+Main title line 2: "用太快？"
+Subtitle on a clean white slanted banner: "先聊清楚，再动手"
+Planning window heading: "ChatGPT"
+Planning stage label: "先讨论"
+Small planning items, only if clearly readable: "需求" "取舍" "验收"
+Coding window heading: "Codex"
+Coding stage label: "再开发"
+
+Typography: exceptionally large heavy Chinese sans-serif, compact energetic but readable. "Codex 额度" predominantly white, "用太快？" vivid yellow; thick dark outline and slight slant consistent with the reference. Subtitle black on white. The main title must be the first thing seen at 320px-wide thumbnail size, then the workflow/large devices. Do not let the smaller window labels compete with the main title.
+
+Constraints: Generate the whole cover and all title text with the image model. Portrait width-to-height ratio exactly 3:4. Single finished full-bleed thumbnail, no surrounding mockup, no border outside the image. No likes, engagement counts, video player buttons, platform bottom navigation, watermark, signature, money, coins, battery/quota meter, saving percentage, or copied reference faces.

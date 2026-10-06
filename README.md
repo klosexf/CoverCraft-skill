@@ -6,7 +6,7 @@ A video-cover skill for AI agents. Turn a script, video summary, or visual brief
 
 ## 真实 AI 生图案例
 
-以下 **6 张实际封面**对应不同 AI 用途，包含 3 张原创人物封面、3 张无人物封面，横竖版各 3 张。选题为虚构案例；工具界面、论文、修复结果和模型回答为示意。点击图片查看 PNG 原图。
+本页共展示 **16 张实际生成的 AI 主题封面**，可点击图片查看 PNG 原图。先展示最近的 6 个不同 AI 选题：3 张原创人物、3 张无人物，横竖版各 3 张；随后展示另外 10 张 AI 相关案例。其中六个新选题为虚构案例；工具界面、论文、修复结果和模型回答为示意。
 
 ### 横版 · 16:9
 
@@ -23,6 +23,36 @@ A video-cover skill for AI agents. Turn a script, video summary, or visual brief
 | 原创虚拟人物 | 原创虚拟人物 | 无人物 |
 
 [查看六个选题、设计依据和实际提示词](examples/ai-topics-v2/README.md)。这六个案例展示了六种风格，完整基础风格库共 10 种，30 个分支不代表均已实测。
+
+### 更多 AI 风格案例
+
+以下 6 张为此前生成的 AI 工作搭档、资料整理、知识库及 AI 开发流程案例，包含原创虚拟人物与无人物版本。标注的风格名称用于说明本张视觉方向；参考延展不另计为基础风格。
+
+| AI 工作搭档 · 黄蓝冲击 | AI 知识库 · 彩色漫画 | ChatGPT → Codex · 冷暖接力 |
+| --- | --- | --- |
+| <a href="examples/images/01-yellow-blue-presenter.png"><img src="examples/images/01-yellow-blue-presenter.png" alt="AI 工作搭档：黄蓝冲击，原创虚拟人物" width="280"></a> | <a href="examples/images/04-color-comic-no-person.png"><img src="examples/images/04-color-comic-no-person.png" alt="AI 知识库：彩色漫画，无人物" width="280"></a> | <a href="examples/images/06-cold-warm-presenter.png"><img src="examples/images/06-cold-warm-presenter.png" alt="ChatGPT 到 Codex：冷暖接力，原创虚拟人物" width="280"></a> |
+| 横版 · 原创人物 | 横版 · 无人物 | 横版 · 原创人物 |
+
+| AI 开发流程 · 蓝黑科技 | AI 资料整理 · 白橙清单 | AI 开发需求 · 极简编辑 |
+| --- | --- | --- |
+| <a href="examples/images/02-blue-tech-no-person.png"><img src="examples/images/02-blue-tech-no-person.png" alt="AI 开发流程：蓝黑科技，无人物" width="280"></a> | <a href="examples/images/03-white-orange-presenter.png"><img src="examples/images/03-white-orange-presenter.png" alt="AI 资料整理：白橙清单，原创虚拟人物" width="280"></a> | <a href="examples/images/05-minimal-no-person.png"><img src="examples/images/05-minimal-no-person.png" alt="AI 开发需求：极简编辑，无人物" width="280"></a> |
+| 竖版 · 无人物 | 竖版 · 原创人物 | 竖版 · 无人物 |
+
+[查看这组案例的内容与生成提示词](examples/README.md)。
+
+### Codex 额度主题 · 四种视觉方案
+
+同一主题采用深蓝设备工作流、冷暖接力、清爽任务清单与漫画对照。均为无人物竖版；冷暖接力采用修改后的副标题「省额度小技巧」。
+
+| 蓝黑科技 · 先讨论再开发 | 冷暖接力 · 省额度小技巧 |
+| --- | --- |
+| <a href="examples/codex-quota/images/01-blue-workflow.png"><img src="examples/codex-quota/images/01-blue-workflow.png" alt="蓝黑科技 · 先讨论再开发" width="320"></a> | <a href="examples/codex-quota/images/02-cold-warm-quota-tip.png"><img src="examples/codex-quota/images/02-cold-warm-quota-tip.png" alt="冷暖接力 · 省额度小技巧" width="320"></a> |
+
+| 清爽清单 · 开发说明 | 彩色漫画 · 两种开发方式 |
+| --- | --- |
+| <a href="examples/codex-quota/images/03-clean-checklist.png"><img src="examples/codex-quota/images/03-clean-checklist.png" alt="清爽清单 · 开发说明" width="320"></a> | <a href="examples/codex-quota/images/04-comic-comparison.png"><img src="examples/codex-quota/images/04-comic-comparison.png" alt="彩色漫画 · 两种开发方式" width="320"></a> |
+
+[查看四张原图与实际提示词](examples/codex-quota/README.md)。
 
 ## 能做什么
 

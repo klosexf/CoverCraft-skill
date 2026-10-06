@@ -1,0 +1,70 @@
+{
+  "date_added": "2026-10-06",
+  "source": "Previously generated local covers in this conversation",
+  "provider": "Codex built-in image generation tool",
+  "model_id": null,
+  "images": [
+    {
+      "id": "01-blue-workflow",
+      "label": "蓝黑科技 · 先讨论再开发",
+      "image": "images/01-blue-workflow.png",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "people": "无人物",
+      "prompts": [
+        "prompts/01-blue-workflow-step-1.txt"
+      ],
+      "sha256": "13b4140ff9a89fa81b3215a7b1dce2f282637dec8b85983ee667c4ecc7e5c0d4",
+      "copied_without_modification": true
+    },
+    {
+      "id": "02-cold-warm-quota-tip",
+      "label": "冷暖接力 · 省额度小技巧",
+      "image": "images/02-cold-warm-quota-tip.png",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "people": "无人物",
+      "prompts": [
+        "prompts/02-cold-warm-quota-tip-step-1.txt",
+        "prompts/02-cold-warm-quota-tip-step-2.txt",
+        "prompts/02-cold-warm-quota-tip-step-3.txt"
+      ],
+      "sha256": "4bddc22abb8254c2bc20d3dfe988fa0fd296ab5909eae69378c4410e7187203c",
+      "copied_without_modification": true
+    },
+    {
+      "id": "03-clean-checklist",
+      "label": "清爽清单 · 开发说明",
+      "image": "images/03-clean-checklist.png",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "people": "无人物",
+      "prompts": [
+        "prompts/03-clean-checklist-step-1.txt"
+      ],
+      "sha256": "f045bab8b29ed4937d84f03aadef0e5f0304b0a5c14c0c993c17b164af74c834",
+      "copied_without_modification": true
+    },
+    {
+      "id": "04-comic-comparison",
+      "label": "彩色漫画 · 两种开发方式",
+      "image": "images/04-comic-comparison.png",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "people": "无人物",
+      "prompts": [
+        "prompts/04-comic-comparison-step-1.txt"
+      ],
+      "sha256": "a00f0466dc19b654c7fd17e9492899ea2edc6846a414379463d2810745841ac8",
+      "copied_without_modification": true
+    }
+  ]
+}

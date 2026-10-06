@@ -1,0 +1,5 @@
+Use case: precise-object-edit.
+Image 1 is the finished portrait cover to edit. Make a small cleanup of unrequested secondary markings, preserving the entire design.
+Remove ALL Chinese writing from the four book spines at lower-left so they are plain dark books with subtle gold lines only. Remove ALL tiny pseudo-letter labels in the coding window's left sidebar, replacing each with clean non-text interface bars. Replace the distorted white glyph in the turquoise square beside "ChatGPT" with a simple clean white speech-bubble icon, not a brand logo. These are secondary-marking cleanups only.
+Do NOT change the main title "Codex 额度" / "用太快？", the subtitle "先聊清楚，再动手", or the meaningful labels "ChatGPT", "先讨论", "开发说明", "Codex", "再开发". Keep the notebook cover text "开发说明".
+Preserve the same cold teal and warm coral lighting, composition, objects, large typography, one-way arrow, paper, laptop, background, depth, no-person mode and exact portrait 3:4 aspect ratio. No humans, faces, hands, logos, new slogans, new labels, watermark or borders. Output one complete polished cover; no before-after comparison.

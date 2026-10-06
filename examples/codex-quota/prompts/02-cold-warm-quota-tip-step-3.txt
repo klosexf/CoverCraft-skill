@@ -1,0 +1,4 @@
+Use case: text-localization / precise text replacement.
+Image 1 is the cover to edit. Replace ONLY the dark Chinese subtitle on the cream rounded horizontal banner directly below the large orange "用太快？" title. The existing banner reads "先聊清楚，再动手". The new text must be EXACTLY "省额度小技巧" (six Chinese characters: 省 额 度 小 技 巧), with no quotation marks, no punctuation and no extra characters.
+Keep the same cream banner shape, position, slight tilt, dark teal bold font treatment, visual weight and centered text. Fit the shorter phrase beautifully into the same banner.
+Preserve every other element: main title "Codex 额度" and "用太快？"; ChatGPT and "先讨论"; both "开发说明" labels; Codex and "再开发"; all books, desk, arrow, panels, laptop, shadows, framing, teal/coral colors and lighting. No layout changes, additions or removals. No people. Maintain exactly the original portrait 3:4 aspect ratio and full-bleed cover. Output one revised image, not a comparison.
