@@ -1,0 +1,676 @@
+{
+  "review_date": "2026-10-06",
+  "creator_count": 20,
+  "sample_count": 41,
+  "platform_counts": {
+    "YouTube": 14,
+    "Bilibili": 6
+  },
+  "method": "Public channel video listings or Bilibili public video metadata establish authorship; actual thumbnail pixels reviewed. Counts refer to distinct creator accounts, not corporate ownership, styles, or subscriber ranking.",
+  "creators": [
+    {
+      "handle": "mreflow",
+      "creator": "Matt Wolfe",
+      "account_id": "UChpleBmo18P08aKCIgti38g",
+      "account_url": "https://www.youtube.com/@mreflow/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "dDgncbBAA0c",
+          "title": "AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know",
+          "source_url": "https://www.youtube.com/watch?v=dDgncbBAA0c",
+          "thumbnail_url": "https://i.ytimg.com/vi/dDgncbBAA0c/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD0oJvO1FMk14vLkg8r1pTV_aZAFw",
+          "id": "C01-S1",
+          "observation": "紫黑背景、白金立体短标题；右侧大人像，左侧三个工具标识大小有层级；紫色轮廓光分离主体，皇冠突出一个标识。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "d3000eb9acd0c62ef7a22916d313eada01b8491a80e185a39e95946842683d24"
+        },
+        {
+          "video_id": "aDpIra7NFuE",
+          "title": "AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!",
+          "source_url": "https://www.youtube.com/watch?v=aDpIra7NFuE",
+          "thumbnail_url": "https://i.ytimg.com/vi/aDpIra7NFuE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDLjog9eqWBm89AlH2TZPNv6iKVpg",
+          "id": "C01-S2",
+          "observation": "顶端白黄标题，中央坐姿人像；四周工具标识采用不同材质与大小，桌面提供落点，背景保持深色。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "5eceeb19f6cfc2190743ef07d4bf000e479ee767aa8d453739a661f13c7bece5"
+        },
+        {
+          "title": "Codex vs Claude Code: I Tested OpenAI’s New Codex App",
+          "source_url": "https://www.youtube.com/watch?v=4qIRAtw4Ktg",
+          "thumbnail_url": "https://i.ytimg.com/vi/4qIRAtw4Ktg/maxresdefault.jpg",
+          "video_id": "4qIRAtw4Ktg",
+          "id": "C01-S3",
+          "observation": "中央人像、两侧代码界面与工具名；底部白色短句，重点词以珊瑚色底条强调，紫色幕布统一两区。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "362b6195700e7f886f9a1c2c2ca0077324cd1c22594c77926572d4154ff71c22"
+        }
+      ],
+      "id": "C01",
+      "direction": "资讯聚焦 / 工具对比",
+      "styles": "B01、B06、B07、B10",
+      "adaptation": "把工具标识做成清楚的主次关系；资讯多工具可围绕一个主对象，比较则两方同等清晰。无人物改用主设备或本期成果，皇冠与胜负判断不自动继承。"
+    },
+    {
+      "handle": "aiadvantage",
+      "creator": "The AI Advantage",
+      "account_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
+      "account_url": "https://www.youtube.com/@aiadvantage/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "E3xKmcHBOzY",
+          "title": "How ChatGPT Dots Can Change Your Life in 4 Minutes",
+          "source_url": "https://www.youtube.com/watch?v=E3xKmcHBOzY",
+          "thumbnail_url": "https://i.ytimg.com/vi/E3xKmcHBOzY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAO1M95cG6HwoR6yZJvdUBZgOKfJw",
+          "id": "C02-S1",
+          "observation": "云层中三个软毛角色，中央人物持电脑；顶端工具名，底部深色时间标签；紫、绿、黄区分对象。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "49fabefd47d7520c2fa1dd3a2695ff6dbb089f1149ff03a8bb52221ea30969c6"
+        },
+        {
+          "video_id": "db1KRJQEt8w",
+          "title": "ChatGPT Dots: How I Spent My First 24 Hours",
+          "source_url": "https://www.youtube.com/watch?v=db1KRJQEt8w",
+          "thumbnail_url": "https://i.ytimg.com/vi/db1KRJQEt8w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCd41kdC0uAqXQH9g12taiMYez5Kw",
+          "id": "C02-S2",
+          "observation": "左侧人像与彩色发光工具名，右侧放大的浅色软件界面；红箭头只指向一个入口，角落角色承担辅助解释。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "eca60cbae9a068332453b94aa8f83a03e6d56fc40c51a2da623f9e47e7f74d94"
+        },
+        {
+          "title": "ChatGPT vs. Claude: Which Should You Use in 2026?",
+          "source_url": "https://www.youtube.com/watch?v=y1I5VAGF3Qs",
+          "thumbnail_url": "https://i.ytimg.com/vi/y1I5VAGF3Qs/maxresdefault.jpg",
+          "video_id": "y1I5VAGF3Qs",
+          "id": "C02-S3",
+          "observation": "黑底，两侧巨大绿与陶橙工具标识，中间人像；底部白色疑问短标题，装饰少。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "65139e9d3e6dacff62f6ee39010fda43aa4dbb84684669e3dcbbaceb9a40d3e8"
+        }
+      ],
+      "id": "C02",
+      "direction": "拟物 Agent / 界面演示 / 中立对比",
+      "styles": "B04、B06、B07、B10",
+      "adaptation": "拟物角色可表示不同 Agent 分工，界面讲解只强调一个入口，比较保留一个共同问题。无人物时使用任务卡、工具与成果，严格无人物还须去掉脸、手和拟人角色。"
+    },
+    {
+      "handle": "WesRoth",
+      "creator": "Wes Roth",
+      "account_id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
+      "account_url": "https://www.youtube.com/@WesRoth/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "9CGsq3A590Q",
+          "title": "OpenAI's employee's WARNING",
+          "source_url": "https://www.youtube.com/watch?v=9CGsq3A590Q",
+          "thumbnail_url": "https://i.ytimg.com/vi/9CGsq3A590Q/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCAaWO0KDS1WV2-O6SR-kReOCeSnw",
+          "id": "C03-S1",
+          "observation": "右侧极近人脸与合掌动作；左侧倾斜白纸承载黑色衬线短句，一处红色划线，黑底与白色工具标识。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "8b49f74793124bd1a85ee4d5f24c3570c3c0c9368fd407a836c9df5b529deb0e"
+        },
+        {
+          "video_id": "Sy1Fjf-H-Qg",
+          "title": "GEMINI 4 is nuts...",
+          "source_url": "https://www.youtube.com/watch?v=Sy1Fjf-H-Qg",
+          "thumbnail_url": "https://i.ytimg.com/vi/Sy1Fjf-H-Qg/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAGgvEQjDobeJi71x8gbA8fjdjRJg",
+          "id": "C03-S2",
+          "observation": "左侧黄底黑字的工具名和巨大版本数字，彩色标识居中，右侧近景人像带黄色轮廓。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "34ca12d7daa51aaf2ce8fd065bf610644b305b964ebc34691cb3f0bde65c2cb4"
+        }
+      ],
+      "id": "C03",
+      "direction": "近景情绪 / 高对比关键词",
+      "styles": "B01、B05、B06",
+      "adaptation": "提炼大字、纸张、肖像之间的尺度差及单一重点色。情绪依照本期内容选择，不把原图的灾难判断或惊恐表达当成所有 AI 主题的默认语气。"
+    },
+    {
+      "handle": "matthew_berman",
+      "creator": "Matthew Berman",
+      "account_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "account_url": "https://www.youtube.com/@matthew_berman/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "9eS6X_-h9gc",
+          "title": "28 Days of OpenAI",
+          "source_url": "https://www.youtube.com/watch?v=9eS6X_-h9gc",
+          "thumbnail_url": "https://i.ytimg.com/vi/9eS6X_-h9gc/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCQVOQYmiOvOLgrBjq2FkmdkVZUcg",
+          "id": "C04-S1",
+          "observation": "左侧近景人物，右侧深色社交帖资料截图；没有另加大型口号，内容截图承担信息，但小字较多。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "9a5778092b3107e3243eaab7b35bded05a28b60221916bc55d83b882665382b4"
+        },
+        {
+          "video_id": "GQ82KJvpm5I",
+          "title": "Cameron Berg: AI Torture, Blackmail, Robot Empathy, and more!",
+          "source_url": "https://www.youtube.com/watch?v=GQ82KJvpm5I",
+          "thumbnail_url": "https://i.ytimg.com/vi/GQ82KJvpm5I/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDKESCdnLxrx8hk1bteZubjUwO_xQ",
+          "id": "C04-S2",
+          "observation": "两位人物各占一侧；左侧橙红、右侧黑色，以白色斜线分区；没有额外标题或工具堆叠。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "5c24f6765d674b1a12cd19145c60f19ac9a68f20b2183106a71ffe06cbc675eb"
+        }
+      ],
+      "id": "C04",
+      "direction": "资料解读 / 双人访谈",
+      "styles": "B05、B06、B07",
+      "adaptation": "保留“资料+解读者”和“两个参与者”的关系；证据截图放大一个关键片段，避免满屏小字。无人物用两张观点/证据卡；访谈采用本期实际嘉宾资料或原创角色。"
+    },
+    {
+      "handle": "1littlecoder",
+      "creator": "1littlecoder",
+      "account_id": "UCpV_X0VrL8-jg3t6wYGS-1g",
+      "account_url": "https://www.youtube.com/@1littlecoder/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "XbaJ1FFsO6M",
+          "title": "GPT 6 Astra in 11 mins!",
+          "source_url": "https://www.youtube.com/watch?v=XbaJ1FFsO6M",
+          "thumbnail_url": "https://i.ytimg.com/vi/XbaJ1FFsO6M/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDLjWqQM9eFwdflVM53PHMz36aIbA",
+          "id": "C05-S1",
+          "observation": "左侧男性肖像，右侧白色巨大模型名，版本下有胶囊形副标签；深黑底、蓝白轮廓光、细边框。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "8f72c708ce0d58be20bdbed9576797c551d6a71559e5a7471d3ff06060801142"
+        },
+        {
+          "video_id": "7JIrJyxF0Ho",
+          "title": "Minimax H3 Max feels ILLEGAL and FAST!",
+          "source_url": "https://www.youtube.com/watch?v=7JIrJyxF0Ho",
+          "thumbnail_url": "https://i.ytimg.com/vi/7JIrJyxF0Ho/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAgM0Qh-wjDJvVl9JvQe6weFeegew",
+          "id": "C05-S2",
+          "observation": "左侧白黄两层模型名，右侧黑紫巨龙与蓝紫能量纹理；底部未放复杂说明，角落只有小标识。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "bb44a0f63af23f1d8ed75591dfc97d290efbb0735d0c18f9f87ad855beaaf493"
+        }
+      ],
+      "id": "C05",
+      "direction": "模型名称聚焦 / 概念隐喻",
+      "styles": "B02、B06、B10",
+      "adaptation": "工具名与版本先建立层级，概念物只选一个且能解释本期内容。无人物用设备或模型卡；不继承原图公众人物身份，也不默认用龙表达更强性能。"
+    },
+    {
+      "handle": "SkillLeapAI",
+      "creator": "Skill Leap AI",
+      "account_id": "UCwSozl89jl2zUDzQ4jGJD3g",
+      "account_url": "https://www.youtube.com/@SkillLeapAI/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "XQtvloPXap4",
+          "title": "Google Gemini Skills Are Finally Here",
+          "source_url": "https://www.youtube.com/watch?v=XQtvloPXap4",
+          "thumbnail_url": "https://i.ytimg.com/vi/XQtvloPXap4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlHB8L1pu9FNpNW8nJAWD3x_876A",
+          "id": "C06-S1",
+          "observation": "中央戴帽人像，背后巨大白色工具名；黄黑功能横条位于前景；黄轮廓、红色角标和少量白色图形。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "949793ee85354e54f67a6a661688adf9a097fbb5baf16304c3a264af929cee16"
+        },
+        {
+          "video_id": "gfh6l3DxHK0",
+          "title": "The Biggest ChatGPT Update Yet: Meet dots",
+          "source_url": "https://www.youtube.com/watch?v=gfh6l3DxHK0",
+          "thumbnail_url": "https://i.ytimg.com/vi/gfh6l3DxHK0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDHnzaBRK5nvBGiHQA4KByVhRzJFQ",
+          "id": "C06-S2",
+          "observation": "左侧白色工具名与青色功能名，右侧指向标题的人物；深蓝背景，黄色只强调一句短用途。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "480e65b09372cf372cdc5f70e9c492626c14621c695488ef65e36cffe3cf95be"
+        }
+      ],
+      "id": "C06",
+      "direction": "功能发布 / 单入口教学",
+      "styles": "B01、B02、B06",
+      "adaptation": "工具名、功能名、用途形成三层，强调色给功能或关键词。无人物用功能卡和工具图标承接动作；角标仅在本期确属新功能时使用。"
+    },
+    {
+      "handle": "TheAiGrid",
+      "creator": "TheAIGRID",
+      "account_id": "UCbY9xX3_jW5c2fjlZVBI4cg",
+      "account_url": "https://www.youtube.com/@TheAiGrid/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "2dWC2vkIzAc",
+          "title": "OpenAI Is Building Past GPT-8… This Is Getting Serious",
+          "source_url": "https://www.youtube.com/watch?v=2dWC2vkIzAc",
+          "thumbnail_url": "https://i.ytimg.com/vi/2dWC2vkIzAc/hq720.jpg?sqp=-oaymwEbCNAFEJQDSFryq4qpAw0IARUAAIhCGAG4AvcY&rs=AOn4CLCh8SVwv0D0z3pUfjFfxCorzy7H7w",
+          "id": "C07-S1",
+          "observation": "深黑发布舞台，巨大机械侧脸在左，绿色发光版本在右，底部小演示者与观众形成尺度差。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "49c88c9a0e99053b45ccc89f1860d4c8747c027cd60fcd092526ab6ecd9f3d0b"
+        },
+        {
+          "video_id": "FfAYjDA35gY",
+          "title": "Googles New Gemini 4 Argon is Now The Worlds Smartest AI",
+          "source_url": "https://www.youtube.com/watch?v=FfAYjDA35gY",
+          "thumbnail_url": "https://i.ytimg.com/vi/FfAYjDA35gY/hq720.jpg?sqp=-oaymwEbCNAFEJQDSFryq4qpAw0IARUAAIhCGAG4AvcY&rs=AOn4CLC97eJ3MLF7x6ZugRBgG9VM5Aj1Yw",
+          "id": "C07-S2",
+          "observation": "同样舞台结构变为蓝白配色：左侧机械头像，右侧工具名与版本，底部人物很小。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "a9bc0f50ba4c4ed12aa752561a238a1d9b9e811fee809302ecf478bcbc524349"
+        }
+      ],
+      "id": "C07",
+      "direction": "舞台概念 / 大型模型主视觉",
+      "styles": "B02、B06、B10",
+      "adaptation": "借鉴巨物、文字与展示台的尺度差及同结构换主题色。生成场景应说明是概念示意；不把合成舞台当真实发布现场，无人物版移除演示者、观众和人形机器人。"
+    },
+    {
+      "handle": "theAIsearch",
+      "creator": "AI Search",
+      "account_id": "UCIgnGlGkVRhd4qNFcEwLL4A",
+      "account_url": "https://www.youtube.com/@theAIsearch/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "h5zkzon0gM4",
+          "title": "The AI unlock has begun",
+          "source_url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
+          "thumbnail_url": "https://i.ytimg.com/vi/h5zkzon0gM4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC0_sA18R-beZ8s1rVccEerEFCiFg",
+          "id": "C08-S1",
+          "observation": "顶部蓝色条配巨大白字，底部延续蓝框；中间为游戏视角与场景混合成果，主物件在中央，没有主持人照片。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "b22aa314b2e4e2957d33f26cfd16727b855d08cfcc3522b42064db25a6e9569d"
+        },
+        {
+          "video_id": "lHmZoRHMZyM",
+          "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
+          "source_url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
+          "thumbnail_url": "https://i.ytimg.com/vi/lHmZoRHMZyM/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDmbLI5hdhAao947MfuImL8CtnI-A",
+          "id": "C08-S2",
+          "observation": "同样蓝色上下框；中部两区并置神经元形象与运动的人形序列，短白标题横跨上方。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "04650c2ac494ea1e32ea6e97a3e25098ef13cc8587a6ebd83ce2608ed485dcd7"
+        }
+      ],
+      "id": "C08",
+      "direction": "成果窗口 / 统一蓝色标题带",
+      "styles": "B02、B04、B05",
+      "adaptation": "用固定标题带串联不同 AI 成果；中部只展示本期一个成果或两项能力对照。下次内容是编程、图像或办公就替换相应成果，不照搬游戏/场景题材。严格无人物须去掉人形序列。"
+    },
+    {
+      "handle": "aiexplained-official",
+      "creator": "AI Explained",
+      "account_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "account_url": "https://www.youtube.com/@aiexplained-official/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "_rtp1XzaP6Q",
+          "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
+          "source_url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
+          "thumbnail_url": "https://i.ytimg.com/vi/_rtp1XzaP6Q/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAeWvbU4RnFv69XsPCt8eWdsxLyfQ",
+          "id": "C09-S1",
+          "observation": "纯白底，两位人物在左右；中央黑色凝缩文字，上下粗横线夹住主观点，几乎无装饰。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "3b74cc661708034142a3a85fc4dc9850ea14eef213dc45739ef343129ae38d1b"
+        },
+        {
+          "video_id": "R9momwXV9w4",
+          "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+          "source_url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+          "thumbnail_url": "https://i.ytimg.com/vi/R9momwXV9w4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC5M22d2vptUM9kv4HI5uhJy7PBZg",
+          "id": "C09-S2",
+          "observation": "继续白底两人物结构；中央多行黑色问题，横线限定文字组；工具与版本在文字中交代。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "e27556a2b1ee229d9184423e13a3f50176297b5c3f41fd54580cda2b50375f51"
+        }
+      ],
+      "id": "C09",
+      "direction": "白底观点 / 编辑式问题",
+      "styles": "B05、B07",
+      "adaptation": "观点内容可走高留白编辑式结构；凝缩字与横线保持简洁。无人物用资料页或概念物，长中文拆为两到三行；引语与研究结论必须来自本期材料。"
+    },
+    {
+      "handle": "MattVidPro",
+      "creator": "MattVidPro",
+      "account_id": "UC5Wz4fFacYuON6IKbhSa7Zw",
+      "account_url": "https://www.youtube.com/@MattVidPro/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "NQ4Aoe8wTC0",
+          "title": "OpenAI's Answer to Opus 5.5? DevDay 2026 Reaction",
+          "source_url": "https://www.youtube.com/watch?v=NQ4Aoe8wTC0",
+          "thumbnail_url": "https://i.ytimg.com/vi/NQ4Aoe8wTC0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCVxrxfWUVgsA39OECIKoQ7f8LPgg",
+          "id": "C10-S1",
+          "observation": "浅蓝紫背景与轻网格；上方白字黑描边短标题，左侧大手机界面、右侧戴耳机人物，少量小立体角色。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "c0c8dbd910697a1e41ecec8fc1f48ef53f640b7499e4e445342e1b0860b3c122"
+        },
+        {
+          "video_id": "2WyFHZ6lkWE",
+          "title": "Opus 5.5, GPT-6 Sol & Luna TESTED on Creative Ideas",
+          "source_url": "https://www.youtube.com/watch?v=2WyFHZ6lkWE",
+          "thumbnail_url": "https://i.ytimg.com/vi/2WyFHZ6lkWE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAugxLQIVVl4A5FidQktQvA8HtRZA",
+          "id": "C10-S2",
+          "observation": "上方短白标题，左侧大漫画成果，右侧人物手势指向成果；背景虚化，主体轮廓清楚。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "1bcfe00329f9d918c222533ce7ec146096883d137a4cca8c9c67aa7f8bb74c8d"
+        }
+      ],
+      "id": "C10",
+      "direction": "设备界面 / 生成成果展示",
+      "styles": "B04、B06、B08",
+      "adaptation": "将本期 AI 的输入入口或输出成果放大，人物动作对应对象；无人物放大设备或成果。真正软件教学用本期截图，生成示意不冒充真实界面。"
+    },
+    {
+      "handle": "futurepedia_io",
+      "creator": "Futurepedia",
+      "account_id": "UC_RovKmk0OCbuZjA8f08opw",
+      "account_url": "https://www.youtube.com/@futurepedia_io/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "OiP0YBHLjqo",
+          "title": "Gemini Skills Are Finally Here (Master in 9 Minutes)",
+          "source_url": "https://www.youtube.com/watch?v=OiP0YBHLjqo",
+          "thumbnail_url": "https://i.ytimg.com/vi/OiP0YBHLjqo/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCpG4X-1cScrmsPUal23tQAswSQBg",
+          "id": "C11-S1",
+          "observation": "左上大型白橙短句，左下工具标识与功能卡；右侧人像指向功能卡；深蓝底、橙色细轮廓与规则点阵。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "71fc4da30d6132d6a3c2e8150cfee993f4d441d37f53b9f4aff7b142301eb038"
+        },
+        {
+          "video_id": "V_1Vn2WfpEY",
+          "title": "I Tested OpenAI's New Personal Assistant Agent: DOTS",
+          "source_url": "https://www.youtube.com/watch?v=V_1Vn2WfpEY",
+          "thumbnail_url": "https://i.ytimg.com/vi/V_1Vn2WfpEY/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCK5gmdl0ykj6Ng_sFWICx7j250Cg",
+          "id": "C11-S2",
+          "observation": "保留相同右侧人物、指向动作、深蓝点阵；左侧改为放大功能名，橙框限定主对象，一词用橙色。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "10c47d7ca1dae1c03888f3599e27e818417788408d9cd06f4d3180a34ca6094c"
+        }
+      ],
+      "id": "C11",
+      "direction": "固定系列 / 橙色关键词与指向动作",
+      "styles": "B01、B02、B06",
+      "adaptation": "系列可固定字形、主色与主体位置，变化本期功能对象。无人物用主设备和一张功能卡；三方案必须改变对象关系，不能仅沿用同一指向姿势改字。"
+    },
+    {
+      "handle": "godago",
+      "creator": "Goda Go",
+      "account_id": "UCrWUuwQOvfBYi0JQzigbr_g",
+      "account_url": "https://www.youtube.com/@godago/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "rTrKLzqm6Ls",
+          "title": "Is the first ever AI Certification Worth it? I took it",
+          "source_url": "https://www.youtube.com/watch?v=rTrKLzqm6Ls",
+          "thumbnail_url": "https://i.ytimg.com/vi/rTrKLzqm6Ls/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCGynJ-_Y4vDGurb_RYw9dDW7Xu5A",
+          "id": "C12-S1",
+          "observation": "左侧近景人物，右侧手持有框证书；陶橙卡面配白色简短文字，暗背景与暖侧光，实物占比大。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "3aec68d3d9ba328625406ae28020a2d5f482009cc342e821e6eb2162d8fad6d6"
+        },
+        {
+          "video_id": "Dk5nn24OSMA",
+          "title": "He Runs Claude Code and Codex as ONE System (You Can Too)",
+          "source_url": "https://www.youtube.com/watch?v=Dk5nn24OSMA",
+          "thumbnail_url": "https://i.ytimg.com/vi/Dk5nn24OSMA/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAXyf2m-Azgr4eJ7YCX8UW7mLFhlw",
+          "id": "C12-S2",
+          "observation": "左右各一位人物，中央两种工具标识重叠；深紫背景，陶橙和白色表达组合，没有大段文字。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "c95a7fa0ec09c4db94f18a14f5d675d0cf8aa81e0cc4afb11575558dbe183d6e"
+        }
+      ],
+      "id": "C12",
+      "direction": "实物体验 / 协作关系",
+      "styles": "B05、B06、B07",
+      "adaptation": "用实物或成果卡说明体验，两个工具协作可用连接或并置表达，避免强行对战。无人物版仅保留成果与任务链；证书不能用于虚构本期不存在的资质。"
+    },
+    {
+      "handle": "TwoMinutePapers",
+      "creator": "Two Minute Papers",
+      "account_id": "UCbfYPyITQ-7l4upoX8nvctg",
+      "account_url": "https://www.youtube.com/@TwoMinutePapers/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "ZHVNTTKu9fU",
+          "title": "The Billion Dollar AI Advantage Is Disappearing",
+          "source_url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
+          "thumbnail_url": "https://i.ytimg.com/vi/ZHVNTTKu9fU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC9kBMrRyU3deitiAxryZAiJWM6Vw",
+          "id": "C13-S1",
+          "observation": "橙金环境中巨大亮黄色版本数字成为主角，上方工具名与标识，左上蓝色系列标识；没有人像。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "b6a49f8f4f2a5ecc9e016eb8fc7628ec730df3b2bc261b0443b02327d7c50d8d"
+        },
+        {
+          "video_id": "SA9kdAX2Zj0",
+          "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
+          "source_url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+          "thumbnail_url": "https://i.ytimg.com/vi/SA9kdAX2Zj0/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDOU4blzCadmQ2AzzputnxEQkh2xg",
+          "id": "C13-S2",
+          "observation": "绿金环境延续相同巨大版本数字，背景层次与光线包围标题，左上系列标识稳定。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "041c4bbe68b5ad5e3bf1a2c5e9639947a8ee09e434c9564a766087625c6d0f32"
+        }
+      ],
+      "id": "C13",
+      "direction": "无人物巨字 / 单一立体版本",
+      "styles": "B02、B10",
+      "adaptation": "借鉴无人物的主标题尺度、清楚光域和稳定系列位置；本 Skill 用 AI 模型卡、设备、检索结构或数据空间替换环境，不默认扩展旅行风景或电影场面。"
+    },
+    {
+      "handle": "aisamsonreal",
+      "creator": "AI Samson",
+      "account_id": "UCED3hlYdD0SlCff7jJ8tF3Q",
+      "account_url": "https://www.youtube.com/@aisamsonreal/videos",
+      "platform": "YouTube",
+      "samples": [
+        {
+          "video_id": "AFqtMLqT7yE",
+          "title": "OpenAI Just Had a Massive Day (The Good and The Ugly)",
+          "source_url": "https://www.youtube.com/watch?v=AFqtMLqT7yE",
+          "thumbnail_url": "https://i.ytimg.com/vi/AFqtMLqT7yE/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLATjsoDxtWPcVuIldTh5ekG-_F1Vw",
+          "id": "C14-S1",
+          "observation": "舞台蓝暖灯光、上方黄字短标题；三个颜色不同、带不同道具的软体角色，左侧一位演示者，底部观众。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "30ba2adce7008c2e6bff1c12a7cd7361ccc70fd92a47b917bae34988cd4bf825"
+        },
+        {
+          "video_id": "gr9fEEKrO5Y",
+          "title": "Video Editors Are Dead? Opus Edited This...",
+          "source_url": "https://www.youtube.com/watch?v=gr9fEEKrO5Y",
+          "thumbnail_url": "https://i.ytimg.com/vi/gr9fEEKrO5Y/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCzXRYCo8U_FSPnRuX9VZ-xGocMLg",
+          "id": "C14-S2",
+          "observation": "中央人物、周边环绕彩色编辑轨道和关键帧形态；中部黑色横条配巨大黄字，蓝紫橙光线组织设备空间。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "43a4995b74c2b9617b283df05e41707ca4d319a8381b8d26878937452cab0069"
+        }
+      ],
+      "id": "C14",
+      "direction": "Agent 角色分工 / 可见时间线",
+      "styles": "B02、B06、B08、B09",
+      "adaptation": "Agent 用少量不同任务卡表达分工，自动剪辑用可辨的时间线与成果；不把所有软件教程都做成宇宙背景。严格无人物移除角色脸、主持人与观众，保留设备/任务。"
+    },
+    {
+      "creator": "AI超元域",
+      "platform": "Bilibili",
+      "account_id": "3493277319825652",
+      "account_url": "https://space.bilibili.com/3493277319825652",
+      "samples": [
+        {
+          "video_id": "BV13KR1BEEBm",
+          "title": "🚀开发者必看！Codex /goal命令你真用对了吗？goal命令高级技巧保姆级教程，Plan模式+Spec-Driven+自研Skill，三大高级技巧组合",
+          "source_url": "https://www.bilibili.com/video/BV13KR1BEEBm/",
+          "thumbnail_url": "http://i1.hdslb.com/bfs/archive/a9a1bf0eb41500ab54bd0117e30126f21e39c8f1.jpg",
+          "id": "C15-S1",
+          "observation": "黑底白色巨大工具名与命令；用途分白、黄、粉三段，周边彩色框、两侧工具标识；文字是主角。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "7a31a747d673021d6e8414171749352fcebdac2ddcb120895363ab0801f013dd"
+        },
+        {
+          "video_id": "BV1W7gP6CEEV",
+          "title": "🚀实测DeepSeek Harness从基础到高级用法！WebUI远程控制、多模型接入、执行轨迹、插件系统、任务分支、代码分析！比Claude Code更强？",
+          "source_url": "https://www.bilibili.com/video/BV1W7gP6CEEV/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/719341863835a81c38ea2ac7281a6a66d92c4c17.jpg",
+          "id": "C15-S2",
+          "observation": "深色星空，顶部白色工具名、中间黄色用途；两侧工具标识、底部金粉立体疑问句，彩边保持系列感。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "4f3b22b8cad4217d5f0a1e750499d6378e0d7e449426219f54b7fff6b87c1865"
+        }
+      ],
+      "id": "C15",
+      "direction": "无人物命令 / 用途与问题分层",
+      "styles": "B01、B02、B05、B07、B10",
+      "adaptation": "无人物可以由命令、工具名和用途建立焦点，比较用疑问而非预设胜者。缩减为两层主次文案，彩边可延展为单色重点框；命令逐字核对。"
+    },
+    {
+      "creator": "秋芝2046",
+      "platform": "Bilibili",
+      "account_id": "385670211",
+      "account_url": "https://space.bilibili.com/385670211",
+      "samples": [
+        {
+          "video_id": "BV1Nd596vEyU",
+          "title": "全网最全！40分钟全面掌握Codex～【附完整文档】",
+          "source_url": "https://www.bilibili.com/video/BV1Nd596vEyU/",
+          "thumbnail_url": "http://i0.hdslb.com/bfs/archive/7893ac32624db5d0f2d55fd8d5211e065c230161.jpg",
+          "id": "C16-S1",
+          "observation": "蓝天透视与速度线，中央人物向前伸道具；左侧放大工具图标，工具名白色、教程短语黄色，均有粗黑描边。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "c1afe4291ca19f72009d3451b221dac702324b0b70afd99b19ca78fa209a6075"
+        },
+        {
+          "video_id": "BV1j9MP6wEV9",
+          "title": "从零开始，学会让桌面Agent帮你干活！【小白教程】",
+          "source_url": "https://www.bilibili.com/video/BV1j9MP6wEV9/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/8dcd368630f3739d3fafdf16c6af67cd6d494ea5.jpg",
+          "id": "C16-S2",
+          "observation": "浅白底、左侧巨大黄黑四字标题；右侧机械身体的人物，多臂展示任务单、图表、日历，电脑在前景。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "3b427d6b155c67f0d002b322ebe653424b09dd7b50009e92bdfe5354eb14a6b3"
+        }
+      ],
+      "id": "C16",
+      "direction": "动作化教程 / 多任务办公助理",
+      "styles": "B01、B04、B08、B09",
+      "adaptation": "借鉴向前动作、功能主对象和办公分工，不继承原人物或具体影视角色造型。无人物改成工具+学习路径，或工作台上的任务卡；机械人形也属于人物，要遵守选择。"
+    },
+    {
+      "creator": "技术爬爬虾",
+      "platform": "Bilibili",
+      "account_id": "316183842",
+      "account_url": "https://space.bilibili.com/316183842",
+      "samples": [
+        {
+          "video_id": "BV1Kk9kBAEJv",
+          "title": "Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex",
+          "source_url": "https://www.bilibili.com/video/BV1Kk9kBAEJv/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/781d6ffcc0ff4c7f727a11e74b2d232922165c99.jpg",
+          "id": "C17-S1",
+          "observation": "黑色键盘背景、大型白色工具名；工具图标位于左侧，中间绿色用途，底部红色教程说明，没有人物。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "70fd10253ef4312eadfe26578eb776f93a040158cdac99c08f58a23642b316fc"
+        },
+        {
+          "video_id": "BV1ooDyBmE6v",
+          "title": "告别一切重复枯燥任务，CLI+Skill搭建浏览器AI自动化框架",
+          "source_url": "https://www.bilibili.com/video/BV1ooDyBmE6v/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/93862c347728940f3380d7d98556aa502e525043.jpg",
+          "id": "C17-S2",
+          "observation": "同样键盘背景；两个图标、白色两项工具名与黄色加号，红绿两行交代用途，图标与文字分组。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "c0cd6b84d167e8ea78f1179559a7602aa51ea3c3d42d8c260a2a874a8fe75fd9"
+        }
+      ],
+      "id": "C17",
+      "direction": "无人物技术教程 / 模块组合",
+      "styles": "B01、B02、B05",
+      "adaptation": "放大技术名与一句用途，组合关系用加号而非一堆节点；配色可减少为白字加一种强调色。原图的零消耗或性能表达不能自动成为本期承诺。"
+    },
+    {
+      "creator": "人工大黑",
+      "platform": "Bilibili",
+      "account_id": "2475977",
+      "account_url": "https://space.bilibili.com/2475977",
+      "samples": [
+        {
+          "video_id": "BV1nuJg61Epv",
+          "title": "AI工具装好不知道该干嘛？普通人的Agent上手指南",
+          "source_url": "https://www.bilibili.com/video/BV1nuJg61Epv/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/751227abe583a2d2ad9eb235d23ad9c949830738.jpg",
+          "id": "C18-S1",
+          "observation": "白底两层黑色大字，轻灰阴影；下方放大软件输入框，框内问号承接问题，周围薄荷色光晕，没有人物。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "60c4edd703c91f6959302cf2a3786f2e6fb199c3c53fb1f53c681a3281fb9b7a"
+        }
+      ],
+      "id": "C18",
+      "direction": "无人物浅底 / 问题与输入入口",
+      "styles": "B03、B05",
+      "adaptation": "入门教程用一个“问题→可用入口”，下方主界面而不是泛科技装饰；无人物仍有明确焦点。仅观察到一张，不据此宣称长期系列风格；本期准确截图优先，无素材就用无字示意卡。"
+    },
+    {
+      "creator": "AI产品狙击手",
+      "platform": "Bilibili",
+      "account_id": "596541619",
+      "account_url": "https://space.bilibili.com/596541619",
+      "samples": [
+        {
+          "video_id": "BV1odaR6NE6p",
+          "title": "Qwen 4（疑似）测评报告！究竟有多能打？",
+          "source_url": "https://www.bilibili.com/video/BV1odaR6NE6p/",
+          "thumbnail_url": "http://i0.hdslb.com/bfs/archive/9312512d6a85cd68ee45fa9d692b290836984306.jpg",
+          "id": "C19-S1",
+          "observation": "浅蓝紫渐变，中央白色波浪边标题牌，蓝紫描边字；模型名、问题、测评说明分层，周围小球与轨道很轻。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "55cab01fde096f68e346f1c12336f122b944fedf215acaef816cee60bf6fb615"
+        },
+        {
+          "video_id": "BV1QQGw6bEkQ",
+          "title": "Deepseek V4 Flash正式版测评！终于支持Codex了！",
+          "source_url": "https://www.bilibili.com/video/BV1QQGw6bEkQ/",
+          "thumbnail_url": "http://i1.hdslb.com/bfs/archive/be806078aaf1942b8f163db838f80a474e52bdd7.jpg",
+          "id": "C19-S2",
+          "observation": "深蓝紫渐变，同样白色标题牌与青色边光；中间工具名以红色强调，其余深色字，装饰是小齿轮与虚线。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "9e31bd8898258d1c92ab0b48504c1b9e36e810f92cec18d1cbf6bdd40e89f720"
+        }
+      ],
+      "id": "C19",
+      "direction": "无人物测评 / 浅色标题牌",
+      "styles": "B03、B05、B10",
+      "adaptation": "标题牌可以组织无人物测评，关键模型名与一个问题优先；浅底与深底均可，只保留一处重点色。“疑似”之类限定语不能省去，评测结论依本期材料。"
+    },
+    {
+      "creator": "码里奥Ziho",
+      "platform": "Bilibili",
+      "account_id": "3546804396230870",
+      "account_url": "https://space.bilibili.com/3546804396230870",
+      "samples": [
+        {
+          "video_id": "BV1J9qqBaEho",
+          "title": "无需订阅！CodeX保姆级安装教程",
+          "source_url": "https://www.bilibili.com/video/BV1J9qqBaEho/",
+          "thumbnail_url": "http://i0.hdslb.com/bfs/archive/2896b7bd0264838a5bc9a02f889ebe1985317e34.jpg",
+          "id": "C20-S1",
+          "observation": "黑底与蓝紫细线；左下白边人物指向标题，中央工具标识与白色工具名，底部蓝黄描边中文用途。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "a48eb04aacd74bd3d017a5dff3d5d150a66a05aa9422e71e2dc6ea7a5248cddf"
+        },
+        {
+          "video_id": "BV1NAQzBLEnv",
+          "title": "我是如何获取高质量AI信息的？打破信息差!",
+          "source_url": "https://www.bilibili.com/video/BV1NAQzBLEnv/",
+          "thumbnail_url": "http://i2.hdslb.com/bfs/archive/4ed989546d9215d4e86f8099ae3015b39b40f2c2.jpg",
+          "id": "C20-S2",
+          "observation": "同样左下人物与细线背景；上方白字强调关键词，黄色短句居中，底部四个资料平台标识按行排列。",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "70179f119fb514e70a4ce6fb7302e182ee92574d3a4a0c29c1a95edea4ae9916"
+        }
+      ],
+      "id": "C20",
+      "direction": "人物指向 / 工具名与资料来源",
+      "styles": "B01、B02、B06",
+      "adaptation": "把资料来源或安装工具按一条清楚路径排列，人物指向本期重点。无人物用资料汇总卡或主设备承接位置；不自动加本期未使用的平台标识。"
+    }
+  ]
+}

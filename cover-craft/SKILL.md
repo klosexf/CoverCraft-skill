@@ -2,7 +2,7 @@
 name: cover-craft
 description: 根据视频脚本、视频描述或封面描述制作封面，可采用或拟写标题、借鉴参考图并延展风格。生图前确认画幅与人物；优先 GPT Image，不可用时用平台生图工具，支持自配 OpenAI 图片 API。
 metadata:
-  version: "2.6.0"
+  version: "2.6.1"
 ---
 
 # CoverCraft · 封面工坊（优先 GPT Image）
@@ -25,6 +25,7 @@ metadata:
 - 人物先选 **有人物 / 无人物**。有人物可使用用户指定的照片，或原创虚拟人物/插画角色。参考图有人物不代表用户选择人物；风格参考中的脸不是本期人物素材。
 - 用户沿用「这组参考图」时，可直接使用本技能内置的原图库。读取 [references/user-reference-library.md](references/user-reference-library.md) 选择适合的原图，再查看该图片；用户本次新上传的参考优先。内置库不能冒充用户指定但不可访问的另一张图。
 - 用户按名称选择基础风格时，读取 [references/style-catalog.md](references/style-catalog.md)；选择新增横版参考时，读取 [references/horizontal-reference-library.md](references/horizontal-reference-library.md) 中对应条目。库内参考可以单独指定，不要求用户每次重新上传。
+- 自主选择结构或按 AI 博主特征延展时，读取 [references/ai-cover-patterns.md](references/ai-cover-patterns.md)，按资讯、教程、对比、协作、办公或观点匹配。它来自 20 个创作者账号、41 张实际看过的封面；具体账号与样本见 [调研报告](references/ai-creator-cover-research.md)。按需读取对应条目，不必每次加载全部报告。记录继承的特征、本期替换的内容与配色角色；严格无人物须同时去掉人形机器人、拟人角色、手和观众。文档描述不等于已传入参考像素。
 - **生图前确认两项：①横屏还是竖屏？②有人物还是无人物？** 三种输入都适用，未明确的项目合并到一次简短选择中；已明确的项目直接沿用，不重复问。等待回答期间可以分析已有内容、拟标题、挑参考图，但不要生成最终画面。
 - 提问时可将画幅选项写成「横屏 16:9 / 竖屏 3:4 / 横竖都要」，人物选项写成「有人物 / 无人物」。用户指定其他比例、平台或尺寸时沿用；只说横屏默认 16:9，只说竖屏默认 3:4，并在制作摘要中说明。
 - 用户选有人物且没有指定照片来源时，默认原创虚拟人物或插画角色，并在摘要说明；无需追加一个必须上传本人照片的环节。明确要求使用上传照片但照片缺失时，才索取对应素材。

@@ -82,7 +82,18 @@ Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用�
 
 默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。风格规格与样张分别记录，不表示 30 个分支均已实测。
 
-[YouTube / 哔哩哔哩封面调研与来源](cover-craft/references/ai-creator-cover-research.md)
+## 20 位 AI 创作者的封面调研
+
+实际查看 **41 张不同视频的封面**，覆盖 **YouTube 14 位、哔哩哔哩 6 位**。按创作者账号去重，逐位记录标题层级、配色、主视觉、人物与无人物的做法，并转成适用于 AI 选题的设计规则。
+
+| 平台 | 已研究的创作者账号 |
+| --- | --- |
+| YouTube · 14 位 | Matt Wolfe、The AI Advantage、Wes Roth、Matthew Berman、1littlecoder、Skill Leap AI、TheAIGRID、AI Search、AI Explained、MattVidPro、Futurepedia、Goda Go、Two Minute Papers、AI Samson |
+| 哔哩哔哩 · 6 位 | AI超元域、秋芝2046、技术爬爬虾、人工大黑、AI产品狙击手、码里奥Ziho |
+
+[查看每位的原视频、看图观察与延展](cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](cover-craft/references/ai-cover-patterns.md) · [完整来源记录](cover-craft/references/ai-creator-cover-sources.json)
+
+观察样本与设计建议分开记录；不把参考博主的脸、标题和未核实结论带进新封面。网上原封面仅用于调研，公开包保留来源与观察。本页上方的 16 张案例仍是本项目实际生成的图片。
 
 ## 安装
 
