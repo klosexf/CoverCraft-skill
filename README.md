@@ -4,6 +4,28 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover; use reference images, generate or preserve Chinese headlines, and choose landscape/portrait with or without people.
 
+## 真实生图案例
+
+下面是使用 Codex 内置图片工具实际生成的 **6 张封面**：五种基础风格加一个冷暖接力延展，包含 3 张原创人物封面和 3 张无人物封面。人物为 AI 生成的虚拟角色，软件界面为示意设计。点击图片可查看 PNG 大图。
+
+每种风格均支持有人物或无人物，下表标的是本次样张设置。
+
+### 横版 · 16:9
+
+| 黄蓝冲击 · 原创人物 | 彩色漫画 · 无人物 | 冷暖接力 · 原创人物 |
+| --- | --- | --- |
+| <a href="examples/images/01-yellow-blue-presenter.png"><img src="examples/images/01-yellow-blue-presenter.png" alt="黄蓝冲击：AI 工作搭档" width="280"></a> | <a href="examples/images/04-color-comic-no-person.png"><img src="examples/images/04-color-comic-no-person.png" alt="彩色漫画：AI 知识库" width="280"></a> | <a href="examples/images/06-cold-warm-presenter.png"><img src="examples/images/06-cold-warm-presenter.png" alt="冷暖接力：先聊清楚，再动手" width="280"></a> |
+| 黄蓝大字、放射动线、人物展示设备 | 粗轮廓、彩色对象、前后变化 | 蓝橙光域、人物递出文档、两工具接力 |
+
+### 竖版 · 3:4
+
+| 蓝黑科技 · 无人物 | 白橙清单 · 原创人物 | 极简编辑 · 无人物 |
+| --- | --- | --- |
+| <a href="examples/images/02-blue-tech-no-person.png"><img src="examples/images/02-blue-tech-no-person.png" alt="蓝黑科技：先聊清楚，再开发" width="280"></a> | <a href="examples/images/03-white-orange-presenter.png"><img src="examples/images/03-white-orange-presenter.png" alt="白橙清单：资料整理不再乱" width="280"></a> | <a href="examples/images/05-minimal-no-person.png"><img src="examples/images/05-minimal-no-person.png" alt="极简编辑：把需求写清楚" width="280"></a> |
+| 深蓝设备、发光工作流、白青标题 | 白橙图标、清楚任务层级、人物引导 | 奶油白与深绿、留白、纸张质感 |
+
+[查看案例详情、输入内容和实际提示词](examples/README.md)。这些是本次实际输出；模型版本与每次生成结果可能不同。
+
 ## 能做什么
 
 - **三种输入任选一种**：完整脚本、视频内容简介，或直接描述想要的封面画面；也可以组合。

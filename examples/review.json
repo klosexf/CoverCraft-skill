@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "method": "人工查看工具实际输出的完整图片及每张约 320px 宽缩略图；未使用 OCR。",
+  "examples": [
+    {
+      "id": "01-yellow-blue-presenter",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "饱和黄蓝、粗描边大字、放射动线与原创女讲解员。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "原创新生成的人物，未沿用参考中的讲解员身份。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1672,
+          941
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    },
+    {
+      "id": "02-blue-tech-no-person",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "深蓝设备空间、发光动线与聊天—文档—开发的接力。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "未观察到人物、人物剪影、手部或人形角色。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1086,
+          1448
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    },
+    {
+      "id": "03-white-orange-presenter",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "白底橙色、任务图标与原创男讲解员。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "原创新生成的人物，未沿用参考中的讲解员身份。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1086,
+          1448
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    },
+    {
+      "id": "04-color-comic-no-person",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "粗轮廓与网点，用资料到档案柜的变化讲知识库。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "未观察到人物、人物剪影、手部或人形角色。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1672,
+          941
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    },
+    {
+      "id": "05-minimal-no-person",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "奶油白、深绿、留白与纸张质感，突出先写清需求。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "未观察到人物、人物剪影、手部或人形角色。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1086,
+          1448
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    },
+    {
+      "id": "06-cold-warm-presenter",
+      "text": {
+        "status": "pass",
+        "evidence": "主副标题与提示词中的逐字文本及断行对应，未观察到乱码、漏字或新增宣传文字。"
+      },
+      "content": {
+        "status": "pass",
+        "evidence": "冷暖两区、电影感光线与原创女讲解员。"
+      },
+      "people": {
+        "status": "pass",
+        "evidence": "原创新生成的人物，未沿用参考中的讲解员身份。"
+      },
+      "aspect": {
+        "status": "pass",
+        "actual_size": [
+          1672,
+          941
+        ],
+        "evidence": "3:4 精确对应；16:9 仅有整数像素舍入差，未裁切或拉伸。"
+      },
+      "thumbnail": {
+        "status": "pass",
+        "evidence": "已查看约 320px 宽缩略图，主标题与主要对象仍清楚。"
+      },
+      "corrections": []
+    }
+  ],
+  "simulated_feed": {
+    "status": "not_checked",
+    "evidence": "已生成本地交互预览文件，未实际打开并检查模拟遮挡；未把文件生成当作视觉验收。"
+  }
+}

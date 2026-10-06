@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-10-06",
+  "execution_channel": "codex_builtin",
+  "tool": "image_gen.imagegen",
+  "provider": "OpenAI",
+  "requested_model": null,
+  "model_id": null,
+  "model_note": "具体型号由宿主控制；工具未披露确切模型 ID。",
+  "generation_calls": 6,
+  "openai_api_calls": 0,
+  "examples": [
+    {
+      "id": "01-yellow-blue-presenter",
+      "style": "B01 黄蓝冲击",
+      "branch": "B01-A 放射式功能亮相",
+      "aspect": "16:9",
+      "people": "virtual",
+      "input_modes": [
+        "video_description"
+      ],
+      "content_basis": "视频演示把零散想法整理成任务计划，再交给 AI 协助完成草稿；封面用人物和设备展示工作搭档的概念，不作效率倍数承诺。",
+      "video_title": "用 AI 把零散想法整理成可执行的工作任务",
+      "cover_headline": "AI\n工作搭档",
+      "cover_subtitle": "从想法到成品",
+      "image": "images/01-yellow-blue-presenter.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file_sha256": "01def27c3225fdaf47f091e8361a369812cc9a7cb29e0776e6442e3aa5235b64",
+      "file_bytes": 1950529,
+      "prompt": "prompts/01-yellow-blue-presenter.txt",
+      "reference_inputs": [
+        {
+          "role": "style_reference",
+          "item": "R07-G4",
+          "image": "../cover-craft/assets/user-references/ref-07-cover-gallery.png"
+        }
+      ],
+      "visual_direction": "饱和黄蓝、粗描边大字、放射动线与原创女讲解员。",
+      "extension": "借鉴九宫格第二行左侧的标题轮廓与黄蓝视觉，把内容延展为 AI 工作搭档，重新组织横版设备和任务卡。",
+      "byte_identical_to_tool_output": true
+    },
+    {
+      "id": "02-blue-tech-no-person",
+      "style": "B02 蓝黑科技",
+      "branch": "B02-A 发光工作流",
+      "aspect": "3:4",
+      "people": "none",
+      "input_modes": [
+        "video_script"
+      ],
+      "content_basis": "根据原视频脚本的核心关系，先讨论功能范围和验收标准，再交接开发说明，最后实现与测试。不承诺具体额度节省比例。",
+      "video_title": "先讨论需求，再把开发说明交给 Codex",
+      "cover_headline": "先聊清楚\n再开发",
+      "cover_subtitle": "ChatGPT → Codex",
+      "image": "images/02-blue-tech-no-person.png",
+      "native_size": [
+        1086,
+        1448
+      ],
+      "file_sha256": "47d2efc1394cf516343aff69827df53fbc83b612de933995ae663f1cc545be99",
+      "file_bytes": 1624430,
+      "prompt": "prompts/02-blue-tech-no-person.txt",
+      "reference_inputs": [
+        {
+          "role": "style_reference",
+          "item": "R10",
+          "image": "../cover-craft/assets/user-references/ref-10-blue-software-tutorial.png"
+        }
+      ],
+      "visual_direction": "深蓝设备空间、发光动线与聊天—文档—开发的接力。",
+      "extension": "借鉴 R10 的深色设备空间与白青标题，以聊天面板、文档和电脑承接无人物主视觉。",
+      "byte_identical_to_tool_output": true
+    },
+    {
+      "id": "03-white-orange-presenter",
+      "style": "B03 白橙清单",
+      "branch": "B03-C 清爽工作台",
+      "aspect": "3:4",
+      "people": "virtual",
+      "input_modes": [
+        "video_description"
+      ],
+      "content_basis": "视频简介：演示把分散文档整理进资料库，用分类和检索找回内容。画面通过整齐任务卡与人物展示操作方向。",
+      "video_title": "把分散资料归档、分类并快速检索",
+      "cover_headline": "资料整理\n不再乱",
+      "cover_subtitle": "归档 · 分类 · 检索",
+      "image": "images/03-white-orange-presenter.png",
+      "native_size": [
+        1086,
+        1448
+      ],
+      "file_sha256": "75f90a5e874f377a3858e1e16e6cf74c6d04d7006bd030c5f0b241ec4ec43328",
+      "file_bytes": 1940799,
+      "prompt": "prompts/03-white-orange-presenter.txt",
+      "reference_inputs": [
+        {
+          "role": "style_reference",
+          "item": "R09",
+          "image": "../cover-craft/assets/user-references/ref-09-white-orange-list.png"
+        }
+      ],
+      "visual_direction": "白底橙色、任务图标与原创男讲解员。",
+      "extension": "借鉴 R09 的白橙斜色块与图标层级，改用归档、分类、检索三个内容对象；人物重新生成。",
+      "byte_identical_to_tool_output": true
+    },
+    {
+      "id": "04-color-comic-no-person",
+      "style": "B04 彩色漫画",
+      "branch": "B04-B 问题与解法",
+      "aspect": "16:9",
+      "people": "none",
+      "input_modes": [
+        "video_description"
+      ],
+      "content_basis": "视频描述：资料分散时不易查找，整理成可分类检索的知识库。封面用散乱纸张与整齐档案的漫画对照表达，不使用人物。",
+      "video_title": "用分类与检索把资料整理成知识库",
+      "cover_headline": "AI 知识库",
+      "cover_subtitle": "从一堆资料到一目了然",
+      "image": "images/04-color-comic-no-person.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file_sha256": "cc6fb1c2ca7c431de6aaafec4aa07bb2af7b0ce9b1d56f9419307da2fc40b271",
+      "file_bytes": 2074501,
+      "prompt": "prompts/04-color-comic-no-person.txt",
+      "reference_inputs": [
+        {
+          "role": "style_reference",
+          "item": "R03",
+          "image": "../cover-craft/assets/user-references/ref-03-comic-comparison.png"
+        }
+      ],
+      "visual_direction": "粗轮廓与网点，用资料到档案柜的变化讲知识库。",
+      "extension": "借鉴 R03 的彩色漫画语言，重新设计前后变化，不沿用参考中的角色与自行车。",
+      "byte_identical_to_tool_output": true
+    },
+    {
+      "id": "05-minimal-no-person",
+      "style": "B05 极简编辑",
+      "branch": "B05-A 单物件观点",
+      "aspect": "3:4",
+      "people": "none",
+      "input_modes": [
+        "cover_description"
+      ],
+      "content_basis": "封面描述：奶油白与深绿的极简编辑式封面，用一张需求文档与笔体现先写清需求，再动手开发；不放人物。",
+      "video_title": "开发前用文档写清功能范围和验收标准",
+      "cover_headline": "把需求\n写清楚",
+      "cover_subtitle": "再开始开发",
+      "image": "images/05-minimal-no-person.png",
+      "native_size": [
+        1086,
+        1448
+      ],
+      "file_sha256": "853e478e5d6ba18ac31dde049031ba9fab0fe1d4dcca2038140c8b79c08384a3",
+      "file_bytes": 2070784,
+      "prompt": "prompts/05-minimal-no-person.txt",
+      "reference_inputs": [],
+      "visual_direction": "奶油白、深绿、留白与纸张质感，突出先写清需求。",
+      "extension": "按照 B05-A 的单物件观点方向原创设计，以需求文档和笔形成一套克制画面。",
+      "byte_identical_to_tool_output": true
+    },
+    {
+      "id": "06-cold-warm-presenter",
+      "style": "冷暖接力（参考延展）",
+      "branch": "R12-02 两工具接力",
+      "aspect": "16:9",
+      "people": "virtual",
+      "input_modes": [
+        "video_script"
+      ],
+      "content_basis": "原视频脚本的横版人物版本：聊天讨论、开发说明和实现是先后接力，不做模型性能胜负比较，不制造额度百分比。",
+      "video_title": "ChatGPT 讨论方案，再交给 Codex 实现",
+      "cover_headline": "先聊清楚\n再动手",
+      "cover_subtitle": "ChatGPT → Codex",
+      "image": "images/06-cold-warm-presenter.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "file_sha256": "75199866815e832b6fcb8fed29f6878d133e0bc677e6360c180a9b6eaaf6c55e",
+      "file_bytes": 1810256,
+      "prompt": "prompts/06-cold-warm-presenter.txt",
+      "reference_inputs": [
+        {
+          "role": "style_reference",
+          "item": "R12-02",
+          "image": "../cover-craft/assets/user-references/ref-12-horizontal-review-strip.png"
+        }
+      ],
+      "visual_direction": "冷暖两区、电影感光线与原创女讲解员。",
+      "extension": "借鉴 R12-02 的冷暖光域与立体标题，延展为两工具先后接力，以人物递出文档组织横版。",
+      "byte_identical_to_tool_output": true
+    }
+  ]
+}

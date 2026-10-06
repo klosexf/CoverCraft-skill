@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "variants": {
+    "01-yellow-blue-presenter": {
+      "schema_version": 1,
+      "video_title": "用 AI 把零散想法整理成可执行的工作任务",
+      "cover_headline": {
+        "text": "AI\n工作搭档",
+        "display_lines": [
+          "AI",
+          "工作搭档"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "从想法到成品",
+        "display_lines": [
+          "从想法到成品"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    },
+    "02-blue-tech-no-person": {
+      "schema_version": 1,
+      "video_title": "先讨论需求，再把开发说明交给 Codex",
+      "cover_headline": {
+        "text": "先聊清楚\n再开发",
+        "display_lines": [
+          "先聊清楚",
+          "再开发"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "ChatGPT → Codex",
+        "display_lines": [
+          "ChatGPT → Codex"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    },
+    "03-white-orange-presenter": {
+      "schema_version": 1,
+      "video_title": "把分散资料归档、分类并快速检索",
+      "cover_headline": {
+        "text": "资料整理\n不再乱",
+        "display_lines": [
+          "资料整理",
+          "不再乱"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "归档 · 分类 · 检索",
+        "display_lines": [
+          "归档 · 分类 · 检索"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    },
+    "04-color-comic-no-person": {
+      "schema_version": 1,
+      "video_title": "用分类与检索把资料整理成知识库",
+      "cover_headline": {
+        "text": "AI 知识库",
+        "display_lines": [
+          "AI 知识库"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "从一堆资料到一目了然",
+        "display_lines": [
+          "从一堆资料到一目了然"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    },
+    "05-minimal-no-person": {
+      "schema_version": 1,
+      "video_title": "开发前用文档写清功能范围和验收标准",
+      "cover_headline": {
+        "text": "把需求\n写清楚",
+        "display_lines": [
+          "把需求",
+          "写清楚"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "再开始开发",
+        "display_lines": [
+          "再开始开发"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    },
+    "06-cold-warm-presenter": {
+      "schema_version": 1,
+      "video_title": "ChatGPT 讨论方案，再交给 Codex 实现",
+      "cover_headline": {
+        "text": "先聊清楚\n再动手",
+        "display_lines": [
+          "先聊清楚",
+          "再动手"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "ChatGPT → Codex",
+        "display_lines": [
+          "ChatGPT → Codex"
+        ],
+        "source": "Agent拟写的公开样张文案",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false,
+      "allowed_numbers": []
+    }
+  }
+}
