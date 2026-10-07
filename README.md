@@ -1,14 +1,14 @@
-# CoverCraft · 封面工坊
+# Video CoverCraft · 视频封面工坊
 
 根据视频脚本、视频描述或封面描述制作封面，支持参考图、中文标题、横竖画幅和可选人物。
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover; use reference images, generate or preserve Chinese headlines, and choose landscape/portrait with or without people.
 
-当前版本 **2.8.0**。
+当前版本 **2.8.1**。
 
 ## 先看图，再选风格
 
-不知道风格长什么样，可以先打开 [十种风格的图文菜单](cover-craft/references/style-menu.md)。下载完整技能后，也可打开 [离线风格图库](cover-craft/style-picker.html)：按内容类型搜索，点选卡片，复制一条短句发给 Agent。
+不知道风格长什么样，可以先打开 [十种风格的图文菜单](video-cover-craft/references/style-menu.md)。下载完整技能后，也可打开 [离线风格图库](video-cover-craft/style-picker.html)：按内容类型搜索，点选卡片，复制一条短句发给 Agent。
 
 未选风格时，Skill 按主题先展示最多三种真实样图，并提供全部十种入口和「你帮我决定」。已有风格或参考不重复问；明确要求先看再选时等待选择。每种风格都可用横竖版、有人物或无人物，样图不限制本期设置。
 
@@ -20,27 +20,27 @@ A video-cover skill for AI agents. Turn a script, video summary, or visual brief
 
 ### 10 种基础风格的新样张
 
-[可筛选图库与提示词](examples/integrated-styles-v3/README.md) · [逐张来源与验图](cover-craft/references/style-validation.md)
+[可筛选图库与提示词](examples/integrated-styles-v3/README.md) · [逐张来源与验图](video-cover-craft/references/style-validation.md)
 
 #### 竖版 · 3:4
 
 | B01 黄蓝冲击 | B03 白橙清单 | B05 极简编辑 |
 | --- | --- | --- |
-| <a href="cover-craft/assets/style-examples/01-b01-ai-weekly.png"><img src="cover-craft/assets/style-examples/01-b01-ai-weekly.png" alt="AI 写周报" width="260"></a> | <a href="cover-craft/assets/style-examples/03-b03-ai-paper.png"><img src="cover-craft/assets/style-examples/03-b03-ai-paper.png" alt="AI 读论文" width="260"></a> | <a href="cover-craft/assets/style-examples/05-b05-ai-handoff.png"><img src="cover-craft/assets/style-examples/05-b05-ai-handoff.png" alt="先聊清楚" width="260"></a> |
+| <a href="video-cover-craft/assets/style-examples/01-b01-ai-weekly.png"><img src="video-cover-craft/assets/style-examples/01-b01-ai-weekly.png" alt="AI 写周报" width="260"></a> | <a href="video-cover-craft/assets/style-examples/03-b03-ai-paper.png"><img src="video-cover-craft/assets/style-examples/03-b03-ai-paper.png" alt="AI 读论文" width="260"></a> | <a href="video-cover-craft/assets/style-examples/05-b05-ai-handoff.png"><img src="video-cover-craft/assets/style-examples/05-b05-ai-handoff.png" alt="先聊清楚" width="260"></a> |
 
 | B08 未来办公 | B10 立体概念 |
 | --- | --- |
-| <a href="cover-craft/assets/style-examples/08-b08-ai-office.png"><img src="cover-craft/assets/style-examples/08-b08-ai-office.png" alt="AI 办公搭档" width="260"></a> | <a href="cover-craft/assets/style-examples/10-b10-ai-knowledge.png"><img src="cover-craft/assets/style-examples/10-b10-ai-knowledge.png" alt="AI 知识库" width="260"></a> |
+| <a href="video-cover-craft/assets/style-examples/08-b08-ai-office.png"><img src="video-cover-craft/assets/style-examples/08-b08-ai-office.png" alt="AI 办公搭档" width="260"></a> | <a href="video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png"><img src="video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png" alt="AI 知识库" width="260"></a> |
 
 #### 横版 · 约 16:9
 
 | B02 蓝黑科技 | B04 彩色漫画 | B06 发布会实测 |
 | --- | --- | --- |
-| <a href="cover-craft/assets/style-examples/02-b02-ai-editing.png"><img src="cover-craft/assets/style-examples/02-b02-ai-editing.png" alt="AI 自动剪辑" width="260"></a> | <a href="cover-craft/assets/style-examples/04-b04-ai-prompt.png"><img src="cover-craft/assets/style-examples/04-b04-ai-prompt.png" alt="AI 为什么乱答？" width="260"></a> | <a href="cover-craft/assets/style-examples/06-b06-ai-coding.png"><img src="cover-craft/assets/style-examples/06-b06-ai-coding.png" alt="AI 编程实测" width="260"></a> |
+| <a href="video-cover-craft/assets/style-examples/02-b02-ai-editing.png"><img src="video-cover-craft/assets/style-examples/02-b02-ai-editing.png" alt="AI 自动剪辑" width="260"></a> | <a href="video-cover-craft/assets/style-examples/04-b04-ai-prompt.png"><img src="video-cover-craft/assets/style-examples/04-b04-ai-prompt.png" alt="AI 为什么乱答？" width="260"></a> | <a href="video-cover-craft/assets/style-examples/06-b06-ai-coding.png"><img src="video-cover-craft/assets/style-examples/06-b06-ai-coding.png" alt="AI 编程实测" width="260"></a> |
 
 | B07 双阵营对比 | B09 矩阵控制室 |
 | --- | --- |
-| <a href="cover-craft/assets/style-examples/07-b07-ai-models.png"><img src="cover-craft/assets/style-examples/07-b07-ai-models.png" alt="ChatGPT vs Claude" width="260"></a> | <a href="cover-craft/assets/style-examples/09-b09-ai-agents.png"><img src="cover-craft/assets/style-examples/09-b09-ai-agents.png" alt="多 Agent 调度" width="260"></a> |
+| <a href="video-cover-craft/assets/style-examples/07-b07-ai-models.png"><img src="video-cover-craft/assets/style-examples/07-b07-ai-models.png" alt="ChatGPT vs Claude" width="260"></a> | <a href="video-cover-craft/assets/style-examples/09-b09-ai-agents.png"><img src="video-cover-craft/assets/style-examples/09-b09-ai-agents.png" alt="多 Agent 调度" width="260"></a> |
 
 10 张新样图均已检查原图与 320px 小图。30 个分支完成来源与设计规则整合，其中 10 个分支有本轮实图验证；其余 20 个尚未逐个生图。
 
@@ -100,7 +100,7 @@ A video-cover skill for AI agents. Turn a script, video summary, or visual brief
 - **GPT Image 优先**：不可用时使用平台自带生图工具；也支持用户自行配置并明确选用 OpenAI 图片 API。
 - **输出与检查**：实际图片、PNG/JPEG 导出、缩略图、列表预览，以及中文文字核对与设计依据。
 
-Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用条件和工具能力以宿主提供的实际工具为准。
+Skill 的完整入口在 [video-cover-craft/SKILL.md](video-cover-craft/SKILL.md)，使用条件和工具能力以宿主提供的实际工具为准。
 
 ## 10 种 AI 基础风格
 
@@ -129,26 +129,29 @@ Skill 的完整入口在 [cover-craft/SKILL.md](cover-craft/SKILL.md)，使用�
 | YouTube · 14 位 | Matt Wolfe、The AI Advantage、Wes Roth、Matthew Berman、1littlecoder、Skill Leap AI、TheAIGRID、AI Search、AI Explained、MattVidPro、Futurepedia、Goda Go、Two Minute Papers、AI Samson |
 | 哔哩哔哩 · 6 位 | AI超元域、秋芝2046、技术爬爬虾、人工大黑、AI产品狙击手、码里奥Ziho |
 
-[查看每位的原视频、看图观察与延展](cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](cover-craft/references/ai-cover-patterns.md) · [完整来源记录](cover-craft/references/ai-creator-cover-sources.json)
+[查看每位的原视频、看图观察与延展](video-cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](video-cover-craft/references/ai-cover-patterns.md) · [完整来源记录](video-cover-craft/references/ai-creator-cover-sources.json)
 
 观察样本与设计建议分开记录；不把参考博主的脸、标题和未核实结论带进新封面。网上原封面仅用于调研，公开包保留来源与观察。本页 26 张案例均为本项目实际生成的图片，网上博主原封面未重新分发。
 
 ## 安装
 
-下载本仓库后进入 `cover-craft` 文件夹：
+下载本仓库后进入 `video-cover-craft` 文件夹：
 
 ```bash
 python3 scripts/install_skill.py --target codex
 ```
 
-默认安装到 Codex 的用户技能目录；已有同名技能时，加 `--replace` 可先备份再替换。其他支持 Skill 的 Agent 平台请按其方式导入整个 `cover-craft` 文件夹，保留参考文档、图片和脚本。
+默认安装到 Codex 的用户技能目录；已有同名技能时，加 `--replace` 可先备份再替换。其他支持 Skill 的 Agent 平台请按其方式导入整个 `video-cover-craft` 文件夹，保留参考文档、图片和脚本。
 
-API 是可选路径，配置说明见 [OpenAI 图片 API](cover-craft/references/openai-api-setup.md)。不需要把 API Key 写入仓库。公共版本不包含个人偏好记录；安装后只有你明确要求长期沿用时才保存设置。
+API 是可选路径，配置说明见 [OpenAI 图片 API](video-cover-craft/references/openai-api-setup.md)。不需要把 API Key 写入仓库。公共版本不包含个人偏好记录；安装后只有你明确要求长期沿用时才保存设置。
+
+
+旧名升级：如果此前安装为 `cover-craft` 或 `cover-studio`，先把旧技能文件夹改名为 `video-cover-craft`，再运行本版安装助手并加 `--replace`；安装助手会备份旧版并保留 `user-preferences.json`。同一技能只保留一个安装入口。
 
 ## 使用
 
 ```text
-$cover-craft
+$video-cover-craft
 
 视频描述：教大家先在 ChatGPT 讨论开发需求，整理开发说明，再交给 Codex 实现。
 做一张竖版 3:4，无人物。
@@ -159,7 +162,7 @@ $cover-craft
 也可以直接提供画面要求：
 
 ```text
-$cover-craft
+$video-cover-craft
 
 封面描述：深青书房背景，暖橙光照着右下方笔记本电脑。
 左侧聊天面板，中央开发说明，发光箭头连接到电脑。
@@ -167,6 +170,6 @@ $cover-craft
 竖版 3:4，无人物，生成一张。
 ```
 
-[完整说明](cover-craft/README.md) · [更多调用示例](cover-craft/references/examples.md) · [基础风格目录](cover-craft/references/style-catalog.md)
+[完整说明](video-cover-craft/README.md) · [更多调用示例](video-cover-craft/references/examples.md) · [基础风格目录](video-cover-craft/references/style-catalog.md)
 
 默认生成的是扁平图片，中文文字和参考素材需要验图；可编辑文字层是可选额外流程。实际生图模型由工具或所选 API 决定，未知型号不会被标成 GPT Image。

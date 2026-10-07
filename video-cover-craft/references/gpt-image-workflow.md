@@ -97,7 +97,7 @@ generatedImage(result);
 运行本技能的导出脚本，例如：
 
 ```bash
-python3 /absolute/cover-craft/scripts/export_covers.py \
+python3 /absolute/video-cover-craft/scripts/export_covers.py \
   --image /absolute/generated-a.png \
   --image /absolute/generated-b.png \
   --out-dir /absolute/outputs/cover-final

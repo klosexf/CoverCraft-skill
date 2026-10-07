@@ -36,7 +36,7 @@
 先准备本轮提示词，再作不联网的检查：
 
 ```bash
-python3 /absolute/cover-craft/scripts/openai_image.py --prompt-file /absolute/prompt.txt --out-dir /absolute/outputs/cover-api-a --dry-run
+python3 /absolute/video-cover-craft/scripts/openai_image.py --prompt-file /absolute/prompt.txt --out-dir /absolute/outputs/cover-api-a --dry-run
 ```
 
 已设置 `OPENAI_IMAGE_MODEL` 时可省略 `--model`；否则明确传入当前可用型号。检查仅确认本地文件与参数格式，不验证真实账号权限、余额或 API 可达性，也不创建图片。
@@ -44,7 +44,7 @@ python3 /absolute/cover-craft/scripts/openai_image.py --prompt-file /absolute/pr
 无参考图片时去掉 `--dry-run`，执行 `images.generate`。有参考或修改目标时按提示词编号传入图片，助手使用 `images.edit`：
 
 ```bash
-python3 /absolute/cover-craft/scripts/openai_image.py --prompt-file /absolute/prompt.txt --image /absolute/style.png --image /absolute/software.png --out-dir /absolute/outputs/cover-api-a
+python3 /absolute/video-cover-craft/scripts/openai_image.py --prompt-file /absolute/prompt.txt --image /absolute/style.png --image /absolute/software.png --out-dir /absolute/outputs/cover-api-a
 ```
 
 参考用于创作新封面时，在提示词中明确它们是风格/产品参考；修改现有封面时，把当前成图列为第一修改目标。所有输入先实际查看，不能只引用档案文字。助手将图片真实作为文件输入传入模型，保留编号顺序。

@@ -1,13 +1,13 @@
 ---
-name: cover-craft
-description: 提供真实样图供选风格；根据视频脚本、视频描述或封面描述制作封面，可采用或拟写标题、借鉴参考图并延展风格。生图前确认画幅与人物；优先 GPT Image，不可用时用平台生图工具，支持自配 OpenAI 图片 API。
+name: video-cover-craft
+description: 提供视频封面真实样图供选风格；根据视频脚本、视频描述或封面描述制作封面，可采用或拟写标题、借鉴参考图并延展风格。生图前确认画幅与人物；优先 GPT Image，不可用时用平台生图工具，支持自配 OpenAI 图片 API。
 metadata:
-  version: "2.8.0"
+  version: "2.8.1"
 ---
 
-# CoverCraft · 封面工坊（优先 GPT Image）
+# Video CoverCraft · 视频封面工坊（优先 GPT Image）
 
-将用户提供的**视频脚本、视频描述或封面描述**变成真实生成的封面图片，提供任一种即可，也可组合；标题和参考图是可选输入。默认优先可调用的 GPT Image；平台没有可用的 GPT Image 时，自动采用该平台自带的生图工具。用户可配置并明确选用 OpenAI 图片 API。用户的明确画面要求优先，参考图用于补充视觉语言；使用 `cover-craft` 调用名，支持能读取 Skill 并提供所需工具的 Agent 宿主。
+将用户提供的**视频脚本、视频描述或封面描述**变成真实生成的封面图片，提供任一种即可，也可组合；标题和参考图是可选输入。默认优先可调用的 GPT Image；平台没有可用的 GPT Image 时，自动采用该平台自带的生图工具。用户可配置并明确选用 OpenAI 图片 API。用户的明确画面要求优先，参考图用于补充视觉语言；使用 `video-cover-craft` 调用名，支持能读取 Skill 并提供所需工具的 Agent 宿主。
 
 默认风格库面向 **AI 内容**：工具教程、编程、办公、模型对比、Agent、知识库、图像能力与提示词。除非用户明确改变范围，不主动设计美食、旅行、手作、空间改造或电影主题的风格案例。
 
@@ -120,7 +120,7 @@ metadata:
 
 ## 5. 保存与交付
 
-- 将模型真实返回的图片文件保存/复制到用户指定位置；未指定则放当前工作区 `outputs/cover-craft-<日期或主题>/`。只有预览用途时可保留宿主默认路径并内联显示。不要猜测输出路径。
+- 将模型真实返回的图片文件保存/复制到用户指定位置；未指定则放当前工作区 `outputs/video-cover-craft-<日期或主题>/`。只有预览用途时可保留宿主默认路径并内联显示。不要猜测输出路径。
 - 保存 `design-brief.md`（输入内容、画面要求与主视觉依据、标题及其来源、所用参考与角色、继承/替换特征、用户的画幅和人物选择）、每次调用的 `prompt-<方案>-<画幅>.txt` 和 `generation.json`（`execution_channel`、工具名、`provider`、`requested_model`、`model_id`、`fallback_reason`、实际输入与尺寸、导出尺寸、检查结果）。未知型号写 `null`；平台原生通道不得冒称 GPT Image，API 请求型号与服务实际返回型号分别记录。
 - 摘要分别记录 `input_modes`（实际提供的 `video_script` / `video_description` / `cover_description`，可多个）、`content_basis`、`visual_requirements`、`video_title`、`cover_headline`、`cover_subtitle`、设计维度组合、偏好来源及本次覆盖项；无依据的字段留空并说明。记录哪些是用户要求、哪些是 Agent 的设计补充。一并保存 `text-spec.json`、`review.json` 和实际生成的列表预览。用户反馈仅在明确要求长期记住时才写入偏好文件。
 - 可使用 [scripts/export_covers.py](scripts/export_covers.py) 为**已经生成的图片**导出 PNG、JPEG、缩略图与 HTML 对比页；脚本不负责生图、不调用模型、不修改画面元素。运行 `--help` 查看用法。

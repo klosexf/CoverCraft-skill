@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>封面浏览预览 · CoverCraft</title>
+<title>封面浏览预览 · Video CoverCraft</title>
 <style>
 :root{color-scheme:light;--page:#f5f3ed;--surface:#fffefa;--ink:#202a27;--muted:#67716b;--border:#dcded5;--accent:#186b61;--card-width:320px}
 *{box-sizing:border-box}body{margin:0;padding:32px;font:15px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif;color:var(--ink);background:var(--page)}
@@ -27,7 +27,7 @@ header,.controls,.legend,.summary{max-width:1200px;margin:auto}header{display:fl
 <p class="legend">模拟界面用于检查构图；位置可能与实际平台不同。120 / 168 px 用于更严格的小图检查，交付图片保持原样。</p>
 <main class="feed" id="feed" aria-label="封面列表"></main>
 <p class="summary">先读大标题，再看主视觉：内容能否一眼理解？重要文字是否被挡住？点击封面可查看原图。</p>
-<script id="cover-data" type="application/json">{"videoTitle": "CoverCraft · 十种 AI 主题示意案例", "images": [{"file": "../../cover-craft/assets/style-examples/01-b01-ai-weekly.png", "label": "B01-B 黄蓝冲击", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/02-b02-ai-editing.png", "label": "B02-A 蓝黑科技", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/03-b03-ai-paper.png", "label": "B03-A 白橙清单", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/04-b04-ai-prompt.png", "label": "B04-B 彩色漫画", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/05-b05-ai-handoff.png", "label": "B05-A 极简编辑", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/06-b06-ai-coding.png", "label": "B06-B 发布会实测", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/07-b07-ai-models.png", "label": "B07-A 双阵营对比", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/08-b08-ai-office.png", "label": "B08-B 未来办公", "size": [1086, 1448]}, {"file": "../../cover-craft/assets/style-examples/09-b09-ai-agents.png", "label": "B09-A 矩阵控制室", "size": [1672, 941]}, {"file": "../../cover-craft/assets/style-examples/10-b10-ai-knowledge.png", "label": "B10-B 立体概念", "size": [1086, 1448]}]}</script>
+<script id="cover-data" type="application/json">{"videoTitle": "Video CoverCraft · 十种 AI 主题示意案例", "images": [{"file": "../../video-cover-craft/assets/style-examples/01-b01-ai-weekly.png", "label": "B01-B 黄蓝冲击", "size": [1086, 1448]}, {"file": "../../video-cover-craft/assets/style-examples/02-b02-ai-editing.png", "label": "B02-A 蓝黑科技", "size": [1672, 941]}, {"file": "../../video-cover-craft/assets/style-examples/03-b03-ai-paper.png", "label": "B03-A 白橙清单", "size": [1086, 1448]}, {"file": "../../video-cover-craft/assets/style-examples/04-b04-ai-prompt.png", "label": "B04-B 彩色漫画", "size": [1672, 941]}, {"file": "../../video-cover-craft/assets/style-examples/05-b05-ai-handoff.png", "label": "B05-A 极简编辑", "size": [1086, 1448]}, {"file": "../../video-cover-craft/assets/style-examples/06-b06-ai-coding.png", "label": "B06-B 发布会实测", "size": [1672, 941]}, {"file": "../../video-cover-craft/assets/style-examples/07-b07-ai-models.png", "label": "B07-A 双阵营对比", "size": [1672, 941]}, {"file": "../../video-cover-craft/assets/style-examples/08-b08-ai-office.png", "label": "B08-B 未来办公", "size": [1086, 1448]}, {"file": "../../video-cover-craft/assets/style-examples/09-b09-ai-agents.png", "label": "B09-A 矩阵控制室", "size": [1672, 941]}, {"file": "../../video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png", "label": "B10-B 立体概念", "size": [1086, 1448]}]}</script>
 <script>
 "use strict";
 const data=JSON.parse(document.getElementById("cover-data").textContent);

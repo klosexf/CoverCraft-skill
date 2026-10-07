@@ -24,7 +24,7 @@
         "C03-S2"
       ],
       "adaptation": "吸收黑底黄字、巨大标题与主体轮廓；换成黄蓝办公场景、新人物和周报主物件。",
-      "asset": "cover-craft/assets/style-examples/01-b01-ai-weekly.png",
+      "asset": "video-cover-craft/assets/style-examples/01-b01-ai-weekly.png",
       "prompt": "examples/integrated-styles-v3/prompts/01-b01-ai-weekly.txt",
       "actual_size": [
         1086,
@@ -36,7 +36,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/01-b01-ai-weekly.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/01-b01-ai-weekly.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/01-b01-ai-weekly.jpg"
     },
     {
@@ -53,7 +53,7 @@
         "C14-S2"
       ],
       "adaptation": "吸收彩色时间线与强标题层级，移除人物和宇宙背景，改成有统一透视的剪辑工作台。",
-      "asset": "cover-craft/assets/style-examples/02-b02-ai-editing.png",
+      "asset": "video-cover-craft/assets/style-examples/02-b02-ai-editing.png",
       "prompt": "examples/integrated-styles-v3/prompts/02-b02-ai-editing.txt",
       "actual_size": [
         1672,
@@ -65,7 +65,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/02-b02-ai-editing.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/02-b02-ai-editing.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/02-b02-ai-editing.jpg"
     },
     {
@@ -82,7 +82,7 @@
         "C19-S1"
       ],
       "adaptation": "吸收浅底标题卡的层次和完整大字；延展为白橙功能卡，加入原创讲解人物与出处标记。",
-      "asset": "cover-craft/assets/style-examples/03-b03-ai-paper.png",
+      "asset": "video-cover-craft/assets/style-examples/03-b03-ai-paper.png",
       "prompt": "examples/integrated-styles-v3/prompts/03-b03-ai-paper.txt",
       "actual_size": [
         1086,
@@ -94,7 +94,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/03-b03-ai-paper.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/03-b03-ai-paper.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/03-b03-ai-paper.jpg"
     },
     {
@@ -111,7 +111,7 @@
         "C10-S2"
       ],
       "adaptation": "吸收漫画结果画面与粗描边文字；改为原创漫画角色和模糊到清晰的提问关系。",
-      "asset": "cover-craft/assets/style-examples/04-b04-ai-prompt.png",
+      "asset": "video-cover-craft/assets/style-examples/04-b04-ai-prompt.png",
       "prompt": "examples/integrated-styles-v3/prompts/04-b04-ai-prompt.txt",
       "actual_size": [
         1672,
@@ -123,7 +123,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 2,
       "edit_prompt": "examples/integrated-styles-v3/prompts/04-b04-ai-prompt-edit-01.txt",
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/04-b04-ai-prompt.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/04-b04-ai-prompt.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/04-b04-ai-prompt.jpg"
     },
     {
@@ -140,7 +140,7 @@
         "C09-S1"
       ],
       "adaptation": "吸收白底黑字与编辑式留白；移除两个人物，改成开发说明这个单一主对象。",
-      "asset": "cover-craft/assets/style-examples/05-b05-ai-handoff.png",
+      "asset": "video-cover-craft/assets/style-examples/05-b05-ai-handoff.png",
       "prompt": "examples/integrated-styles-v3/prompts/05-b05-ai-handoff.txt",
       "actual_size": [
         1086,
@@ -152,7 +152,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/05-b05-ai-handoff.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/05-b05-ai-handoff.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/05-b05-ai-handoff.jpg"
     },
     {
@@ -169,7 +169,7 @@
         "C12-S1"
       ],
       "adaptation": "吸收真人与可展示实物的体验证据；把证书换成原型电脑，改成原创亚洲男讲解者与工作室构图。",
-      "asset": "cover-craft/assets/style-examples/06-b06-ai-coding.png",
+      "asset": "video-cover-craft/assets/style-examples/06-b06-ai-coding.png",
       "prompt": "examples/integrated-styles-v3/prompts/06-b06-ai-coding.txt",
       "actual_size": [
         1672,
@@ -181,7 +181,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/06-b06-ai-coding.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/06-b06-ai-coding.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/06-b06-ai-coding.jpg"
     },
     {
@@ -198,7 +198,7 @@
         "C02-S3"
       ],
       "adaptation": "吸收绿与陶土两区和同等权重的对象；移除中间人物，加入同题输入卡，使用中立问题。",
-      "asset": "cover-craft/assets/style-examples/07-b07-ai-models.png",
+      "asset": "video-cover-craft/assets/style-examples/07-b07-ai-models.png",
       "prompt": "examples/integrated-styles-v3/prompts/07-b07-ai-models.txt",
       "actual_size": [
         1672,
@@ -210,7 +210,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/07-b07-ai-models.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/07-b07-ai-models.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/07-b07-ai-models.jpg"
     },
     {
@@ -227,7 +227,7 @@
         "C16-S2"
       ],
       "adaptation": "吸收办公任务围绕主体的结构，改为普通原创人物、统一未来工作台和三块协作模块。",
-      "asset": "cover-craft/assets/style-examples/08-b08-ai-office.png",
+      "asset": "video-cover-craft/assets/style-examples/08-b08-ai-office.png",
       "prompt": "examples/integrated-styles-v3/prompts/08-b08-ai-office.txt",
       "actual_size": [
         1086,
@@ -239,7 +239,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/08-b08-ai-office.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/08-b08-ai-office.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/08-b08-ai-office.jpg"
     },
     {
@@ -256,7 +256,7 @@
         "R13-05"
       ],
       "adaptation": "取你提供的拼图第一行最右侧的矩阵结构；改为九格任务墙和无人物控制台，任务逻辑参考 C16-S2 与 C14-S2。",
-      "asset": "cover-craft/assets/style-examples/09-b09-ai-agents.png",
+      "asset": "video-cover-craft/assets/style-examples/09-b09-ai-agents.png",
       "prompt": "examples/integrated-styles-v3/prompts/09-b09-ai-agents.txt",
       "actual_size": [
         1672,
@@ -268,7 +268,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/09-b09-ai-agents.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/09-b09-ai-agents.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/09-b09-ai-agents.jpg"
     },
     {
@@ -285,7 +285,7 @@
         "C01-S1"
       ],
       "adaptation": "吸收金属立体主物和轮廓光；去掉人物、王冠和模型标志，延展为可看懂内部关系的知识库器物。",
-      "asset": "cover-craft/assets/style-examples/10-b10-ai-knowledge.png",
+      "asset": "video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png",
       "prompt": "examples/integrated-styles-v3/prompts/10-b10-ai-knowledge.txt",
       "actual_size": [
         1086,
@@ -297,7 +297,7 @@
       "reference_pixels_passed": true,
       "generation_iterations": 1,
       "edit_prompt": null,
-      "thumbnail": "cover-craft/assets/style-examples/thumbs/10-b10-ai-knowledge.png",
+      "thumbnail": "video-cover-craft/assets/style-examples/thumbs/10-b10-ai-knowledge.png",
       "jpeg": "examples/integrated-styles-v3/jpeg/10-b10-ai-knowledge.jpg"
     }
   ]

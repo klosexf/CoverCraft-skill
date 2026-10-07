@@ -17,7 +17,7 @@
 
 1. **聊天图片卡片**：读取 [菜单数据](../assets/style-menu.json) 与 [样张索引](../assets/style-examples/manifest.json)，找到真实缩略图。宿主支持本地图片时，解析为当前安装目录的绝对路径后内联展示，并链接原 PNG。不要使用开发者电脑的固定路径；不同 Agent 的安装目录不同。
 2. **完整图库**：打开或提供技能根目录的 [style-picker.html](../style-picker.html)。它不用联网，支持按内容类型/关键词浏览，点击卡片生成一条可复制的选择句。它不会自动把选择发送到 Agent；用户将短句粘贴回聊天。
-3. **无法显示本地图片时**：若宿主允许展示公开网络图片，使用 `style-menu.json` 中的公开仓库图像基址与真实样张文件名；或提供 [GitHub 图文菜单](https://github.com/klosexf/CoverCraft-skill/blob/main/cover-craft/references/style-menu.md)。网络图片也无法展示时提供可打开的图库/PNG 链接与名称描述，说明本轮没有显示图片，不声称用户已经看过预览。
+3. **无法显示本地图片时**：若宿主允许展示公开网络图片，使用 `style-menu.json` 中的公开仓库图像基址与真实样张文件名；或提供 [GitHub 图文菜单](https://github.com/klosexf/CoverCraft-skill/blob/main/video-cover-craft/references/style-menu.md)。网络图片也无法展示时提供可打开的图库/PNG 链接与名称描述，说明本轮没有显示图片，不声称用户已经看过预览。
 
 本页下方图片使用包内的相对链接，能在 GitHub 和支持相对资源的 Markdown 阅读器显示；Agent 发给聊天时要按宿主转换。GitHub 不会把 HTML 文件页直接运行成网站，在线浏览优先用 Markdown 图文菜单；下载完整技能后才能打开离线 HTML。
 

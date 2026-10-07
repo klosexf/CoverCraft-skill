@@ -74,6 +74,6 @@
 
 [PNG 原图](images/06-ai-models.png) · [实际提示词](prompts/06-ai-models.txt)
 
-[选题与设计依据](design-brief.md) · [10 种 AI 基础风格](../../cover-craft/references/style-catalog.md) · [网上封面调研与来源](../../cover-craft/references/ai-creator-cover-research.md)
+[选题与设计依据](design-brief.md) · [10 种 AI 基础风格](../../video-cover-craft/references/style-catalog.md) · [网上封面调研与来源](../../video-cover-craft/references/ai-creator-cover-research.md)
 
 人物为原创虚拟角色，界面和能力结果为示意；工具未返回具体模型版本。所有分支不代表均已实测。

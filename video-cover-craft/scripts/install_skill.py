@@ -12,7 +12,7 @@ import tempfile
 
 def install(source, root, replace=False):
     source, root = Path(source).resolve(), Path(root).expanduser().resolve()
-    destination = root / "cover-craft"
+    destination = root / "video-cover-craft"
     if not (source / "SKILL.md").is_file():
         raise ValueError("Source is missing SKILL.md")
     if source == destination:
@@ -30,9 +30,9 @@ def install(source, root, replace=False):
     root.mkdir(parents=True, exist_ok=True)
     backup = None
     # Copy before moving an existing installation so a copy failure leaves it intact.
-    staging = Path(tempfile.mkdtemp(prefix=".cover-craft-install-", dir=root))
+    staging = Path(tempfile.mkdtemp(prefix=".video-cover-craft-install-", dir=root))
     try:
-        ready = staging / "cover-craft"
+        ready = staging / "video-cover-craft"
         shutil.copytree(source, ready, ignore=shutil.ignore_patterns("__pycache__", "*.pyc", ".DS_Store"))
         # Account choices belong to the user, not the release being installed.
         if preferences.is_file():
@@ -43,7 +43,7 @@ def install(source, root, replace=False):
         if destination.exists():
             stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
             # Keep backups outside the discovery root to avoid duplicate skills.
-            backup_dir = root.parent / "skill-backups" / "cover-craft"
+            backup_dir = root.parent / "skill-backups" / "video-cover-craft"
             backup_dir.mkdir(parents=True, exist_ok=True)
             backup = backup_dir / stamp
             destination.rename(backup)

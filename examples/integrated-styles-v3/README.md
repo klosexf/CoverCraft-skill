@@ -10,100 +10,100 @@
 
 ## B01-B · 黄蓝冲击 · AI 写周报
 
-[![AI 写周报](../../cover-craft/assets/style-examples/thumbs/01-b01-ai-weekly.png)](../../cover-craft/assets/style-examples/01-b01-ai-weekly.png)
+[![AI 写周报](../../video-cover-craft/assets/style-examples/thumbs/01-b01-ai-weekly.png)](../../video-cover-craft/assets/style-examples/01-b01-ai-weekly.png)
 
 把零散工作记录整理为要点，再让 AI 协助写成周报；示例不承诺自动核实事实。
 
 参考：C03-S2。吸收黑底黄字、巨大标题与主体轮廓；换成黄蓝办公场景、新人物和周报主物件。
 
-[PNG 原图](../../cover-craft/assets/style-examples/01-b01-ai-weekly.png) · [JPEG](jpeg/01-b01-ai-weekly.jpg) · [实际提示词](prompts/01-b01-ai-weekly.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/01-b01-ai-weekly.png) · [JPEG](jpeg/01-b01-ai-weekly.jpg) · [实际提示词](prompts/01-b01-ai-weekly.txt)
 
 ## B02-A · 蓝黑科技 · AI 自动剪辑
 
-[![AI 自动剪辑](../../cover-craft/assets/style-examples/thumbs/02-b02-ai-editing.png)](../../cover-craft/assets/style-examples/02-b02-ai-editing.png)
+[![AI 自动剪辑](../../video-cover-craft/assets/style-examples/thumbs/02-b02-ai-editing.png)](../../video-cover-craft/assets/style-examples/02-b02-ai-editing.png)
 
 展示素材整理、选择片段和排列时间线的 AI 剪辑工作流；软件界面为示意。
 
 参考：C14-S2。吸收彩色时间线与强标题层级，移除人物和宇宙背景，改成有统一透视的剪辑工作台。
 
-[PNG 原图](../../cover-craft/assets/style-examples/02-b02-ai-editing.png) · [JPEG](jpeg/02-b02-ai-editing.jpg) · [实际提示词](prompts/02-b02-ai-editing.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/02-b02-ai-editing.png) · [JPEG](jpeg/02-b02-ai-editing.jpg) · [实际提示词](prompts/02-b02-ai-editing.txt)
 
 ## B03-A · 白橙清单 · AI 读论文
 
-[![AI 读论文](../../cover-craft/assets/style-examples/thumbs/03-b03-ai-paper.png)](../../cover-craft/assets/style-examples/03-b03-ai-paper.png)
+[![AI 读论文](../../video-cover-craft/assets/style-examples/thumbs/03-b03-ai-paper.png)](../../video-cover-craft/assets/style-examples/03-b03-ai-paper.png)
 
 用 AI 辅助提取论文重点，并保留可回查的出处；论文卡片为示意。
 
 参考：C19-S1。吸收浅底标题卡的层次和完整大字；延展为白橙功能卡，加入原创讲解人物与出处标记。
 
-[PNG 原图](../../cover-craft/assets/style-examples/03-b03-ai-paper.png) · [JPEG](jpeg/03-b03-ai-paper.jpg) · [实际提示词](prompts/03-b03-ai-paper.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/03-b03-ai-paper.png) · [JPEG](jpeg/03-b03-ai-paper.jpg) · [实际提示词](prompts/03-b03-ai-paper.txt)
 
 ## B04-B · 彩色漫画 · AI 为什么乱答？
 
-[![AI 为什么乱答？](../../cover-craft/assets/style-examples/thumbs/04-b04-ai-prompt.png)](../../cover-craft/assets/style-examples/04-b04-ai-prompt.png)
+[![AI 为什么乱答？](../../video-cover-craft/assets/style-examples/thumbs/04-b04-ai-prompt.png)](../../video-cover-craft/assets/style-examples/04-b04-ai-prompt.png)
 
 讲解模糊提问与带目标、边界、背景的提问之间的区别；不展示虚构模型测评。
 
 参考：C10-S2。吸收漫画结果画面与粗描边文字；改为原创漫画角色和模糊到清晰的提问关系。
 
-[PNG 原图](../../cover-craft/assets/style-examples/04-b04-ai-prompt.png) · [JPEG](jpeg/04-b04-ai-prompt.jpg) · [实际提示词](prompts/04-b04-ai-prompt.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/04-b04-ai-prompt.png) · [JPEG](jpeg/04-b04-ai-prompt.jpg) · [实际提示词](prompts/04-b04-ai-prompt.txt)
 
 ## B05-A · 极简编辑 · 先聊清楚
 
-[![先聊清楚](../../cover-craft/assets/style-examples/thumbs/05-b05-ai-handoff.png)](../../cover-craft/assets/style-examples/05-b05-ai-handoff.png)
+[![先聊清楚](../../video-cover-craft/assets/style-examples/thumbs/05-b05-ai-handoff.png)](../../video-cover-craft/assets/style-examples/05-b05-ai-handoff.png)
 
 先在聊天中明确开发范围和验收标准，再将开发说明交给 Codex；不承诺固定节省额度。
 
 参考：C09-S1。吸收白底黑字与编辑式留白；移除两个人物，改成开发说明这个单一主对象。
 
-[PNG 原图](../../cover-craft/assets/style-examples/05-b05-ai-handoff.png) · [JPEG](jpeg/05-b05-ai-handoff.jpg) · [实际提示词](prompts/05-b05-ai-handoff.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/05-b05-ai-handoff.png) · [JPEG](jpeg/05-b05-ai-handoff.jpg) · [实际提示词](prompts/05-b05-ai-handoff.txt)
 
 ## B06-B · 发布会实测 · AI 编程实测
 
-[![AI 编程实测](../../cover-craft/assets/style-examples/thumbs/06-b06-ai-coding.png)](../../cover-craft/assets/style-examples/06-b06-ai-coding.png)
+[![AI 编程实测](../../video-cover-craft/assets/style-examples/thumbs/06-b06-ai-coding.png)](../../video-cover-craft/assets/style-examples/06-b06-ai-coding.png)
 
 演示把明确需求交给 AI 编程工具，检查一个原型的实现；原型为虚构示意。
 
 参考：C12-S1。吸收真人与可展示实物的体验证据；把证书换成原型电脑，改成原创亚洲男讲解者与工作室构图。
 
-[PNG 原图](../../cover-craft/assets/style-examples/06-b06-ai-coding.png) · [JPEG](jpeg/06-b06-ai-coding.jpg) · [实际提示词](prompts/06-b06-ai-coding.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/06-b06-ai-coding.png) · [JPEG](jpeg/06-b06-ai-coding.jpg) · [实际提示词](prompts/06-b06-ai-coding.txt)
 
 ## B07-A · 双阵营对比 · ChatGPT vs Claude
 
-[![ChatGPT vs Claude](../../cover-craft/assets/style-examples/thumbs/07-b07-ai-models.png)](../../cover-craft/assets/style-examples/07-b07-ai-models.png)
+[![ChatGPT vs Claude](../../video-cover-craft/assets/style-examples/thumbs/07-b07-ai-models.png)](../../video-cover-craft/assets/style-examples/07-b07-ai-models.png)
 
 用同一个任务比较两个工具的回答与适用情境，不预设优胜者。
 
 参考：C02-S3。吸收绿与陶土两区和同等权重的对象；移除中间人物，加入同题输入卡，使用中立问题。
 
-[PNG 原图](../../cover-craft/assets/style-examples/07-b07-ai-models.png) · [JPEG](jpeg/07-b07-ai-models.jpg) · [实际提示词](prompts/07-b07-ai-models.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/07-b07-ai-models.png) · [JPEG](jpeg/07-b07-ai-models.jpg) · [实际提示词](prompts/07-b07-ai-models.txt)
 
 ## B08-B · 未来办公 · AI 办公搭档
 
-[![AI 办公搭档](../../cover-craft/assets/style-examples/thumbs/08-b08-ai-office.png)](../../cover-craft/assets/style-examples/08-b08-ai-office.png)
+[![AI 办公搭档](../../video-cover-craft/assets/style-examples/thumbs/08-b08-ai-office.png)](../../video-cover-craft/assets/style-examples/08-b08-ai-office.png)
 
 将资料整理、文档草拟和排程分给不同 AI 工作模块，并保留人工检查。
 
 参考：C16-S2。吸收办公任务围绕主体的结构，改为普通原创人物、统一未来工作台和三块协作模块。
 
-[PNG 原图](../../cover-craft/assets/style-examples/08-b08-ai-office.png) · [JPEG](jpeg/08-b08-ai-office.jpg) · [实际提示词](prompts/08-b08-ai-office.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/08-b08-ai-office.png) · [JPEG](jpeg/08-b08-ai-office.jpg) · [实际提示词](prompts/08-b08-ai-office.txt)
 
 ## B09-A · 矩阵控制室 · 多 Agent 调度
 
-[![多 Agent 调度](../../cover-craft/assets/style-examples/thumbs/09-b09-ai-agents.png)](../../cover-craft/assets/style-examples/09-b09-ai-agents.png)
+[![多 Agent 调度](../../video-cover-craft/assets/style-examples/thumbs/09-b09-ai-agents.png)](../../video-cover-craft/assets/style-examples/09-b09-ai-agents.png)
 
 展示多个 Agent 任务的状态与交接，一格突出当前任务；九格为构图示意，不代表吞吐量。
 
 参考：R13-05。取你提供的拼图第一行最右侧的矩阵结构；改为九格任务墙和无人物控制台，任务逻辑参考 C16-S2 与 C14-S2。
 
-[PNG 原图](../../cover-craft/assets/style-examples/09-b09-ai-agents.png) · [JPEG](jpeg/09-b09-ai-agents.jpg) · [实际提示词](prompts/09-b09-ai-agents.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/09-b09-ai-agents.png) · [JPEG](jpeg/09-b09-ai-agents.jpg) · [实际提示词](prompts/09-b09-ai-agents.txt)
 
 ## B10-B · 立体概念 · AI 知识库
 
-[![AI 知识库](../../cover-craft/assets/style-examples/thumbs/10-b10-ai-knowledge.png)](../../cover-craft/assets/style-examples/10-b10-ai-knowledge.png)
+[![AI 知识库](../../video-cover-craft/assets/style-examples/thumbs/10-b10-ai-knowledge.png)](../../video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png)
 
 用剖面器物比喻说明资料入库、检索与答案引用；画面是概念解释，不是内部技术架构图。
 
 参考：C01-S1。吸收金属立体主物和轮廓光；去掉人物、王冠和模型标志，延展为可看懂内部关系的知识库器物。
 
-[PNG 原图](../../cover-craft/assets/style-examples/10-b10-ai-knowledge.png) · [JPEG](jpeg/10-b10-ai-knowledge.jpg) · [实际提示词](prompts/10-b10-ai-knowledge.txt)
+[PNG 原图](../../video-cover-craft/assets/style-examples/10-b10-ai-knowledge.png) · [JPEG](jpeg/10-b10-ai-knowledge.jpg) · [实际提示词](prompts/10-b10-ai-knowledge.txt)

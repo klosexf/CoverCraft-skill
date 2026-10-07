@@ -73,7 +73,7 @@
 运行助手，例如：
 
 ```bash
-python3 /absolute/cover-craft/scripts/preview_feed.py --image /absolute/cover-a.png --label "A · 冷暖接力" --image /absolute/cover-b.png --label "B · 清爽清单" --video-title "Codex 省额度小技巧：先在 ChatGPT 聊清楚方案" --out-dir /absolute/outputs/cover-final/feed
+python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/cover-a.png --label "A · 冷暖接力" --image /absolute/cover-b.png --label "B · 清爽清单" --video-title "Codex 省额度小技巧：先在 ChatGPT 聊清楚方案" --out-dir /absolute/outputs/cover-final/feed
 ```
 
 输出 `feed-preview.html`、`preview-manifest.json` 和未改动的图片副本。打开 HTML 后可以切换：

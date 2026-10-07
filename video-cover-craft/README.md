@@ -1,4 +1,4 @@
-# CoverCraft 2.8.0 · 封面工坊（优先 GPT Image）
+# Video CoverCraft 2.8.1 · 视频封面工坊（优先 GPT Image）
 
 根据**视频脚本、视频描述或封面描述**生成封面，任一种输入都可以，也可组合；支持横版、竖版和可选人物。主流程是：**理解已有内容或画面要求 → 采用或拟写标题 → 确认画幅与人物 → 分析参考与延展 → 选择配色 → 选择生图通道并生成 → 验图与修改 → 导出**。
 
@@ -43,7 +43,6 @@ API 路径、环境变量、依赖与运行示例见 [OpenAI API 配置说明](r
 5. **中文专项验收**：逐项核对主副标题、品牌、流程标签、数字及背景杂字，记录未核验和需要修正的项目。依赖实际看图，不保证首图零错字。
 
 细则见 [标题处理](references/script-to-cover.md)、[设计维度](references/design-dimensions.md)、[账号偏好](references/account-preferences.md) 和 [文字与预览验收](references/text-and-preview-review.md)。
-
 ## 使用条件
 
 - 支持提供所需工具的 Agent 宿主；Codex 的内置 GPT Image 通道不需要另配 API Key。
@@ -55,26 +54,28 @@ API 路径、环境变量、依赖与运行示例见 [OpenAI API 配置说明](r
 
 ## 安装
 
-解压包，进入 `cover-craft` 文件夹，运行：
+解压包，进入 `video-cover-craft` 文件夹，运行：
 
 ```bash
 python3 scripts/install_skill.py --target codex
 ```
 
-默认安装到 `${CODEX_HOME:-~/.codex}/skills/cover-craft/`。也可用 `--destination /absolute/skill-root` 指定技能目录，例如 `~/.agents/skills`。一次只安装到一个技能根目录，避免同名版本重复。
+默认安装到 `${CODEX_HOME:-~/.codex}/skills/video-cover-craft/`。也可用 `--destination /absolute/skill-root` 指定技能目录，例如 `~/.agents/skills`。一次只安装到一个技能根目录，避免同名版本重复。
 
-其他平台请按其 Skill 导入方式放入完整的 `cover-craft` 文件夹；`SKILL.md` 是入口，参考文档、原图和脚本一并保留，不只复制一个提示词文件。这个安装助手默认目标是 Codex，不假定其他平台采用相同发现目录。
+其他平台请按其 Skill 导入方式放入完整的 `video-cover-craft` 文件夹；`SKILL.md` 是入口，参考文档、原图和脚本一并保留，不只复制一个提示词文件。这个安装助手默认目标是 Codex，不假定其他平台采用相同发现目录。
 
-已有同名技能时，默认拒绝覆盖。确需替换可用 `--replace`，原目录会先保留在技能根目录旁边的 `skill-backups/cover-craft/` 中，避免备份被误发现为另一个 Skill。安装后重新加载会话；安装不会为旧会话凭空增加缺失的图片工具。
+已有同名技能时，默认拒绝覆盖。确需替换可用 `--replace`，原目录会先保留在技能根目录旁边的 `skill-backups/video-cover-craft/` 中，避免备份被误发现为另一个 Skill。安装后重新加载会话；安装不会为旧会话凭空增加缺失的图片工具。
 
 替换安装时保留原有 `user-preferences.json`，不会用新版默认配置覆盖个人设置。以后可直接说“记住，这个系列沿用大标题和设备场景，配色你决定”；一次性的“这张选 A”只影响本期。
+
+旧名升级：如果此前安装为 `cover-craft` 或 `cover-studio`，先把旧技能文件夹改名为 `video-cover-craft`，再运行本版安装助手并加 `--replace`；安装助手会备份旧版并保留 `user-preferences.json`。同一技能只保留一个安装入口。
 
 ## 调用
 
 可以粘贴或附上完整脚本，不必先整理摘要：
 
 ```text
-$cover-craft
+$video-cover-craft
 请根据下面的视频脚本制作封面，沿用内置 R10 的蓝黑软件教程风格。
 我没有想好标题，请帮我拟写。
 生图前先问我横屏还是竖屏、有人物还是无人物。
@@ -86,7 +87,7 @@ $cover-craft
 也可以附上参考图，并一次给全标题和选择：
 
 ```text
-$cover-craft
+$video-cover-craft
 参考这张图的构图、配色和中文大标题。
 主题：AI 自动剪辑完整工作流。
 主标题：AI 自动剪辑；副标题：完整工作流。
@@ -96,7 +97,7 @@ $cover-craft
 也可以只给视频描述：
 
 ```text
-$cover-craft
+$video-cover-craft
 视频描述：教大家先在 ChatGPT 聊清楚开发需求，再交给 Codex 实现。
 做一张竖版 3:4，无人物，标题请帮我拟写。
 用文档和电脑表达两工具接力，配色你决定。
@@ -105,7 +106,7 @@ $cover-craft
 或者只给封面描述：
 
 ```text
-$cover-craft
+$video-cover-craft
 封面描述：一张深青与暖橙配色的竖版 3:4 封面，无人物。
 上方大字「省额度小技巧」，左侧聊天面板，中央开发说明，右下方电脑。
 用一道发光箭头连接三个对象，背景像温暖的书房。
@@ -139,7 +140,7 @@ $cover-craft
 已加入午夜橙蓝、电光紫青、柠檬紫墨、晨雾薄荷、深绿暖金、靛蓝蜜桃、奶油莓果、海盐糖果八组起点，另可继续创作。后三组保留公开色卡的作者与来源；见 [配色方法与来源](references/color-palettes.md) 和 [配色色卡预览](palette-preview.html)。色卡不是生图样张，最终可读性仍检查实际成图。
 
 ```text
-$cover-craft
+$video-cover-craft
 参考 R12-02 冷暖双阵营对比，延展成两工具接力。
 请根据我提供的视频脚本做一张竖版 3:4，无人物。
 没有标题，请帮我拟写；配色你决定，可借鉴网上好看的搭配。

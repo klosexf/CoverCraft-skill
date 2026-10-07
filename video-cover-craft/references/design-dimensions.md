@@ -45,4 +45,4 @@
 内容依据：先聊清楚功能范围、关键决定与验收标准，再实现和测试。
 ```
 
-维度拆分参考 [baoyu-cover-image 自动选择规则](https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-cover-image/references/auto-selection.md)，本文的组合和取舍是 CoverCraft 的设计建议。
+维度拆分参考 [baoyu-cover-image 自动选择规则](https://github.com/JimLiu/baoyu-skills/blob/main/skills/baoyu-cover-image/references/auto-selection.md)，本文的组合和取舍是 Video CoverCraft 的设计建议。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video CoverCraft · 视频封面工坊"
+  short_description: "看真实样图选风格；脚本或描述均可出图，支持横竖版和可选人物"
+  default_prompt: "使用 $video-cover-craft，根据我的脚本或描述制作封面；未选风格时先展示适合内容的真实样图，补问缺少的画幅与人物，按我的选择或授权继续生图。"
