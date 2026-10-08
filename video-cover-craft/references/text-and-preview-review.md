@@ -2,6 +2,10 @@
 
 生图前确定文字清单，生图后检查真实像素。文字核对和列表检查分别记录，生成辅助文件并不等于验收通过。
 
+仅提示词也建立文字清单并核对正文中的文案、断行与限制；不执行下方的成图检查、列表预览或成图 `review.json` 记录。已有图提词的文字来自实际观察，不能辨认的字不猜写；依据与限制记录见 [prompt-export.md](prompt-export.md)。
+
+旧图诊断按 [cover-diagnosis.md](cover-diagnosis.md) 只读检查原图与小图，结果保存到 `diagnosis.json`；只有实际生成改版后才采用本页的新成图验收。标题与封面配合见 [title-cover-alignment.md](title-cover-alignment.md)，设计阶段检查和最终像素复核分别记录。
+
 ## 文字清单
 
 每套方案保存一个 `text-spec.json`；多方案可以各存一个文件或用 `variants` 分组。只记录本轮要画出的文字，视频标题作为预览的元数据单独存。可按以下形状填写：
@@ -85,6 +89,10 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 
 模拟卡片明确标注为示例，不冒充真实对标封面；模拟界面的位置和比例不是平台规范。用户指定某个平台时，使用已查证规则或其实际截图制定更精确的约束，不臆测最新界面。布局预览以原图比例显示，边缘裁切只影响页面显示，不裁切交付文件。
 
+## 创作目标检查
+
+按 [creation-modes.md](creation-modes.md) 核对本轮摘要中的锁定、继承与重新设计项。常规检查选取的表达特征；创意检查新构图或主视觉是否落实，允许改变的字体、颜色、材质与布局偏离旧样张不判失败。用户明确保留项未落实，或仍重复被拒绝的主体/结构时标为 `needs_fix`。实际查看后的依据可记入 `checks.design_intent`；纯提示词只核对规格，不新建成图验收记录。
+
 ## 记录检查结果
 
 在 `review.json` 中按方案记录：
@@ -98,6 +106,7 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
       "checks": {
         "text": {"status": "pass", "evidence": "完整图与文字清单逐项核对"},
         "content": {"status": "pass", "evidence": "开发说明连接讨论与开发，与脚本一致"},
+        "title_cover_alignment": {"status": "pass", "evidence": "视频标题交代方法，封面痛点与接力关系补充语境，承诺有脚本依据"},
         "people": {"status": "pass", "evidence": "无人物"},
         "aspect": {"status": "pass", "evidence": "1080×1440，为3:4"},
         "thumbnail": {"status": "pass", "evidence": "320px下主副标题清楚"},
@@ -109,6 +118,6 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 }
 ```
 
-状态：`pass`、`needs_fix`、`uncertain`、`not_checked`。只有实际检查后才能填 `pass`；未核验项目和限制在交付中说明。默认验收重点为 320px 与完整图；120px 下次要文字读不清可记录为取舍，不自动触发无限生图。
+状态：`pass`、`needs_fix`、`uncertain`、`not_checked`。只有实际检查后才能填 `pass`；未核验项目和限制在交付中说明。`title_cover_alignment` 缺视频标题时记 `not_checked`，内容兑现缺依据时说明不确定；不因没有视频标题判封面失败。默认验收重点为 320px 与完整图；120px 下次要文字读不清可记录为取舍，不自动触发无限生图。
 
 列表与遮挡检查参考 [NanoThumbnail](https://github.com/yoanbernabeu/NanoThumbnail/blob/main/skills/nanothumbnail/SKILL.md)，独立整理图片用文字借鉴 [Auto-Redbook-Skills](https://github.com/comeonzhj/Auto-Redbook-Skills/blob/main/SKILL.md)；文字清单和报告结构为本技能的实现。
