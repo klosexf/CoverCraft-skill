@@ -1,12 +1,12 @@
 {
-  "review_date": "2026-10-06",
-  "creator_count": 20,
-  "sample_count": 41,
+  "review_date": "2026-10-08",
+  "creator_count": 22,
+  "sample_count": 43,
   "platform_counts": {
     "YouTube": 14,
-    "Bilibili": 6
+    "Bilibili": 8
   },
-  "method": "Public channel video listings or Bilibili public video metadata establish authorship; actual thumbnail pixels reviewed. Counts refer to distinct creator accounts, not corporate ownership, styles, or subscriber ranking.",
+  "method": "Public channel video listings or Bilibili public video metadata establish authorship; actual thumbnail pixels reviewed. Counts refer to distinct creator accounts, not corporate ownership, styles, or subscriber ranking. The 2026-10-08 extension includes one direct Bilibili thumbnail and one cover located in a dated secondary channel screenshot, with provenance and image-hash scope stated. Candidate accounts are excluded from reviewed creator/sample counts.",
   "creators": [
     {
       "handle": "mreflow",
@@ -671,6 +671,225 @@
       "direction": "人物指向 / 工具名与资料来源",
       "styles": "B01、B02、B06",
       "adaptation": "把资料来源或安装工具按一条清楚路径排列，人物指向本期重点。无人物用资料汇总卡或主设备承接位置；不自动加本期未使用的平台标识。"
+    },
+    {
+      "id": "C21",
+      "creator": "林亦LYi",
+      "platform": "Bilibili",
+      "account_id": "4401694",
+      "account_url": "https://space.bilibili.com/4401694",
+      "review_date": "2026-10-08",
+      "direction": "体验问题 / 蓝黄文字与人物层次",
+      "styles": "B01、B06",
+      "adaptation": "借用浅底、蓝色主题大字与黄色体验短句的主次关系。人物换成本期授权素材或原创角色；无人物以相关设备/任务成果承接位置。去掉央视、节目标识与背景无关小字，不把“AI接管生活”当成本期事实；仅一张样本不推断长期风格。",
+      "samples": [
+        {
+          "id": "C21-S1",
+          "video_id": "BV1my23YvE48",
+          "title": "被AI接管我的生活后，我悟了……",
+          "source_url": "https://www.bilibili.com/list/4401694?bvid=BV1my23YvE48&oid=113282664962626",
+          "thumbnail_url": "https://i1.hdslb.com/bfs/archive/c52554f2574000e6cf4a24287542d47709fa042a.jpg",
+          "evidence_kind": "direct_thumbnail",
+          "pixel_reviewed": true,
+          "thumbnail_sha256": "c23b8de37f462d6f02a92f877a8e208779ebc8a984e41029e5a859b67e7df512",
+          "observation": "白色帘幕背景，蓝色巨大的“学AI”在两位坐姿人物后方；下方黄色倾斜问题句“接管我的生活？”，大字与人像形成前后层次。左上、右上是节目/媒体标识，蓝字内部有电路及细小英文装饰。",
+          "video_publication_date": "2024-10-10"
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "creator": "跟李沐学AI",
+      "platform": "Bilibili",
+      "account_id": "1567748478",
+      "account_url": "https://space.bilibili.com/1567748478",
+      "review_date": "2026-10-08",
+      "direction": "无人物模型名 / 单一概念物聚焦",
+      "styles": "B02、B10",
+      "adaptation": "从球体与模型名的清楚中心借用“一种概念物+准确模型名”，替换成解释本期机制的相关对象。冷暖弧线是层级建议，不说明模型技术结构；不默认添加宇宙、地球或伪架构。这里只研究一个历史封面，不能断言其长期系列风格。",
+      "samples": [
+        {
+          "id": "C22-S1",
+          "video_id": "BV1VdcxesEAt",
+          "title": "视频生成·上【论文精读·55】",
+          "source_url": "https://www.bilibili.com/list/1567748478?bvid=BV1VdcxesEAt&oid=113807758204102",
+          "thumbnail_url": "https://i-blog.csdnimg.cn/img_convert/2a2c258a03e0657f2b5def8d01e45eec.png",
+          "evidence_kind": "secondary_channel_screenshot",
+          "evidence_source_url": "https://blog.csdn.net/amusi1994/article/details/150052747",
+          "evidence_publication_date": "2025-08-07",
+          "cover_region_xyxy": [
+            696,
+            237,
+            860,
+            330
+          ],
+          "source_image_size": [
+            1080,
+            536
+          ],
+          "source_image_sha256": "5a38ddc9d55b4edbcb8f67fd5b5c3813571cb8979bf50c4a4dab18d3547554c9",
+          "hash_scope": "entire_source_image",
+          "pixel_reviewed": true,
+          "observation": "频道截图第一行第四张视频卡：深色宇宙背景，中央发光球体与白色“Sora”，球体上方的蓝橙弧线形成聚焦；没有人物。观察仅覆盖这张卡片，截图尺寸不足以可靠判断细小字和边缘细节。",
+          "limitations": "原视频页面确认作者与标题；像素来自第三方文章中的历史频道截图。URL与哈希对应整张截图，不是单张原封面；未复核当前封面是否改变。截图中其他视频不计入样本数，98.1万历史粉丝数不作为本轮粉丝量。",
+          "video_publication_date": "2025-01-11"
+        }
+      ]
     }
-  ]
+  ],
+  "initial_review_date": "2026-10-06",
+  "public_candidate_cohort": {
+    "checked_on": "2026-10-08",
+    "candidate_count": 10,
+    "platform_counts": {
+      "Bilibili": 5,
+      "Douyin": 5
+    },
+    "pixel_reviewed_creator_count": 2,
+    "cover_pending_creator_count": 8,
+    "selection": "公开可检索的 AI 内容账号，本轮粉丝快照最低20万；目的为拓展设计候选，不是全平台高粉排名。粉丝值是平台页面/检索缓存展示值，有取整、时滞和冲突记录。",
+    "promotion_rule": "候选须确认具体视频作者和标题，实际查看封面像素，记录来源与观察后，才能进入creators及制作规则；头像、课程海报、正文画面和检索文字不能替代视频封面。",
+    "creators": [
+      {
+        "id": "P01",
+        "creator": "GenJi是真想教会你",
+        "platform": "Bilibili",
+        "followers_display": "342.4万",
+        "followers_source": "https://search.bilibili.com/all?keyword=GENJI%2F",
+        "source_crawled": "约3周前",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 工具教学",
+        "account_url": "https://search.bilibili.com/all?keyword=GENJI%2F",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。"
+      },
+      {
+        "id": "P02",
+        "creator": "秋葉aaaki",
+        "platform": "Bilibili",
+        "followers_display": "177.5万",
+        "followers_source": "https://search.bilibili.com/all?keyword=%E7%A7%8B%E8%91%89aaaki",
+        "source_crawled": "约3周前",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 绘画与整合包教程",
+        "account_url": "https://search.bilibili.com/all?keyword=%E7%A7%8B%E8%91%89aaaki",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。"
+      },
+      {
+        "id": "P03",
+        "creator": "林亦LYi",
+        "platform": "Bilibili",
+        "account_url": "https://space.bilibili.com/4401694",
+        "followers_display": "138.0万",
+        "followers_source": "https://search.bilibili.com/all?keyword=%E6%9E%97%E4%BA%A6LYI",
+        "source_crawled": "约3周前",
+        "sample_status": "pixel_reviewed",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 体验与科普",
+        "reviewed_creator_id": "C21"
+      },
+      {
+        "id": "P04",
+        "creator": "图灵的猫",
+        "platform": "Bilibili",
+        "account_url": "https://space.bilibili.com/371846699",
+        "followers_display": "112.0万",
+        "followers_source": "https://www.bilibili.com/list/371846699",
+        "source_crawled": "约1月前的检索快照；无bvid的list当前已换作品",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 项目与桌宠",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。"
+      },
+      {
+        "id": "P05",
+        "creator": "跟李沐学AI",
+        "platform": "Bilibili",
+        "account_url": "https://space.bilibili.com/1567748478",
+        "followers_display": "116.9万",
+        "followers_source": "https://search.bilibili.com/all?keyword=%E6%9D%8E%E6%B2%90",
+        "source_crawled": "约3周前",
+        "sample_status": "pixel_reviewed",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 论文精读与技术教学",
+        "reviewed_creator_id": "C22"
+      },
+      {
+        "id": "P06",
+        "creator": "周周的AI笔记",
+        "platform": "Douyin",
+        "account_url": "https://www.douyin.com/user/MS4wLjABAAAAAbmuTKn7vowC1kW_oon8JWUqXrkAIu1koVeGVltMmrE",
+        "followers_display": "43.7万",
+        "followers_source": "https://www.douyin.com/video/7668684206645579051",
+        "source_crawled": "约1天前；主页搜索快照仅显示40.0万",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 工具与办公应用",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。",
+        "candidate_video_urls": [
+          "https://www.douyin.com/video/7663119849477110650"
+        ]
+      },
+      {
+        "id": "P07",
+        "creator": "李一帆",
+        "platform": "Douyin",
+        "account_url": "https://www.douyin.com/user/MS4wLjABAAAAyi85GGeS9GCLBpS4JAJ-r4Kz0cPVz-b0wIiYaeg_icU",
+        "followers_display": "36.2万",
+        "followers_source": "https://www.douyin.com/video/7653852870844464113",
+        "source_crawled": "约1周前；主页搜索快照显示30.0万",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 视频、设计与配音",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。",
+        "candidate_video_urls": [
+          "https://www.douyin.com/video/7653852870844464113"
+        ]
+      },
+      {
+        "id": "P08",
+        "creator": "AI老撕机",
+        "platform": "Douyin",
+        "account_url": "https://www.douyin.com/user/MS4wLjABAAAASllOOV_pANFTbi02rr-kqCUtBD1Ge8CUH2FlDWJyD0nPJRI1LHpjifvnV8j7xifs",
+        "followers_display": "51.7万",
+        "followers_source": "https://www.douyin.com/shipin/7634722038304819243",
+        "source_crawled": "约6天前；检索摘要为51.9万，保留打开页面值",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 视频与短剧工具",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。",
+        "candidate_video_urls": [
+          "https://www.douyin.com/video/7631498982623022387",
+          "https://www.douyin.com/shipin/7625467242368665615"
+        ]
+      },
+      {
+        "id": "P09",
+        "creator": "虚妄",
+        "platform": "Douyin",
+        "account_url": "https://www.douyin.com/user/MS4wLjABAAAA-J9AYB_Ds7X1aZwCDg_bpD-Tr8E5dUpHM_FX_HNoShyuoIVwfCUBN3EdzjvWFMV2",
+        "followers_display": "20.0万",
+        "followers_source": "https://www.douyin.com/user/MS4wLjABAAAA-J9AYB_Ds7X1aZwCDg_bpD-Tr8E5dUpHM_FX_HNoShyuoIVwfCUBN3EdzjvWFMV2",
+        "source_crawled": "约3周前",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 古风与巨物美学",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。"
+      },
+      {
+        "id": "P10",
+        "creator": "王二导",
+        "platform": "Douyin",
+        "account_url": "https://www.douyin.com/user/MS4wLjABAAAAWknaQEVHJpKlnDJ7MlCssQ6mvBqiQA8QwZU28yn0c7g",
+        "followers_display": "100.0万",
+        "followers_source": "https://www.douyin.com/user/MS4wLjABAAAAWknaQEVHJpKlnDJ7MlCssQ6mvBqiQA8QwZU28yn0c7g",
+        "source_crawled": "约3周前",
+        "sample_status": "cover_pending",
+        "checked_on": "2026-10-08",
+        "content_direction": "AI 剧情创作",
+        "limitation": "已确认公开账号/粉丝量快照，未完成封面像素查看；不用于视觉观察或风格规则。"
+      }
+    ]
+  }
 }

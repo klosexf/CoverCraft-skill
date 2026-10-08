@@ -4,7 +4,7 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover and a portable prompt. Choose regular or creative styles, request prompts only, describe an existing cover, or diagnose and redesign it. Supports reference images, exact Chinese headlines, landscape/portrait layouts, and optional people.
 
-当前版本 **2.13.0**。
+当前版本 **2.14.0**。
 
 ## 快速交付与完整预览
 
@@ -66,7 +66,7 @@ $video-cover-craft
 
 ## 真实 AI 生图案例
 
-本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0–2.13.0 更新流程和规则，未新增生图样张。
+本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0–2.14.0 更新流程和参考规则，未新增生图样张。
 
 ### 10 种基础风格的真实样张
 
@@ -174,16 +174,18 @@ Skill 的完整入口在 [video-cover-craft/SKILL.md](video-cover-craft/SKILL.md
 
 默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。表中的字体、配色、质感和结构是具体起点，用户未锁定时可变化；创意探索可不选 B 分支。每个分支已补齐来源、变化对象、人物/画幅适配与验收重点；10 类各有一张真实样张，不表示 30 个分支均已实测。
 
-## 20 位 AI 创作者的封面调研
+## AI 创作者封面调研与公开候选池
 
-实际查看 **41 张不同视频的封面**，覆盖 **YouTube 14 位、哔哩哔哩 6 位**。按创作者账号去重，逐位记录标题层级、配色、主视觉、人物与无人物的做法，并转成适用于 AI 选题的设计规则。
+已看图 **22 位、43 张不同视频封面**，覆盖 **YouTube 14 位、哔哩哔哩 8 位**。本轮新增两张，其中跟李沐学 AI 的一张来自有来源的历史频道截图，限制单列。按创作者账号去重，逐位记录标题层级、配色、主视觉、人物与无人物的做法，并转成适用于 AI 选题的设计规则。
 
 | 平台 | 已研究的创作者账号 |
 | --- | --- |
 | YouTube · 14 位 | Matt Wolfe、The AI Advantage、Wes Roth、Matthew Berman、1littlecoder、Skill Leap AI、TheAIGRID、AI Search、AI Explained、MattVidPro、Futurepedia、Goda Go、Two Minute Papers、AI Samson |
-| 哔哩哔哩 · 6 位 | AI超元域、秋芝2046、技术爬爬虾、人工大黑、AI产品狙击手、码里奥Ziho |
+| 哔哩哔哩 · 8 位 | AI超元域、秋芝2046、技术爬爬虾、人工大黑、AI产品狙击手、码里奥Ziho、林亦LYi、跟李沐学AI |
 
-[查看每位的原视频、看图观察与延展](video-cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](video-cover-craft/references/ai-cover-patterns.md) · [完整来源记录](video-cover-craft/references/ai-creator-cover-sources.json)
+**2.14.0 新增公开候选池**：B 站五位（GenJi是真想教会你、秋葉aaaki、林亦LYi、图灵的猫、跟李沐学AI），抖音五位（周周的AI笔记、李一帆、AI老撕机、虚妄、王二导）。粉丝快照约 20 万–342 万，注明检索日期、抓取年龄及来源冲突，非实时榜单。其中两位已看封面，另八位待看图；其余八位不计入 22 位/43 张，也不用于视觉规则。
+
+[查看每位的原视频、看图观察、候选池与延展](video-cover-craft/references/ai-creator-cover-research.md) · [按内容选择结构与六组配色](video-cover-craft/references/ai-cover-patterns.md) · [完整来源记录](video-cover-craft/references/ai-creator-cover-sources.json)
 
 观察样本与设计建议分开记录；不把参考博主的脸、标题和未核实结论带进新封面。网上原封面仅用于调研，公开包保留来源与观察。本页 26 张案例均为本项目实际生成的图片，网上博主原封面未重新分发。
 
