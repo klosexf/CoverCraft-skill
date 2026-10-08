@@ -4,7 +4,20 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover and a portable prompt. Choose regular or creative styles, request prompts only, describe an existing cover, or diagnose and redesign it. Supports reference images, exact Chinese headlines, landscape/portrait layouts, and optional people.
 
-当前版本 **2.11.0**。
+当前版本 **2.12.0**。
+
+## 快速交付与完整预览
+
+主流程按任务加载细则，普通制作默认快速交付；需要完整文件或列表比较时再增加预览，不多问一道深度选择题。
+
+| 深度 | 适合怎么用 | 交付与检查 |
+| --- | --- | --- |
+| **快速交付（默认）** | 「做一张封面」或「快速交付」 | 原图或指定格式、完整提示词（仅图片时省略）、简短检查说明；查看原图和约 320px 小图，核对中文、主体、人物、画幅和边缘 |
+| **完整预览** | 「完整预览」「给列表预览」或「做缩略图对比」 | 保留核心验图，增加 PNG/JPEG、缩略图对比页、浅/深列表、320/168/120px、模拟遮挡与裁切检查 |
+
+可以在下方任一制作示例末尾加「快速交付即可」或「请完整预览，给格式导出与列表对比」。只要一种格式或一个附件时按要求补足。两种深度都支持常规或创意风格；「只要提示词」仍只交付文字，不因完整预览自动生图。未实际查看的项目会如实标明。
+
+[核心验收与预览细则](video-cover-craft/references/text-and-preview-review.md) · [图片交付与导出](video-cover-craft/references/gpt-image-workflow.md)
 
 ## 常规风格与创意风格
 
@@ -45,7 +58,7 @@ $video-cover-craft
 
 ## 真实 AI 生图案例
 
-本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0 更新创作路线与规则，本次没有新增生图样张。
+本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0 与 2.12.0 更新流程和规则，均未新增生图样张。
 
 ### 10 种基础风格的真实样张
 
@@ -130,7 +143,7 @@ $video-cover-craft
 - **旧图诊断与改版**：查看实际图片，给设计评审和修改顺序；用户要求改图时再生成。
 - **先确认画幅与人物**：只补问尚未明确的选择，不要求本人出镜。
 - **GPT Image 优先**：不可用时使用平台自带生图工具；也支持用户自行配置并明确选用 OpenAI 图片 API。
-- **输出与检查**：实际图片、PNG/JPEG 导出、缩略图、列表预览，以及中文文字核对与设计依据。
+- **两种交付深度**：默认快速交付原图、提示词与检查说明；完整预览增加格式导出、对比页与列表检查，两种都保留核心验图。
 - **按本轮目标验收**：区分锁定、继承和重新设计项，结合内容与标题检查；仅提示词不冒称像素验收通过。
 
 Skill 的完整入口在 [video-cover-craft/SKILL.md](video-cover-craft/SKILL.md)，使用条件和工具能力以宿主提供的实际工具为准。

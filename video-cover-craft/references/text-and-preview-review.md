@@ -6,6 +6,13 @@
 
 旧图诊断按 [cover-diagnosis.md](cover-diagnosis.md) 只读检查原图与小图，结果保存到 `diagnosis.json`；只有实际生成改版后才采用本页的新成图验收。标题与封面配合见 [title-cover-alignment.md](title-cover-alignment.md)，设计阶段检查和最终像素复核分别记录。
 
+## 按交付深度使用本页
+
+- **快速交付 `quick`（默认）**：完成文字清单、完整图与约 320px 小图、内容/人物/画幅/边缘及设计目标检查，保存实际检查记录。不默认运行列表预览或整套导出。用宿主的缩略显示或等比单图缩略文件查看小图，无需为了 320px 检查生成 PNG/JPEG 与 HTML 全套；确实无法查看小图时标为 `not_checked` 并说明。
+- **完整预览 `full`**：保留以上核心检查，再按下方列表流程检查浅/深背景、320/168/120px、模拟遮挡和边缘裁切；按 [通道与图片交付](gpt-image-workflow.md) 导出 PNG/JPEG 与对比页。用户指定的单项附件可单独补足，不强制扩成整套。
+
+深度依据用户请求确定并在设计摘要记录 `delivery_depth`，不增加选择问卷。仅提示词不进入像素检查或预览；诊断仍按旧图分支。阅读本页不代表必须执行完整列表流程。
+
 ## 文字清单
 
 每套方案保存一个 `text-spec.json`；多方案可以各存一个文件或用 `variants` 分组。只记录本轮要画出的文字，视频标题作为预览的元数据单独存。可按以下形状填写：
@@ -72,9 +79,9 @@
 
 修正时将当前成图传给所选生图工具的编辑或参考输入，只修改问题文字或区域并复核全图。工具不能接收修改目标时说明限制，不声称已经定点修字。默认最多两轮；导出脚本和预览脚本都不修字，不覆盖原图。
 
-## 浏览列表预览
+## 完整预览：浏览列表与遮挡
 
-运行助手，例如：
+仅 `full` 或用户点名列表附件时运行助手，例如：
 
 ```bash
 python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/cover-a.png --label "A · 冷暖接力" --image /absolute/cover-b.png --label "B · 清爽清单" --video-title "Codex 省额度小技巧：先在 ChatGPT 聊清楚方案" --out-dir /absolute/outputs/cover-final/feed
@@ -91,7 +98,7 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 
 ## 创作目标检查
 
-按 [creation-modes.md](creation-modes.md) 核对本轮摘要中的锁定、继承与重新设计项。常规检查选取的表达特征；创意检查新构图或主视觉是否落实，允许改变的字体、颜色、材质与布局偏离旧样张不判失败。用户明确保留项未落实，或仍重复被拒绝的主体/结构时标为 `needs_fix`。实际查看后的依据可记入 `checks.design_intent`；纯提示词只核对规格，不新建成图验收记录。
+核对本轮摘要中的锁定、继承与重新设计项。常规检查选取的表达特征；创意检查新构图或主视觉是否落实，允许改变的字体、颜色、材质与布局偏离旧样张不判失败。用户明确保留项未落实，或仍重复被拒绝的主体/结构时标为 `needs_fix`。复杂反馈再查 [creation-modes.md](creation-modes.md)，不因本节通读创作细则。实际查看后的依据可记入 `checks.design_intent`；纯提示词只核对规格，不新建成图验收记录。
 
 ## 记录检查结果
 
@@ -100,6 +107,7 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 ```json
 {
   "schema_version": 1,
+  "delivery_depth": "quick",
   "variants": [
     {
       "id": "A",
@@ -110,7 +118,7 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
         "people": {"status": "pass", "evidence": "无人物"},
         "aspect": {"status": "pass", "evidence": "1080×1440，为3:4"},
         "thumbnail": {"status": "pass", "evidence": "320px下主副标题清楚"},
-        "feed": {"status": "not_checked", "evidence": "页面已生成，尚未打开检查"}
+        "feed": {"status": "not_checked", "evidence": "快速交付，本轮未请求列表预览"}
       },
       "repairs": []
     }
@@ -119,5 +127,7 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 ```
 
 状态：`pass`、`needs_fix`、`uncertain`、`not_checked`。只有实际检查后才能填 `pass`；未核验项目和限制在交付中说明。`title_cover_alignment` 缺视频标题时记 `not_checked`，内容兑现缺依据时说明不确定；不因没有视频标题判封面失败。默认验收重点为 320px 与完整图；120px 下次要文字读不清可记录为取舍，不自动触发无限生图。
+
+快速交付未请求列表时 `feed` 记 `not_checked` 并说明“不在本轮交付范围”，不创建空列表页面或以此判核心验图失败。完整预览如果页面未实际打开、依赖缺失或其他能力不足，也记 `not_checked`，说明具体未完成项；不能把文件生成成功写成视觉检查 `pass`。
 
 列表与遮挡检查参考 [NanoThumbnail](https://github.com/yoanbernabeu/NanoThumbnail/blob/main/skills/nanothumbnail/SKILL.md)，独立整理图片用文字借鉴 [Auto-Redbook-Skills](https://github.com/comeonzhj/Auto-Redbook-Skills/blob/main/SKILL.md)；文字清单和报告结构为本技能的实现。
