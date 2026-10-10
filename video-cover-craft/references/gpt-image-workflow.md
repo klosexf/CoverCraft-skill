@@ -140,3 +140,5 @@ python3 /absolute/video-cover-craft/scripts/export_covers.py \
 保留生成原图；导出图和缩略图是派生文件。中文标题错误不能靠这个脚本修复，必须回到图片工具。导出后查看 `index.html` 和实际 PNG/JPEG，检查结果才是交付依据。
 
 完整预览或用户点名列表时，再运行 [preview_feed.py](../scripts/preview_feed.py)，用真实图片和已有视频标题生成列表预览，操作见 [text-and-preview-review.md](text-and-preview-review.md)。没有视频标题不强制补写。预览只复制输入图片并叠加页面元素，不修改图片字词、内容或尺寸。实际打开后将检查依据写进 `review.json`；打不开或缺依赖时标明未检查并交付已有文件，不宣称完整检查已通过。
+
+用户回传完整预览的批注或修改单时，按 [批注与版本复核](preview-feedback.md) 匹配原图、保留锁定项并在已授权范围内改图；新旧图一同生成预览，用 `--current-image` 指定本轮新图、`--previous-image` 指定本轮修改目标原图，必要时用 `--feedback` 带入历史批注；当前新图默认进入批注页。页面资源和图片副本随 HTML 一起交付。

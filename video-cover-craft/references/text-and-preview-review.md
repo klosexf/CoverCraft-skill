@@ -87,7 +87,7 @@
 python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/cover-a.png --label "A · 冷暖接力" --image /absolute/cover-b.png --label "B · 清爽清单" --video-title "Codex 省额度小技巧：先在 ChatGPT 聊清楚方案" --out-dir /absolute/outputs/cover-final/feed
 ```
 
-输出 `feed-preview.html`、`preview-manifest.json` 和未改动的图片副本。打开 HTML 后可以切换：
+输出 `feed-preview.html`、`preview-manifest.json`、本地页面资源和未改动的图片副本。交付时保留整个预览目录，不能只复制 HTML。打开 HTML 后，「列表预览」可以切换：
 
 - 浅色/深色列表背景。
 - 320、168、120 像素宽度，后两种是更严格的小图检查，并非所有平台的实际展示尺寸。
@@ -95,6 +95,14 @@ python3 /absolute/video-cover-craft/scripts/preview_feed.py --image /absolute/co
 - 轻微边缘裁切与周边示例卡片，用于检查边缘安全和视线干扰。
 
 模拟卡片明确标注为示例，不冒充真实对标封面；模拟界面的位置和比例不是平台规范。用户指定某个平台时，使用已查证规则或其实际截图制定更精确的约束，不臆测最新界面。布局预览以原图比例显示，边缘裁切只影响页面显示，不裁切交付文件。
+
+## 完整预览：诊断、批注与版本复核
+
+「诊断与批注」提供灰度、模糊、临时区域遮盖、期望焦点和按住查看原图。用于人工判断视觉层级，不能称为眼动结果或点击率预测。发现具体问题时，可框选区域填写观察、修改动作与优先级，也可记录整图要求和需要保留的部分；不为凑数量虚构问题。
+
+页面支持复制修改指令、导出 Markdown 修改单和 JSON 批注备份。将修改前后图片一起放入新预览，可按图片内容标识导入批注，在「版本对比」并排或滑杆查看并逐条复核。改图后的预览须指定当前新图与上一版，默认在新图上继续批注；复制修改指令只带当前选中图片的批注，旧图要求保留用于对比复核。相同比例才能叠图；页面只记录人工结论，不自动写入验收通过。
+
+读取用户回传批注、导入旧记录或准备新旧图复核时，再读 [批注与版本复核](preview-feedback.md)。原有快速交付不增加这些附件或交互步骤。
 
 ## 创作目标检查
 

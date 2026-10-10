@@ -1,6 +1,6 @@
 # 用户这组参考图：原图与特征档案
 
-本页分析最初一组真实参考：11 个附件包含 9 张唯一图片，第 7、8、11 张字节相同，共用 R07。它们提炼为 17 个参考项。后来追加的两张横版拼图包含 14 项，见 [新增横版档案](horizontal-reference-library.md)；全库合计 13 个附件、11 张未改动的原图、31 个参考项。编号、位置与哈希见 [assets/reference-manifest.json](../assets/reference-manifest.json)。
+本页分析最初一组真实参考：11 个附件包含 9 张唯一图片，第 7、8、11 张字节相同，共用 R07。它们提炼为 17 个参考项。后来追加的两张横版拼图包含 14 项，见 [新增横版档案](horizontal-reference-library.md)；本轮再加入工具教程列表截图R14的10项，提炼为[8种特定风格](screenshot-specific-styles.md)；全库合计14个附件、12张未改动原图、41个参考项。编号、位置与哈希见 [assets/reference-manifest.json](../assets/reference-manifest.json)。
 
 **使用时查看所选原图，再把该原图作为选定生图工具的参考输入。** 不只读此文的文字描述。路径相对于 Skill 根目录；调用工具需转成当前安装位置下的绝对路径。内置图都只有风格参考角色，图中的真人不是已选择的身份素材。
 

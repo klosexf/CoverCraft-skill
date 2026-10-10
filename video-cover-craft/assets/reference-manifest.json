@@ -1,7 +1,7 @@
 {
   "source": "用户在当前对话上传的参考图",
-  "attachment_count": 13,
-  "unique_image_count": 11,
+  "attachment_count": 14,
+  "unique_image_count": 12,
   "references": [
     {
       "id": "R01",
@@ -464,9 +464,160 @@
           ]
         }
       ]
+    },
+    {
+      "id": "R14",
+      "source_batch": "tool-tutorial-gallery-20261010",
+      "source_image_numbers": [
+        1
+      ],
+      "asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "size": [
+        1200,
+        675
+      ],
+      "sha256": "0db25364160f27042745d0cf08c8270e9645d792b15a372eccb61d50c90d547c",
+      "role": "style-reference",
+      "unaltered_original": true,
+      "reference_items": 10,
+      "pixel_reviewed": true,
+      "review_date": "2026-10-10",
+      "items": [
+        {
+          "id": "R14-01",
+          "name": "蓝黑 Codex 与 Godot 教程",
+          "row": 1,
+          "column": 1,
+          "approximate_region_xyxy": [
+            21,
+            31,
+            230,
+            310
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-02",
+          "name": "机甲与 3D 游戏动作海报",
+          "row": 1,
+          "column": 2,
+          "approximate_region_xyxy": [
+            255,
+            31,
+            466,
+            310
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-03",
+          "name": "RED Skill 与银色拼块",
+          "row": 1,
+          "column": 3,
+          "approximate_region_xyxy": [
+            489,
+            31,
+            700,
+            310
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-04",
+          "name": "Red Skill 白底文档",
+          "row": 1,
+          "column": 4,
+          "approximate_region_xyxy": [
+            724,
+            31,
+            934,
+            310
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-05",
+          "name": "Obsidian 紫晶入门",
+          "row": 1,
+          "column": 5,
+          "approximate_region_xyxy": [
+            958,
+            31,
+            1168,
+            310
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-06",
+          "name": "零基础零成本与笔记本成果",
+          "row": 2,
+          "column": 1,
+          "approximate_region_xyxy": [
+            21,
+            378,
+            230,
+            656
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-07",
+          "name": "Recordly 蓝紫产品功能面板",
+          "row": 2,
+          "column": 2,
+          "approximate_region_xyxy": [
+            255,
+            392,
+            466,
+            670
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-08",
+          "name": "一年前的中美机器人巨字",
+          "row": 2,
+          "column": 3,
+          "approximate_region_xyxy": [
+            489,
+            392,
+            700,
+            675
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-09",
+          "name": "金色奖杯成果聚焦",
+          "row": 2,
+          "column": 4,
+          "approximate_region_xyxy": [
+            724,
+            378,
+            934,
+            656
+          ],
+          "pixel_reviewed": true
+        },
+        {
+          "id": "R14-10",
+          "name": "国产足球机器人巨字",
+          "row": 2,
+          "column": 5,
+          "approximate_region_xyxy": [
+            958,
+            392,
+            1168,
+            549
+          ],
+          "pixel_reviewed": true
+        }
+      ],
+      "limitations": "用户上传的平台列表截图；仅观察可见封面区域，底部截断处不推测。未核实视频链接、作者跨平台身份、制作工具或粉丝量。点赞与播放控件不是封面风格。"
     }
   ],
-  "reference_item_count": 31,
+  "reference_item_count": 41,
   "batches": [
     {
       "id": "initial-20261006",
@@ -479,6 +630,13 @@
       "attachment_count": 2,
       "unique_image_count": 2,
       "reference_items": 14
+    },
+    {
+      "id": "tool-tutorial-gallery-20261010",
+      "attachment_count": 1,
+      "unique_image_count": 1,
+      "reference_items": 10,
+      "specific_styles": 8
     }
   ],
   "region_note": "区域坐标以原截图像素为单位，仅用于大致定位，不表示已经裁成单独图片。"

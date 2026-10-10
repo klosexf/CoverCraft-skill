@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "styles": [
     {
       "id": "B01",
@@ -147,8 +147,301 @@
         "原理"
       ],
       "example_id": "10-b10-ai-knowledge"
+    },
+    {
+      "id": "S01",
+      "name": "蓝黑界面实战",
+      "summary": "上部白青大标题，下部发光设备与一个清楚的界面成果",
+      "suitable_for": [
+        "AI 编程教程",
+        "软件上手",
+        "网页或游戏制作"
+      ],
+      "tags": [
+        "教程",
+        "Agent"
+      ],
+      "aliases": [
+        "发光设备教程",
+        "蓝黑软件实战"
+      ],
+      "source_items": [
+        "R14-01",
+        "R14-06"
+      ],
+      "related_base_styles": [
+        "B02",
+        "B06"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        21,
+        31,
+        230,
+        310
+      ],
+      "specification": "references/screenshot-specific-styles.md#s01",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S02",
+      "name": "斜切动势海报",
+      "summary": "倾斜重字、冷色场景与大动作主体形成一条斜向视线",
+      "suitable_for": [
+        "AI 游戏制作",
+        "3D 创作成果",
+        "动作或机器人主题"
+      ],
+      "tags": [
+        "教程",
+        "资讯"
+      ],
+      "aliases": [
+        "动势机甲海报",
+        "斜向成果海报"
+      ],
+      "source_items": [
+        "R14-02"
+      ],
+      "related_base_styles": [
+        "B01",
+        "B04"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        255,
+        31,
+        466,
+        310
+      ],
+      "specification": "references/screenshot-specific-styles.md#s02",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S03",
+      "name": "黑红金属拼块",
+      "summary": "黑底白红重字，银色拼块与红色边光表达模块组合",
+      "suitable_for": [
+        "Skill 功能解读",
+        "插件组合",
+        "模块化工作流"
+      ],
+      "tags": [
+        "教程",
+        "Agent",
+        "原理"
+      ],
+      "aliases": [
+        "金属拼图技能封面",
+        "黑红模块海报"
+      ],
+      "source_items": [
+        "R14-03"
+      ],
+      "related_base_styles": [
+        "B02",
+        "B10"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        489,
+        31,
+        700,
+        310
+      ],
+      "specification": "references/screenshot-specific-styles.md#s03",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S04",
+      "name": "瑞士白底文档",
+      "summary": "白底留白、细线与编号表，蓝色重点行组织一条观点",
+      "suitable_for": [
+        "AI 研究观点",
+        "Skill 方法说明",
+        "规则或流程变化"
+      ],
+      "tags": [
+        "观点",
+        "原理",
+        "教程"
+      ],
+      "aliases": [
+        "白底蓝条文档",
+        "Swiss 文档封面"
+      ],
+      "source_items": [
+        "R14-04"
+      ],
+      "related_base_styles": [
+        "B03",
+        "B05"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        724,
+        31,
+        934,
+        310
+      ],
+      "specification": "references/screenshot-specific-styles.md#s04",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S05",
+      "name": "紫晶软件入门",
+      "summary": "上部一枚紫色晶体标识，下部白色斜体入门大字",
+      "suitable_for": [
+        "软件入门",
+        "笔记工具教学",
+        "一个产品的核心功能"
+      ],
+      "tags": [
+        "教程",
+        "办公"
+      ],
+      "aliases": [
+        "紫色晶体图标",
+        "黑紫入门指南"
+      ],
+      "source_items": [
+        "R14-05"
+      ],
+      "related_base_styles": [
+        "B02",
+        "B10"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        958,
+        31,
+        1168,
+        310
+      ],
+      "specification": "references/screenshot-specific-styles.md#s05",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S06",
+      "name": "蓝紫产品面板",
+      "summary": "亮蓝紫底、大产品名与一个主功能窗口，短标签讲清用途",
+      "suitable_for": [
+        "软件功能介绍",
+        "开源工具展示",
+        "有证据的产品比较"
+      ],
+      "tags": [
+        "教程",
+        "资讯",
+        "对比"
+      ],
+      "aliases": [
+        "软件功能卡海报",
+        "蓝紫工具发布卡"
+      ],
+      "source_items": [
+        "R14-07"
+      ],
+      "related_base_styles": [
+        "B02",
+        "B03",
+        "B06"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        255,
+        392,
+        466,
+        670
+      ],
+      "specification": "references/screenshot-specific-styles.md#s06",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S07",
+      "name": "黑网格黄白巨字",
+      "summary": "弱网格黑底，居中黄白粗斜字，以文字承担全部焦点",
+      "suitable_for": [
+        "AI 观点",
+        "时间变化",
+        "一句争议或对照结论"
+      ],
+      "tags": [
+        "观点",
+        "对比",
+        "资讯"
+      ],
+      "aliases": [
+        "黑底黄白大字",
+        "网格纯文字"
+      ],
+      "source_items": [
+        "R14-08",
+        "R14-10"
+      ],
+      "related_base_styles": [
+        "B01",
+        "B05"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        489,
+        392,
+        700,
+        675
+      ],
+      "specification": "references/screenshot-specific-styles.md#s07",
+      "reference_pixels_reviewed": true
+    },
+    {
+      "id": "S08",
+      "name": "黑金成果聚焦",
+      "summary": "深黑底、一个金色大物件，短白字围绕成果建立焦点",
+      "suitable_for": [
+        "AI 生成成果展示",
+        "单一概念成果",
+        "内容明确的赛事相关制作"
+      ],
+      "tags": [
+        "资讯",
+        "原理"
+      ],
+      "aliases": [
+        "黑金单物海报",
+        "金色成果主视觉"
+      ],
+      "source_items": [
+        "R14-09"
+      ],
+      "related_base_styles": [
+        "B06",
+        "B10"
+      ],
+      "source": "user_reference",
+      "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+      "reference_region_xyxy": [
+        724,
+        378,
+        934,
+        656
+      ],
+      "specification": "references/screenshot-specific-styles.md#s08",
+      "reference_pixels_reviewed": true
     }
   ],
   "public_gallery_url": "https://github.com/klosexf/CoverCraft-skill/blob/main/video-cover-craft/references/style-menu.md",
-  "remote_image_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/video-cover-craft/assets/style-examples/"
+  "remote_image_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/video-cover-craft/assets/style-examples/",
+  "style_counts": {
+    "base": 10,
+    "screenshot_specific": 8,
+    "selectable_total": 18
+  },
+  "remote_asset_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/video-cover-craft/"
 }

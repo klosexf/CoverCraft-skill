@@ -4,7 +4,7 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover and a portable prompt. Choose regular or creative styles, request prompts only, describe an existing cover, or diagnose and redesign it. Supports reference images, exact Chinese headlines, landscape/portrait layouts, and optional people.
 
-当前版本 **2.14.0**。
+当前版本 **2.16.0**。
 
 ## 快速交付与完整预览
 
@@ -58,7 +58,7 @@ $video-cover-craft
 
 ## 先看图，再选风格
 
-不知道风格长什么样，可以先打开 [十种风格的图文菜单](video-cover-craft/references/style-menu.md)。下载完整技能后，也可打开 [离线风格图库](video-cover-craft/style-picker.html)：按内容类型搜索，点选卡片，复制一条短句发给 Agent。
+不知道风格长什么样，可以先打开 [18项风格的图文菜单](video-cover-craft/references/style-menu.md)。下载完整技能后，也可打开 [离线风格图库](video-cover-craft/style-picker.html)：按内容类型搜索，点选卡片，复制一条短句发给 Agent。
 
 先澄清基础/创意；选基础但未定具体样式时可推荐最多三种真实样图。已要求先看样图时，在展示推荐的同一轮提供基础/创意选项，选 B 样图即可，不拆成两轮。离线菜单提供「常规风格」「创意风格」「这些都不喜欢 · 探索新方向」，点击后复制选择句发给 Agent。已要求创意探索或全部不满意时不重复原菜单；仅提示词不强制浏览图库。已定具体风格或参考不重复开菜单，但参考图本身不代替创作方式选择。每种风格都可用横竖版、有人物或无人物。
 
@@ -66,7 +66,7 @@ $video-cover-craft
 
 ## 真实 AI 生图案例
 
-本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0–2.14.0 更新流程和参考规则，未新增生图样张。
+本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0–2.16.0 更新流程和参考/预览规则，未新增生图样张。
 
 ### 10 种基础风格的真实样张
 
@@ -145,7 +145,7 @@ $video-cover-craft
 ## 能做什么
 
 - **三种输入任选一种**：完整脚本、视频内容简介，或直接描述想要的封面画面；也可以组合。
-- **参考图与风格延展**：10 种 AI 基础风格、30 个基础分支、31 个原参考档案；配色可按内容自由变化。
+- **参考图与风格延展**：10种AI基础风格、30个基础分支、8种截图特定风格、41个用户参考档案；配色可按内容自由变化。
 - **常规与创意路线**：按用户意图选择结构延展或内容探索；全部不喜欢时重新构思，保留已确定设置。
 - **完整可移植提示词**：默认逐图交付，也可只要提示词或基于已有图提词；普通风格描述不依赖图库附件。
 - **旧图诊断与改版**：查看实际图片，给设计评审和修改顺序；用户要求改图时再生成。
@@ -173,6 +173,29 @@ Skill 的完整入口在 [video-cover-craft/SKILL.md](video-cover-craft/SKILL.md
 
 
 默认示例围绕 AI 工具、办公、编程、模型对比、Agent 与图像能力。每种风格均支持有人物、无人物及横竖版。表中的字体、配色、质感和结构是具体起点，用户未锁定时可变化；创意探索可不选 B 分支。每个分支已补齐来源、变化对象、人物/画幅适配与验收重点；10 类各有一张真实样张，不表示 30 个分支均已实测。
+
+## 截图特定风格 S01–S08
+
+来自用户本轮 R14 原截图，按可见封面归并为 8 类。可直接说编号或名称，完整结构、配色、字形、主体、横竖版、人物与风格片段见 [特定风格规格](video-cover-craft/references/screenshot-specific-styles.md)。仍最多推荐三项，不要求用户选额外分支。
+
+| 编号 / 名称 | 识别特征 | 原图依据 |
+| --- | --- | --- |
+| [S01 蓝黑界面实战](video-cover-craft/references/screenshot-specific-styles.md#s01) | 上部白青大标题，下部发光设备与一个清楚的界面成果 | R14-01、R14-06 |
+| [S02 斜切动势海报](video-cover-craft/references/screenshot-specific-styles.md#s02) | 倾斜重字、冷色场景与大动作主体形成一条斜向视线 | R14-02 |
+| [S03 黑红金属拼块](video-cover-craft/references/screenshot-specific-styles.md#s03) | 黑底白红重字，银色拼块与红色边光表达模块组合 | R14-03 |
+| [S04 瑞士白底文档](video-cover-craft/references/screenshot-specific-styles.md#s04) | 白底留白、细线与编号表，蓝色重点行组织一条观点 | R14-04 |
+| [S05 紫晶软件入门](video-cover-craft/references/screenshot-specific-styles.md#s05) | 上部一枚紫色晶体标识，下部白色斜体入门大字 | R14-05 |
+| [S06 蓝紫产品面板](video-cover-craft/references/screenshot-specific-styles.md#s06) | 亮蓝紫底、大产品名与一个主功能窗口，短标签讲清用途 | R14-07 |
+| [S07 黑网格黄白巨字](video-cover-craft/references/screenshot-specific-styles.md#s07) | 弱网格黑底，居中黄白粗斜字，以文字承担全部焦点 | R14-08、R14-10 |
+| [S08 黑金成果聚焦](video-cover-craft/references/screenshot-specific-styles.md#s08) | 深黑底、一个金色大物件，短白字围绕成果建立焦点 | R14-09 |
+
+S 项是已有截图参考的提炼，不是新增生成案例。准确身份/界面与原文案不会因选同一风格而继承。
+
+[![本轮来源截图](video-cover-craft/assets/user-references/ref-14-tool-tutorial-gallery.png)](video-cover-craft/assets/user-references/ref-14-tool-tutorial-gallery.png)
+
+可直接说：`用 S07 黑网格黄白巨字，竖版3:4，无人物，主题是多Agent分工，只给完整提示词。` 每项已提炼结构、字色、主对象、适配与风格片段，完整提示词会展开规格，不依赖上传原图才能使用。
+
+完整预览提供：灰度/模糊/区域遮盖、图上批注与修改单导出、新旧版本对比；改图后默认批注当前新版。见[预览反馈说明](video-cover-craft/references/preview-feedback.md)。
 
 ## AI 创作者封面调研与公开候选池
 
