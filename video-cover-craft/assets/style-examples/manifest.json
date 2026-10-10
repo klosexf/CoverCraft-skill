@@ -1,5 +1,5 @@
 {
-  "skill_version": "2.7.0",
+  "skill_version": "2.17.0",
   "tool": "image_gen.imagegen",
   "model_id": null,
   "fictional_video_topics": true,
@@ -294,6 +294,308 @@
       "sha256": "6a62b26f4a279d9e21aa8e6e460d4dab26195fba278eae02149a5fc801d512d6",
       "review": "pass",
       "review_notes": "大立体资料器物与检索透镜、输入/输出关系清楚；无人物，无复制标志或王冠；为解释比喻。"
+    },
+    {
+      "id": "11-s01-ai-coding",
+      "specific_style": "S01",
+      "generation_skill_version": "2.17.0",
+      "style_name": "蓝黑界面实战",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551638,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "original_character",
+      "headline": "AI 编程实战",
+      "subtitle": "从需求到原型",
+      "other_text": [
+        "界面示意"
+      ],
+      "video_description": "虚构教学选题：把明确的需求交给 AI 编程工具，检查一个待办应用原型。画面中的软件界面为生成示意，不对应真实软件截图或测试结果。",
+      "source_samples": [
+        "R14-01",
+        "R14-06"
+      ],
+      "adaptation": "黑色与深海军蓝背景，上方两至三行极粗白色中文标题，AI 采用明亮青色。下方一个很大的笔记本或软件窗口，蓝青边缘发光，底部一条克制的蓝色光带。主视觉是可以看清结果轮廓的产品界面，不添加无关芯片、网络粒子或多个浮窗。标题强、界面大、黑色留白明确。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "11-s01-ai-coding.png",
+      "thumbnail": "thumbs/11-s01-ai-coding.png",
+      "prompt": "prompts/11-s01-ai-coding.txt",
+      "portable_prompt": "prompts/11-s01-ai-coding-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "19e9a45b63d0e6e7cbd32b77abf8f0d4f94bcc93e0a926a8dab8324d9f1a27eb",
+      "review": "pass",
+      "review_notes": "白青粗标题与单一发光设备清楚；主副标题和「界面示意」逐字正确；一位原创成年女性看向设备，没有遮挡主要文字或界面。320px下可读到AI编程、实战、从需求到原型，界面标签为辅助小字，界面是生成示意。原图无裁字，左边距较窄；未进行平台裁切检查。"
+    },
+    {
+      "id": "12-s02-ai-city",
+      "specific_style": "S02",
+      "generation_skill_version": "2.17.0",
+      "style_name": "斜切动势海报",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "original_character",
+      "headline": "用 AI 搭一座未来城",
+      "subtitle": "从想法到 3D 场景",
+      "other_text": [],
+      "video_description": "虚构教学选题：探索用 AI 辅助构思与搭建原创未来城市的 3D 场景。城市是概念效果图，不代表工具自动完成全部建模。",
+      "source_samples": [
+        "R14-02"
+      ],
+      "adaptation": "冷钢蓝、石墨黑与银色的电影式场景，巨大的压缩粗斜体中文标题，倾斜字基线向右上，细黑描边与硬阴影，只把「未来城」强调为鲜亮黄色。画面由强透视城市和一个大原创建筑主体形成斜向动势。清楚的前中后景、可信金属材质，不做漫画、拼图或软萌物件。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "12-s02-ai-city.png",
+      "thumbnail": "thumbs/12-s02-ai-city.png",
+      "prompt": "prompts/12-s02-ai-city.txt",
+      "portable_prompt": "prompts/12-s02-ai-city-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "f469bf1fa047b98860da0dd67d3fa299e530f6780c53e98252f0021c46e3ce97",
+      "review": "pass",
+      "review_notes": "主标题「用 AI 搭一座未来城」与副标题「从想法到 3D 场景」正确；白黄压缩斜字、冷钢蓝城市与原创建模者共享斜向动势。仅一位原创成年男性，绘图板无杂字，未继承高达或工具商标。320px下主副标题仍可读，人物与未来城可辨；全图没有裁字。"
+    },
+    {
+      "id": "13-s03-ai-skills",
+      "specific_style": "S03",
+      "generation_skill_version": "2.17.0",
+      "style_name": "黑红金属拼块",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551638,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "搭建 AI 工作流",
+      "subtitle": "模块组合，按需调用",
+      "other_text": [
+        "Skills"
+      ],
+      "video_description": "虚构教学选题：将 AI 工作流程拆成可按需调用的技能模块；用金属拼块比喻模块组合，不展示具体工具的未核实功能。",
+      "source_samples": [
+        "R14-03"
+      ],
+      "adaptation": "近黑背景和很弱的细网格，上部白色重字，紧邻一行极大的红色拉丁粗体「Skills」。下部一个银色厚金属立体拼块主物，有精确倒角、拉丝表面、暗部和红色侧边光。结构紧凑、硬朗、红黑银对比，主物体积清楚。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "13-s03-ai-skills.png",
+      "thumbnail": "thumbs/13-s03-ai-skills.png",
+      "prompt": "prompts/13-s03-ai-skills.txt",
+      "portable_prompt": "prompts/13-s03-ai-skills-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "e1f78bc0691244547f5a99680a25625048d7b0a4ed019dd567187d8c09dc7250",
+      "review": "pass",
+      "review_notes": "主标题「搭建 AI 工作流」、红色Skills与副标题「模块组合，按需调用」正确。黑色弱网格、银色两块拼块和红边光成立，没有人物、额外标志或数字。320px下三个文字层级可读，金属轮廓和模块关系可辨；原图文字和物件均完整。"
+    },
+    {
+      "id": "14-s04-ai-research",
+      "specific_style": "S04",
+      "generation_skill_version": "2.17.0",
+      "style_name": "瑞士白底文档",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "AI 研究笔记",
+      "subtitle": "先保留出处",
+      "other_text": [
+        "AI NOTES",
+        "01 明确问题",
+        "02 整理资料",
+        "03 回查出处"
+      ],
+      "video_description": "虚构教学选题：用 AI 辅助研究时，先明确问题，再整理资料并回查出处。三个编号是实际说明的步骤，不是性能或收入数据。",
+      "source_samples": [
+        "R14-04"
+      ],
+      "adaptation": "瑞士平面设计式的暖白文档封面，宽留白，细灰分隔线、小英文页眉，左对齐的清晰黑色轻中等字重标题，只将一句核心观点设为钴蓝色。下部三条编号步骤横行，一条整行蓝底白字，其余淡灰底黑字。整齐网格和克制排版，无立体物体、无厚卡片阴影、无装饰图标。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "14-s04-ai-research.png",
+      "thumbnail": "thumbs/14-s04-ai-research.png",
+      "prompt": "prompts/14-s04-ai-research.txt",
+      "portable_prompt": "prompts/14-s04-ai-research-portable.txt",
+      "edit_prompt": "prompts/14-s04-ai-research-edit-01.txt",
+      "generation_iterations": 2,
+      "sha256": "bb75a13bfb662e5a3b29bb889afe5074191ff7e09ded64b8c45563fc84353d97",
+      "review": "pass",
+      "review_notes": "首稿标题和步骤字重过粗，追加一次针对字重与留白的修正。修正版主标题「AI 研究笔记」、蓝色「先保留出处」、AI NOTES以及01明确问题/02整理资料/03回查出处正确。常规轻中字重、细线、左对齐、蓝色重点行和宽留白形成文档结构；无人物或物件。320px下主标题、观点和三步骤均清楚，原图没有裁字。"
+    },
+    {
+      "id": "15-s05-ai-knowledge",
+      "specific_style": "S05",
+      "generation_skill_version": "2.17.0",
+      "style_name": "紫晶软件入门",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "AI 知识库入门指南",
+      "subtitle": "整理资料，保留引用",
+      "other_text": [],
+      "video_description": "虚构教学选题：用 AI 知识库整理资料并保留答案引用。紫晶是原创概念物，不是 Obsidian 或任何软件的官方标志。",
+      "source_samples": [
+        "R14-05"
+      ],
+      "adaptation": "近黑紫色背景，上部一枚大型原创紫色切面晶体，微弱紫色光晕和少量光点，清楚的棱角、镜面明暗和体积。下方厚重白色斜体标题，中英文自然统一，末尾一条很克制的紫色短光线。只有单一晶体与文字，黑色留白大。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "15-s05-ai-knowledge.png",
+      "thumbnail": "thumbs/15-s05-ai-knowledge.png",
+      "prompt": "prompts/15-s05-ai-knowledge.txt",
+      "portable_prompt": "prompts/15-s05-ai-knowledge-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "9f5dba23d89dae5377b4e906dadc2f0867fbaf45bd5fbf33fcca3feaaf181327",
+      "review": "pass",
+      "review_notes": "上部大型原创紫色切面晶体与下部白色粗斜标题形成两层；黑紫底、克制光晕和紫色短光线清楚。主标题「AI 知识库入门指南」、副标题「整理资料，保留引用」正确，无人物、产品商标或软件界面。320px下入门主题及副标题可读，主晶体轮廓清楚；少量碎晶作背景，不改变单主物焦点。"
+    },
+    {
+      "id": "16-s06-ai-workbench",
+      "specific_style": "S06",
+      "generation_skill_version": "2.17.0",
+      "style_name": "蓝紫产品面板",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551638,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "AI 工作台",
+      "subtitle": "把资料整理成初稿",
+      "other_text": [
+        "界面示意"
+      ],
+      "video_description": "虚构产品讲解选题：一个原创 AI 工作台用来辅助资料整理与文档草拟。画面界面是示意，无虚构价格、免费承诺、成绩或真实产品指标。",
+      "source_samples": [
+        "R14-07"
+      ],
+      "adaptation": "明亮的电蓝与紫色渐变背景，一个白色粗斜体的大产品名，短青白色功能副标题。下部一个占主要面积的深蓝主功能窗口，外沿亮蓝紫发光框，窗口中采用可读性好的图标、文档块和无字线条。有限的颜色层级和产品介绍感，不能做成纯黑设备场景或多个悬浮面板。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "16-s06-ai-workbench.png",
+      "thumbnail": "thumbs/16-s06-ai-workbench.png",
+      "prompt": "prompts/16-s06-ai-workbench.txt",
+      "portable_prompt": "prompts/16-s06-ai-workbench-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "f8bdca453cdd8d6bf1ce947e9eb45a844b33881c09abdaec0b14dc8bc4d84e0b",
+      "review": "pass",
+      "review_notes": "亮蓝紫背景、白色粗斜AI工作台标题、青色「把资料整理成初稿」功能线和一个主要功能窗口成立；窗口以两张资料卡经箭头合成初稿表达关系，只有「界面示意」标签，没有虚构成绩、价格、品牌或人物。320px下产品名、功能线与输入输出结构清楚。窗口靠右但完整，未检查平台边缘裁切。"
+    },
+    {
+      "id": "17-s07-ai-brief",
+      "specific_style": "S07",
+      "generation_skill_version": "2.17.0",
+      "style_name": "黑网格黄白巨字",
+      "ratio": "3:4",
+      "actual_size": [
+        1086,
+        1448
+      ],
+      "aspect_ratio_relative_error": 0.0,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "用好 AI 先说清需求",
+      "subtitle": null,
+      "other_text": [],
+      "video_description": "虚构观点选题：想让 AI 完成任务，需要把需求表达清楚。不承诺收入、效率倍数或模型效果指标。",
+      "source_samples": [
+        "R14-08",
+        "R14-10"
+      ],
+      "adaptation": "纯黑背景上很弱的均匀灰色细网格，画面中心只有两行极粗、稍向右倾斜的中文与英文大字，采用饱满白色和鲜黄色。第一行「用好 AI」，其中「AI」黄色；第二行「先说清需求」，其中「需求」黄色。干净硬边字形、紧凑行距、强视觉冲击。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "17-s07-ai-brief.png",
+      "thumbnail": "thumbs/17-s07-ai-brief.png",
+      "prompt": "prompts/17-s07-ai-brief.txt",
+      "portable_prompt": "prompts/17-s07-ai-brief-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "c6658b33a920fa0ee25b8ffdfbc982ba274194247df94bed7a250937604758c1",
+      "review": "pass",
+      "review_notes": "黑色细灰网格上只有两行粗斜巨字「用好 AI」「先说清需求」，AI与需求为黄色，其余白色。无副标题、人物、物件、标志或水印。320px下全部文案仍清楚，文字成为唯一焦点，四周留白、无裁字；和S04文档风格的字重与密度明显不同。"
+    },
+    {
+      "id": "18-s08-ai-product",
+      "specific_style": "S08",
+      "generation_skill_version": "2.17.0",
+      "style_name": "黑金成果聚焦",
+      "ratio": "16:9",
+      "actual_size": [
+        1672,
+        941
+      ],
+      "aspect_ratio_relative_error": 0.0005313496280551638,
+      "aspect_tolerance_note": "At most 0.5% native pixel quantization; no stretching or cropping.",
+      "people": "none",
+      "headline": "AI 产品设计",
+      "subtitle": "从草图到模型",
+      "other_text": [],
+      "video_description": "虚构创作选题：用 AI 辅助构思一盏原创灯具，并展示从草图想法到三维模型的概念成果。不表示产品获奖、已制造或效果实测。",
+      "source_samples": [
+        "R14-09"
+      ],
+      "adaptation": "深黑摄影棚背景，一个占主导的金色金属成果对象，强明暗和细致金属纹理，少量暖金边缘光。短而粗的白色标题位于对象旁的干净暗区，有限色彩，无彩色 UI 或科技粒子。精致实物展示气质，金色物件主角、文字简洁。 本期更换主题、文案与对象，并按指定人物及画幅重新构图。",
+      "reference_pixels_passed": true,
+      "image": "18-s08-ai-product.png",
+      "thumbnail": "thumbs/18-s08-ai-product.png",
+      "prompt": "prompts/18-s08-ai-product.txt",
+      "portable_prompt": "prompts/18-s08-ai-product-portable.txt",
+      "edit_prompt": null,
+      "generation_iterations": 1,
+      "sha256": "710877de5cdd94bfa45e1eb58d5c92c50570d0d1e92a296e141f301cc393a1ad",
+      "review": "pass",
+      "review_notes": "近黑摄影棚与一个大金色金属台灯形成主物焦点，左侧白色「AI 产品设计」与「从草图到模型」正确。少量同物件的草图/线框/模型辅助关系没有抢过主台灯，金属纹理、灯光和轮廓明确；无人物、奖杯、品牌或虚构获奖。320px下主副标题和主物清楚，原图没有裁字或裁掉主物。"
+    }
+  ],
+  "generation_batches": [
+    {
+      "generation_skill_version": "2.7.0",
+      "sample_ids": [
+        "01-b01-ai-weekly",
+        "02-b02-ai-editing",
+        "03-b03-ai-paper",
+        "04-b04-ai-prompt",
+        "05-b05-ai-handoff",
+        "06-b06-ai-coding",
+        "07-b07-ai-models",
+        "08-b08-ai-office",
+        "09-b09-ai-agents",
+        "10-b10-ai-knowledge"
+      ]
+    },
+    {
+      "generation_skill_version": "2.17.0",
+      "generated_date": "2026-10-11",
+      "sample_ids": [
+        "11-s01-ai-coding",
+        "12-s02-ai-city",
+        "13-s03-ai-skills",
+        "14-s04-ai-research",
+        "15-s05-ai-knowledge",
+        "16-s06-ai-workbench",
+        "17-s07-ai-brief",
+        "18-s08-ai-product"
+      ],
+      "channel": "builtin_gpt_image",
+      "model_id": null
     }
   ]
 }

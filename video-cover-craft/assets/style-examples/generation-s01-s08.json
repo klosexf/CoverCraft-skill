@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "generation_skill_version": "2.17.0",
+  "generated_date": "2026-10-11",
+  "execution_channel": "builtin_gpt_image",
+  "tool": "image_gen.imagegen",
+  "model_id": null,
+  "model_note": "Specific model ID not exposed; host-controlled built-in channel.",
+  "request": "Eight distinct AI-topic samples for S01–S08; four landscape, four portrait, some original people.",
+  "built_in_call_count": 9,
+  "source_image_role": "Style/composition reference; not an edit target or identity source.",
+  "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
+  "reference_sha256": "0db25364160f27042745d0cf08c8270e9645d792b15a372eccb61d50c90d547c",
+  "file_paths_note": "Asset and prompt paths are package-relative. The actual reference pixels were passed to each built-in generation call.",
+  "samples": [
+    {
+      "id": "11-s01-ai-coding",
+      "style_id": "S01",
+      "ratio": "16:9",
+      "people": "original_character",
+      "image": "11-s01-ai-coding.png",
+      "sha256": "19e9a45b63d0e6e7cbd32b77abf8f0d4f94bcc93e0a926a8dab8324d9f1a27eb",
+      "source_samples": [
+        "R14-01",
+        "R14-06"
+      ],
+      "generation_prompt": "prompts/11-s01-ai-coding.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/11-s01-ai-coding-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "12-s02-ai-city",
+      "style_id": "S02",
+      "ratio": "3:4",
+      "people": "original_character",
+      "image": "12-s02-ai-city.png",
+      "sha256": "f469bf1fa047b98860da0dd67d3fa299e530f6780c53e98252f0021c46e3ce97",
+      "source_samples": [
+        "R14-02"
+      ],
+      "generation_prompt": "prompts/12-s02-ai-city.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/12-s02-ai-city-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "id": "13-s03-ai-skills",
+      "style_id": "S03",
+      "ratio": "16:9",
+      "people": "none",
+      "image": "13-s03-ai-skills.png",
+      "sha256": "e1f78bc0691244547f5a99680a25625048d7b0a4ed019dd567187d8c09dc7250",
+      "source_samples": [
+        "R14-03"
+      ],
+      "generation_prompt": "prompts/13-s03-ai-skills.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/13-s03-ai-skills-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "14-s04-ai-research",
+      "style_id": "S04",
+      "ratio": "3:4",
+      "people": "none",
+      "image": "14-s04-ai-research.png",
+      "sha256": "bb75a13bfb662e5a3b29bb889afe5074191ff7e09ded64b8c45563fc84353d97",
+      "source_samples": [
+        "R14-04"
+      ],
+      "generation_prompt": "prompts/14-s04-ai-research.txt",
+      "edit_prompt": "prompts/14-s04-ai-research-edit-01.txt",
+      "portable_prompt": "prompts/14-s04-ai-research-portable.txt",
+      "iterations": 2,
+      "actual_size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "id": "15-s05-ai-knowledge",
+      "style_id": "S05",
+      "ratio": "3:4",
+      "people": "none",
+      "image": "15-s05-ai-knowledge.png",
+      "sha256": "9f5dba23d89dae5377b4e906dadc2f0867fbaf45bd5fbf33fcca3feaaf181327",
+      "source_samples": [
+        "R14-05"
+      ],
+      "generation_prompt": "prompts/15-s05-ai-knowledge.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/15-s05-ai-knowledge-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "id": "16-s06-ai-workbench",
+      "style_id": "S06",
+      "ratio": "16:9",
+      "people": "none",
+      "image": "16-s06-ai-workbench.png",
+      "sha256": "f8bdca453cdd8d6bf1ce947e9eb45a844b33881c09abdaec0b14dc8bc4d84e0b",
+      "source_samples": [
+        "R14-07"
+      ],
+      "generation_prompt": "prompts/16-s06-ai-workbench.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/16-s06-ai-workbench-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "17-s07-ai-brief",
+      "style_id": "S07",
+      "ratio": "3:4",
+      "people": "none",
+      "image": "17-s07-ai-brief.png",
+      "sha256": "c6658b33a920fa0ee25b8ffdfbc982ba274194247df94bed7a250937604758c1",
+      "source_samples": [
+        "R14-08",
+        "R14-10"
+      ],
+      "generation_prompt": "prompts/17-s07-ai-brief.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/17-s07-ai-brief-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "id": "18-s08-ai-product",
+      "style_id": "S08",
+      "ratio": "16:9",
+      "people": "none",
+      "image": "18-s08-ai-product.png",
+      "sha256": "710877de5cdd94bfa45e1eb58d5c92c50570d0d1e92a296e141f301cc393a1ad",
+      "source_samples": [
+        "R14-09"
+      ],
+      "generation_prompt": "prompts/18-s08-ai-product.txt",
+      "edit_prompt": null,
+      "portable_prompt": "prompts/18-s08-ai-product-portable.txt",
+      "iterations": 1,
+      "actual_size": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

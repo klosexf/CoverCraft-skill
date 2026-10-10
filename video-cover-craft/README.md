@@ -1,4 +1,4 @@
-# Video CoverCraft 2.16.0 · 视频封面工坊（制作、提示词与旧图诊断）
+# Video CoverCraft 2.17.0 · 视频封面工坊（制作、提示词与旧图诊断）
 
 根据**视频脚本、视频描述或封面描述**生成封面与可供其他生图 AI 使用的提示词，任一种输入都可以，也可组合；支持横版、竖版和可选人物。图片主流程是：**理解需求 → 补齐创作方式、画幅与人物 → 设计并生成 → 核心验图与修改 → 按深度交付图片和提示词**。也可跳过生图，只完成提示词。
 
@@ -354,7 +354,23 @@ $video-cover-craft
 | [S07 黑网格黄白巨字](references/screenshot-specific-styles.md#s07) | 弱网格黑底，居中黄白粗斜字，以文字承担全部焦点 | R14-08、R14-10 |
 | [S08 黑金成果聚焦](references/screenshot-specific-styles.md#s08) | 深黑底、一个金色大物件，短白字围绕成果建立焦点 | R14-09 |
 
-S 项是已有截图参考的提炼，不是新增生成案例。准确身份/界面与原文案不会因选同一风格而继承。
+S 风格从已有截图提炼；2.17.0 为每项补充一张独立生成的 AI 主题样图。菜单默认展示新样图，来源截图与区域记录保留供查证。准确身份/界面与原文案不会因选同一风格而继承。
+
+### 8 张 AI 主题样图 · 2.17.0
+
+横版与竖版各 4 张；S01、S02 使用原创人物，其余 6 张无人物。主题是虚构教学案例，软件界面与产品模型均为示意。每张都单独生成，并检查了原图和 320px 小图。
+
+| 风格 | 实际生成样图（点击原图） | 主题与设置 | 完整提示词 |
+| --- | --- | --- | --- |
+| **S01 蓝黑界面实战** | [![AI 编程实战](assets/style-examples/thumbs/11-s01-ai-coding.png)](assets/style-examples/11-s01-ai-coding.png) | AI 编程实战<br>16:9 · 原创人物 | [复制提示词](assets/style-examples/prompts/11-s01-ai-coding-portable.txt) |
+| **S02 斜切动势海报** | [![用 AI 搭一座未来城](assets/style-examples/thumbs/12-s02-ai-city.png)](assets/style-examples/12-s02-ai-city.png) | 用 AI 搭一座未来城<br>3:4 · 原创人物 | [复制提示词](assets/style-examples/prompts/12-s02-ai-city-portable.txt) |
+| **S03 黑红金属拼块** | [![搭建 AI 工作流](assets/style-examples/thumbs/13-s03-ai-skills.png)](assets/style-examples/13-s03-ai-skills.png) | 搭建 AI 工作流<br>16:9 · 无人物 | [复制提示词](assets/style-examples/prompts/13-s03-ai-skills-portable.txt) |
+| **S04 瑞士白底文档** | [![AI 研究笔记](assets/style-examples/thumbs/14-s04-ai-research.png)](assets/style-examples/14-s04-ai-research.png) | AI 研究笔记<br>3:4 · 无人物 | [复制提示词](assets/style-examples/prompts/14-s04-ai-research-portable.txt) |
+| **S05 紫晶软件入门** | [![AI 知识库入门指南](assets/style-examples/thumbs/15-s05-ai-knowledge.png)](assets/style-examples/15-s05-ai-knowledge.png) | AI 知识库入门指南<br>3:4 · 无人物 | [复制提示词](assets/style-examples/prompts/15-s05-ai-knowledge-portable.txt) |
+| **S06 蓝紫产品面板** | [![AI 工作台](assets/style-examples/thumbs/16-s06-ai-workbench.png)](assets/style-examples/16-s06-ai-workbench.png) | AI 工作台<br>16:9 · 无人物 | [复制提示词](assets/style-examples/prompts/16-s06-ai-workbench-portable.txt) |
+| **S07 黑网格黄白巨字** | [![用好 AI 先说清需求](assets/style-examples/thumbs/17-s07-ai-brief.png)](assets/style-examples/17-s07-ai-brief.png) | 用好 AI 先说清需求<br>3:4 · 无人物 | [复制提示词](assets/style-examples/prompts/17-s07-ai-brief-portable.txt) |
+| **S08 黑金成果聚焦** | [![AI 产品设计](assets/style-examples/thumbs/18-s08-ai-product.png)](assets/style-examples/18-s08-ai-product.png) | AI 产品设计<br>16:9 · 无人物 | [复制提示词](assets/style-examples/prompts/18-s08-ai-product-portable.txt) |
+
 
 ## 配色可以自主变化
 

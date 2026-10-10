@@ -22,3 +22,9 @@ Video CoverCraft 2.7.0 完成了 10 种基础风格、30 个分支的调研整�
 [逐张文字、主题、来源与实际提示词](../assets/style-examples/manifest.json) · [验图记录](../assets/style-examples/review.json) · [基础风格的全部 30 个分支](style-catalog.md)
 
 在其他 Agent 上使用时，按所需样张查看并传入实际 PNG，可另选用户的新参考或人物照片。样张中的原创人物默认只是风格示意，不自动成为用户账号身份。
+
+## S01–S08 生成样图 · 2.17.0
+
+8种截图特定风格各补充一张独立生成的AI主题封面，横竖各4张；S01/S02为原创人物，其余无人物。实际查看每张完整图及320px小图，逐字文字、人物、画幅、内容、边缘及风格均有记录。完整图、可移植提示词与主题见 [S样图表](screenshot-specific-styles.md)，尺寸/哈希见 [索引](../assets/style-examples/manifest.json)，逐图结果见 [验收记录](../assets/style-examples/review.json)。
+
+这些样图独立计入S风格，不改变B分支的10个实图、20个仅规格状态，也不增加网上22位/43张封面的来源统计。画面为虚构示意；像素检查不代表真实软件性能、获奖或点击率。

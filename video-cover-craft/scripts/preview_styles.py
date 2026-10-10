@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a menu from generated samples and supplied screenshot regions."""
+"""Build an offline menu from generated samples or supplied screenshot regions."""
 import argparse
 import html
 import json
@@ -23,6 +23,7 @@ def render_menu(skill_dir, output, recommendations=()):
     cards=[]
     for s in styles:
         reference=s.get('source')=='user_reference'
+        prompt_link=''
         if reference:
             image=thumbnail=skill_dir/s['reference_asset']
             from PIL import Image
@@ -52,13 +53,18 @@ def render_menu(skill_dir, output, recommendations=()):
             ratio='竖版' if sample['ratio']=='3:4' else '横版'
             sample_note=f'这张示例：{ratio} · {people}。此风格四种组合均可用。'
             original_label='查看原图'
+            if sample.get('portable_prompt'):
+                prompt=skill_dir/'assets/style-examples'/sample['portable_prompt']
+                if not prompt.is_file():
+                    raise ValueError('Portable prompt unavailable for '+s['id'])
+                prompt_link=f' · <a href="{local(prompt)}">查看完整提示词</a>'
         if not image.is_file() or not thumbnail.is_file():
             raise ValueError('Sample image unavailable for '+s['id'])
         title=html.escape(s['name']);summary=html.escape(s['summary'])
         uses=html.escape('、'.join(s['suitable_for']))
         search=html.escape(' '.join([s['id'],s['name'],s['summary'],*s['suitable_for'],*s['tags'],*s.get('aliases',[])]),quote=True)
         badge='<span class="badge">本期推荐</span>' if s['id'] in ranks else '<span class="badge">截图参考</span>' if reference else ''
-        cards.append(f'<article class="card" data-id="{s["id"]}" data-search="{search}" data-tags="{html.escape("|".join(s["tags"]),quote=True)}" data-selected="false"><a class="preview" href="{local(image)}" title="{original_label}">{preview}</a><div class="content"><div class="eyebrow"><span>{s["id"]} · 视觉风格</span>{badge}</div><h2>{title}</h2><p>{summary}</p><p>适合：{uses}</p><p class="sample">{sample_note}</p><a href="{local(image)}">{original_label}</a><button type="button" data-choose="{s["id"]}" data-name="{html.escape(s["name"],quote=True)}">选 {s["id"]} {title}</button></div></article>')
+        cards.append(f'<article class="card" data-id="{s["id"]}" data-search="{search}" data-tags="{html.escape("|".join(s["tags"]),quote=True)}" data-selected="false"><a class="preview" href="{local(image)}" title="{original_label}">{preview}</a><div class="content"><div class="eyebrow"><span>{s["id"]} · 视觉风格</span>{badge}</div><h2>{title}</h2><p>{summary}</p><p>适合：{uses}</p><p class="sample">{sample_note}</p><a href="{local(image)}">{original_label}</a>{prompt_link}<button type="button" data-choose="{s["id"]}" data-name="{html.escape(s["name"],quote=True)}">选 {s["id"]} {title}</button></div></article>')
     note='本期优先推荐 '+ '、'.join(recommendations)+'；仍可以选择下面任意一种。' if recommendations else 'B01–B10 为基础风格，S01–S08 为截图提炼的特定风格；也可让 Agent 按内容决定。进阶分支不用额外选择。'
     page=(skill_dir/'assets/style-picker-template.html').read_text(encoding='utf-8')
     page=page.replace('__RECOMMENDATION_NOTE__',html.escape(note)).replace('__STYLE_CARDS__',''.join(cards))

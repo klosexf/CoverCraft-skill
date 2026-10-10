@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "variants": [
+    {
+      "id": "11-s01-ai-coding",
+      "video_title": null,
+      "cover_headline": {
+        "text": "AI 编程实战",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "从需求到原型",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [
+        {
+          "text": "界面示意",
+          "role": "必要标签",
+          "required": true
+        }
+      ],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "12-s02-ai-city",
+      "video_title": null,
+      "cover_headline": {
+        "text": "用 AI 搭一座未来城",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "从想法到 3D 场景",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "13-s03-ai-skills",
+      "video_title": null,
+      "cover_headline": {
+        "text": "搭建 AI 工作流",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "模块组合，按需调用",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [
+        {
+          "text": "Skills",
+          "role": "必要标签",
+          "required": true
+        }
+      ],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "14-s04-ai-research",
+      "video_title": null,
+      "cover_headline": {
+        "text": "AI 研究笔记",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "先保留出处",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [
+        {
+          "text": "AI NOTES",
+          "role": "必要标签",
+          "required": true
+        },
+        {
+          "text": "01 明确问题",
+          "role": "必要标签",
+          "required": true
+        },
+        {
+          "text": "02 整理资料",
+          "role": "必要标签",
+          "required": true
+        },
+        {
+          "text": "03 回查出处",
+          "role": "必要标签",
+          "required": true
+        }
+      ],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "15-s05-ai-knowledge",
+      "video_title": null,
+      "cover_headline": {
+        "text": "AI 知识库入门指南",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "整理资料，保留引用",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "16-s06-ai-workbench",
+      "video_title": null,
+      "cover_headline": {
+        "text": "AI 工作台",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "把资料整理成初稿",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [
+        {
+          "text": "界面示意",
+          "role": "必要标签",
+          "required": true
+        }
+      ],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "17-s07-ai-brief",
+      "video_title": null,
+      "cover_headline": {
+        "text": "用好 AI 先说清需求",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": null,
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false
+    },
+    {
+      "id": "18-s08-ai-product",
+      "video_title": null,
+      "cover_headline": {
+        "text": "AI 产品设计",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "cover_subtitle": {
+        "text": "从草图到模型",
+        "source": "拟写的AI教学样例",
+        "required": true
+      },
+      "other_text": [],
+      "background_text": "none",
+      "allow_extra_text": false
+    }
+  ]
+}

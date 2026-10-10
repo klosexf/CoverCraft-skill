@@ -4,7 +4,7 @@
 
 A video-cover skill for AI agents. Turn a script, video summary, or visual brief into a cover and a portable prompt. Choose regular or creative styles, request prompts only, describe an existing cover, or diagnose and redesign it. Supports reference images, exact Chinese headlines, landscape/portrait layouts, and optional people.
 
-当前版本 **2.16.0**。
+当前版本 **2.17.0**。
 
 ## 快速交付与完整预览
 
@@ -66,7 +66,7 @@ $video-cover-craft
 
 ## 真实 AI 生图案例
 
-本页共展示 **26 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；其余 16 张也保留。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.11.0–2.16.0 更新流程和参考/预览规则，未新增生图样张。
+本页共展示 **34 张实际生成的 AI 主题封面**，可点击查看 PNG 原图。其中 10 张对应全部 10 种基础风格：5 张原创人物、5 张无人物，横竖各 5 张；另有 8 张 S01–S08 特定风格样图，以及此前 16 张案例。主题为虚构案例，界面、论文、修复结果与模型回答均为示意。2.17.0 新增 8 张独立生成样图；2.11.0–2.16.0 的流程与参考升级保留。
 
 ### 10 种基础风格的真实样张
 
@@ -189,7 +189,23 @@ Skill 的完整入口在 [video-cover-craft/SKILL.md](video-cover-craft/SKILL.md
 | [S07 黑网格黄白巨字](video-cover-craft/references/screenshot-specific-styles.md#s07) | 弱网格黑底，居中黄白粗斜字，以文字承担全部焦点 | R14-08、R14-10 |
 | [S08 黑金成果聚焦](video-cover-craft/references/screenshot-specific-styles.md#s08) | 深黑底、一个金色大物件，短白字围绕成果建立焦点 | R14-09 |
 
-S 项是已有截图参考的提炼，不是新增生成案例。准确身份/界面与原文案不会因选同一风格而继承。
+S 风格从已有截图提炼；2.17.0 为每项补充一张独立生成的 AI 主题样图。菜单默认展示新样图，来源截图与区域记录保留供查证。准确身份/界面与原文案不会因选同一风格而继承。
+
+### 8 张 AI 主题样图 · 2.17.0
+
+横版与竖版各 4 张；S01、S02 使用原创人物，其余 6 张无人物。主题是虚构教学案例，软件界面与产品模型均为示意。每张都单独生成，并检查了原图和 320px 小图。
+
+| 风格 | 实际生成样图（点击原图） | 主题与设置 | 完整提示词 |
+| --- | --- | --- | --- |
+| **S01 蓝黑界面实战** | [![AI 编程实战](video-cover-craft/assets/style-examples/thumbs/11-s01-ai-coding.png)](video-cover-craft/assets/style-examples/11-s01-ai-coding.png) | AI 编程实战<br>16:9 · 原创人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/11-s01-ai-coding-portable.txt) |
+| **S02 斜切动势海报** | [![用 AI 搭一座未来城](video-cover-craft/assets/style-examples/thumbs/12-s02-ai-city.png)](video-cover-craft/assets/style-examples/12-s02-ai-city.png) | 用 AI 搭一座未来城<br>3:4 · 原创人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/12-s02-ai-city-portable.txt) |
+| **S03 黑红金属拼块** | [![搭建 AI 工作流](video-cover-craft/assets/style-examples/thumbs/13-s03-ai-skills.png)](video-cover-craft/assets/style-examples/13-s03-ai-skills.png) | 搭建 AI 工作流<br>16:9 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/13-s03-ai-skills-portable.txt) |
+| **S04 瑞士白底文档** | [![AI 研究笔记](video-cover-craft/assets/style-examples/thumbs/14-s04-ai-research.png)](video-cover-craft/assets/style-examples/14-s04-ai-research.png) | AI 研究笔记<br>3:4 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/14-s04-ai-research-portable.txt) |
+| **S05 紫晶软件入门** | [![AI 知识库入门指南](video-cover-craft/assets/style-examples/thumbs/15-s05-ai-knowledge.png)](video-cover-craft/assets/style-examples/15-s05-ai-knowledge.png) | AI 知识库入门指南<br>3:4 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/15-s05-ai-knowledge-portable.txt) |
+| **S06 蓝紫产品面板** | [![AI 工作台](video-cover-craft/assets/style-examples/thumbs/16-s06-ai-workbench.png)](video-cover-craft/assets/style-examples/16-s06-ai-workbench.png) | AI 工作台<br>16:9 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/16-s06-ai-workbench-portable.txt) |
+| **S07 黑网格黄白巨字** | [![用好 AI 先说清需求](video-cover-craft/assets/style-examples/thumbs/17-s07-ai-brief.png)](video-cover-craft/assets/style-examples/17-s07-ai-brief.png) | 用好 AI 先说清需求<br>3:4 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/17-s07-ai-brief-portable.txt) |
+| **S08 黑金成果聚焦** | [![AI 产品设计](video-cover-craft/assets/style-examples/thumbs/18-s08-ai-product.png)](video-cover-craft/assets/style-examples/18-s08-ai-product.png) | AI 产品设计<br>16:9 · 无人物 | [复制提示词](video-cover-craft/assets/style-examples/prompts/18-s08-ai-product-portable.txt) |
+
 
 [![本轮来源截图](video-cover-craft/assets/user-references/ref-14-tool-tutorial-gallery.png)](video-cover-craft/assets/user-references/ref-14-tool-tutorial-gallery.png)
 

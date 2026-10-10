@@ -4,11 +4,29 @@ S01–S08 是可直接点名选择的风格预设，属于基础/常规路线，
 
 ## 来源与使用范围
 
-来源为用户在 2026-10-10 上传的一张 1200×675 平台列表截图 R14；已实际查看其中 10 个可辨封面区域，归并为 8 类。原图字节未改动，区域只是定位与页面显示窗口，**没有取得十张独立原始封面，也没有新增八张生成样张**。截图底部截断的细节不推测。图片、位置、哈希见 [参考清单](../assets/reference-manifest.json)；本批单独计入用户参考，不改变网上 22 位/43 张研究统计或候选状态。
+来源为用户在 2026-10-10 上传的一张 1200×675 平台列表截图 R14；已实际查看其中 10 个可辨封面区域，归并为 8 类。原图字节未改动，区域只是定位与页面显示窗口，**没有取得十张独立原始封面**。2.17.0 另为 S01–S08 各生成一张原创 AI 主题样图；来源图与生成图分别记录。截图底部截断的细节不推测。图片、位置、哈希见 [参考清单](../assets/reference-manifest.json)；本批单独计入用户参考，不改变网上 22 位/43 张研究统计或候选状态。
 
 [![本轮用户原截图](../assets/user-references/ref-14-tool-tutorial-gallery.png)](../assets/user-references/ref-14-tool-tutorial-gallery.png)
 
 只提取可见的构图、色彩关系、字形和物件层次。截图中账号名、点赞数、置顶标记、播放按钮、卡片边框和导航不进入新封面；不据此推断作者身份、粉丝量、模型、制作软件或点击率。原图工具名、年份、价格、免费/开源承诺和奖项仅用于定位，不作为本期事实。
+
+
+### 8 张 AI 主题样图 · 2.17.0
+
+横版与竖版各 4 张；S01、S02 使用原创人物，其余 6 张无人物。主题是虚构教学案例，软件界面与产品模型均为示意。每张都单独生成，并检查了原图和 320px 小图。
+
+| 风格 | 实际生成样图（点击原图） | 主题与设置 | 完整提示词 |
+| --- | --- | --- | --- |
+| **S01 蓝黑界面实战** | [![AI 编程实战](../assets/style-examples/thumbs/11-s01-ai-coding.png)](../assets/style-examples/11-s01-ai-coding.png) | AI 编程实战<br>16:9 · 原创人物 | [复制提示词](../assets/style-examples/prompts/11-s01-ai-coding-portable.txt) |
+| **S02 斜切动势海报** | [![用 AI 搭一座未来城](../assets/style-examples/thumbs/12-s02-ai-city.png)](../assets/style-examples/12-s02-ai-city.png) | 用 AI 搭一座未来城<br>3:4 · 原创人物 | [复制提示词](../assets/style-examples/prompts/12-s02-ai-city-portable.txt) |
+| **S03 黑红金属拼块** | [![搭建 AI 工作流](../assets/style-examples/thumbs/13-s03-ai-skills.png)](../assets/style-examples/13-s03-ai-skills.png) | 搭建 AI 工作流<br>16:9 · 无人物 | [复制提示词](../assets/style-examples/prompts/13-s03-ai-skills-portable.txt) |
+| **S04 瑞士白底文档** | [![AI 研究笔记](../assets/style-examples/thumbs/14-s04-ai-research.png)](../assets/style-examples/14-s04-ai-research.png) | AI 研究笔记<br>3:4 · 无人物 | [复制提示词](../assets/style-examples/prompts/14-s04-ai-research-portable.txt) |
+| **S05 紫晶软件入门** | [![AI 知识库入门指南](../assets/style-examples/thumbs/15-s05-ai-knowledge.png)](../assets/style-examples/15-s05-ai-knowledge.png) | AI 知识库入门指南<br>3:4 · 无人物 | [复制提示词](../assets/style-examples/prompts/15-s05-ai-knowledge-portable.txt) |
+| **S06 蓝紫产品面板** | [![AI 工作台](../assets/style-examples/thumbs/16-s06-ai-workbench.png)](../assets/style-examples/16-s06-ai-workbench.png) | AI 工作台<br>16:9 · 无人物 | [复制提示词](../assets/style-examples/prompts/16-s06-ai-workbench-portable.txt) |
+| **S07 黑网格黄白巨字** | [![用好 AI 先说清需求](../assets/style-examples/thumbs/17-s07-ai-brief.png)](../assets/style-examples/17-s07-ai-brief.png) | 用好 AI 先说清需求<br>3:4 · 无人物 | [复制提示词](../assets/style-examples/prompts/17-s07-ai-brief-portable.txt) |
+| **S08 黑金成果聚焦** | [![AI 产品设计](../assets/style-examples/thumbs/18-s08-ai-product.png)](../assets/style-examples/18-s08-ai-product.png) | AI 产品设计<br>16:9 · 无人物 | [复制提示词](../assets/style-examples/prompts/18-s08-ai-product-portable.txt) |
+
+原始调用记录与验图见 [生成索引](../assets/style-examples/manifest.json)、[逐图验收](../assets/style-examples/review.json)。完整提示词已展开风格，不要求再上传来源截图；若用于保留真实身份或准确界面，仍须提供本期素材。
 
 ## 风格与截图位置
 

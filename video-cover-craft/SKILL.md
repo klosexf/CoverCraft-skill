@@ -2,7 +2,7 @@
 name: video-cover-craft
 description: 根据视频脚本、内容简介或画面描述制作视频封面与完整提示词，支持常规或创意风格、真实样图选风格、仅提示词、已有图提词和旧封面诊断改版。需要生图时优先 GPT Image，也支持平台生图工具与用户明确选用的 OpenAI 图片 API。
 metadata:
-  version: "2.16.0"
+  version: "2.17.0"
 ---
 
 # Video CoverCraft · 视频封面工坊

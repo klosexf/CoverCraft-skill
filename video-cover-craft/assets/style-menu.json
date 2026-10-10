@@ -173,7 +173,7 @@
         "B02",
         "B06"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         21,
@@ -182,7 +182,9 @@
         310
       ],
       "specification": "references/screenshot-specific-styles.md#s01",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "11-s01-ai-coding",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S02",
@@ -208,7 +210,7 @@
         "B01",
         "B04"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         255,
@@ -217,7 +219,9 @@
         310
       ],
       "specification": "references/screenshot-specific-styles.md#s02",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "12-s02-ai-city",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S03",
@@ -244,7 +248,7 @@
         "B02",
         "B10"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         489,
@@ -253,7 +257,9 @@
         310
       ],
       "specification": "references/screenshot-specific-styles.md#s03",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "13-s03-ai-skills",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S04",
@@ -280,7 +286,7 @@
         "B03",
         "B05"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         724,
@@ -289,7 +295,9 @@
         310
       ],
       "specification": "references/screenshot-specific-styles.md#s04",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "14-s04-ai-research",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S05",
@@ -315,7 +323,7 @@
         "B02",
         "B10"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         958,
@@ -324,7 +332,9 @@
         310
       ],
       "specification": "references/screenshot-specific-styles.md#s05",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "15-s05-ai-knowledge",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S06",
@@ -352,7 +362,7 @@
         "B03",
         "B06"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         255,
@@ -361,7 +371,9 @@
         670
       ],
       "specification": "references/screenshot-specific-styles.md#s06",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "16-s06-ai-workbench",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S07",
@@ -389,7 +401,7 @@
         "B01",
         "B05"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         489,
@@ -398,7 +410,9 @@
         675
       ],
       "specification": "references/screenshot-specific-styles.md#s07",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "17-s07-ai-brief",
+      "sample_pixels_reviewed": true
     },
     {
       "id": "S08",
@@ -424,7 +438,7 @@
         "B06",
         "B10"
       ],
-      "source": "user_reference",
+      "source": "generated_sample",
       "reference_asset": "assets/user-references/ref-14-tool-tutorial-gallery.png",
       "reference_region_xyxy": [
         724,
@@ -433,7 +447,9 @@
         656
       ],
       "specification": "references/screenshot-specific-styles.md#s08",
-      "reference_pixels_reviewed": true
+      "reference_pixels_reviewed": true,
+      "example_id": "18-s08-ai-product",
+      "sample_pixels_reviewed": true
     }
   ],
   "public_gallery_url": "https://github.com/klosexf/CoverCraft-skill/blob/main/video-cover-craft/references/style-menu.md",
@@ -443,5 +459,10 @@
     "screenshot_specific": 8,
     "selectable_total": 18
   },
-  "remote_asset_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/video-cover-craft/"
+  "remote_asset_base": "https://raw.githubusercontent.com/klosexf/CoverCraft-skill/main/video-cover-craft/",
+  "sample_counts": {
+    "generated_menu_samples": 18,
+    "base": 10,
+    "specific": 8
+  }
 }
